@@ -1,0 +1,10 @@
+torch
+torchaudio
+transformers
+datasets<3.0.0
+accelerate
+peft
+librosa
+soundfile
+jiwer
+tqdm

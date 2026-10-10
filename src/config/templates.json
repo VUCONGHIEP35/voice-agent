@@ -1,0 +1,1005 @@
+{
+  "version": "1.0",
+  "generated_date": "2026-10-09",
+  "schema_doc": {
+    "template_id": "duy nhat, dang GROUP_ACTION_NN",
+    "intent": "khop voi intent_taxonomy_v1.json",
+    "group": "1 trong 5 nhan",
+    "slot_schema": "kieu/khoang gia tri cua tung slot",
+    "slot_position": "'variable' (slot nam giua cau, vi tri co the doi) | 'fixed' (slot luon o cuoi/dau) | 'none' (khong co slot)",
+    "style_pool": "tap con cua [formal, casual, blunt, question_form, indirect, self_correct] - ap dung khi LLM dien dat lai theo B1/B2",
+    "length_buckets": "tap con cua ['3-5','6-12','13-20'] (so tu) - B2",
+    "colloquial_features": "tap con cua ['filler_words','trailing_off','self_correction'] - B2 muc 4, chi ap dung cho CMD_EDGE/BOUNDARY la chinh vi QA/INFO it tu nhien kieu nay hon",
+    "region_lexicon_variants": "CHI dien vao khi co khac biet tu vung vung mien THAT SU va duoc biet den rong rai (vd dieu hoa/may lanh, kinh/kieng). De trong {} neu khong co co so khang dinh khac biet - TRANH BIA DU LIEU NGON NGU.",
+    "question_mark_policy": "chi ap dung cho template co style_pool chua 'question_form' - ty le % cau hoi KHONG co dau '?' theo B5",
+    "self_correct_example": "1 vi du mau cau tu sua (B2 muc 4) neu style_pool co 'self_correct', null neu khong",
+    "json_target": "schema JSON dau ra, {slot} se duoc dien gia tri cu the luc sinh",
+    "quota": "so cau du kien sinh tu template nay (= quota cua intent tuong ung trong intent_taxonomy_v1.json, vi moi intent hien chi co 1 template)",
+    "note": "ghi chu rieng neu co"
+  },
+  "number_conversion_rule_B4": {
+    "principle": "text_spoken (dang chu, dua cho TTS doc) va text_gt/asr_ground_truth (dang chu so, dung lam nhan huan luyen Whisper) phai la MOT CAP 1-1 co dinh, khong duoc sinh ngau nhien nhieu cach doc cho cung 1 gia tri roi suy ra nguoc.",
+    "irregular_fixed_forms": {
+      "1": "mot (dung le) / mot (hang don vi >=21: vd 21='hai mot')",
+      "5": "lam (hang don vi >=15, vd 25='hai lam'); nhung 5 dung le van la 'nam'",
+      "10": "muoi",
+      "20": "hai muoi",
+      "50_percent": "mot nua (khi ngu canh la ty le %, uu tien 'mot nua' hon 'nam muoi phan tram' trong van noi tu nhien, nhung CA HAI deu hop le va PHAI gan co dinh vao 2 template rieng de tranh model hoc nhieu-noi-1-nghia roi doan mo ho)",
+      "100_percent": "hoan toan / toi da / mot tram phan tram - 3 bien the, moi bien the gan 1 template rieng"
+    },
+    "regular_rule": "Hang chuc X1 (ngoai 10-19) doc la '<X> muoi mot'; X5 doc la '<X> muoi lam' (trang 25,35,...95); con lai ghep binh thuong '<hang chuc> <hang don vi>'.",
+    "scope_needed": "Can bang chuyen doi day du cho: 16-30 (hvac_temp), 1-7 (hvac_fan), 0-100 (window_percent, media_volume) - DE XUAT sinh bang nay bang script (khong lam tay) de dam bao phu het va khong sai sot, script ap quy tac deu + override cac truong hop bat quy tac (lam, mot, nua...) o tren."
+  },
+  "templates": {
+    "CMD_EDGE": [
+      {
+        "template_id": "CMD_EDGE_HVAC_TEMP_01",
+        "intent": "set_hvac_temp",
+        "group": "CMD_EDGE",
+        "slot_schema": {
+          "temp": "int[16-30]"
+        },
+        "slot_position": "variable",
+        "style_pool": [
+          "formal",
+          "casual",
+          "blunt",
+          "question_form",
+          "self_correct"
+        ],
+        "length_buckets": [
+          "3-5",
+          "6-12",
+          "13-20"
+        ],
+        "colloquial_features": [
+          "filler_words",
+          "trailing_off",
+          "self_correction"
+        ],
+        "region_lexicon_variants": {
+          "Bac": "dieu hoa",
+          "Nam": "may lanh",
+          "Trung": "dieu hoa"
+        },
+        "question_mark_policy": "20-30% cau hoi khong dau ?",
+        "self_correct_example": "Chinh dieu hoa hai... a khong, hai lam do di",
+        "json_target": {
+          "action": "set_hvac_temp",
+          "temp": "{temp}"
+        },
+        "quota": 260,
+        "note": null
+      },
+      {
+        "template_id": "CMD_EDGE_HVAC_FAN_01",
+        "intent": "set_hvac_fan",
+        "group": "CMD_EDGE",
+        "slot_schema": {
+          "level": "int[1-7]"
+        },
+        "slot_position": "variable",
+        "style_pool": [
+          "formal",
+          "casual",
+          "blunt",
+          "self_correct"
+        ],
+        "length_buckets": [
+          "3-5",
+          "6-12",
+          "13-20"
+        ],
+        "colloquial_features": [
+          "filler_words",
+          "self_correction"
+        ],
+        "region_lexicon_variants": {
+          "Bac": "quat gio",
+          "Nam": "quat",
+          "Trung": "quat gio"
+        },
+        "question_mark_policy": null,
+        "self_correct_example": "Tang quat len muc nam... thoi de muc bay di",
+        "json_target": {
+          "action": "set_hvac_fan",
+          "level": "{level}"
+        },
+        "quota": 230,
+        "note": null
+      },
+      {
+        "template_id": "CMD_EDGE_WINDOW_01",
+        "intent": "set_window",
+        "group": "CMD_EDGE",
+        "slot_schema": {
+          "percent": "int[0-100]",
+          "side": "categorical[driver,passenger,rear_left,rear_right,all]"
+        },
+        "slot_position": "variable",
+        "style_pool": [
+          "formal",
+          "casual",
+          "blunt",
+          "self_correct"
+        ],
+        "length_buckets": [
+          "3-5",
+          "6-12",
+          "13-20"
+        ],
+        "colloquial_features": [
+          "filler_words",
+          "trailing_off",
+          "self_correction"
+        ],
+        "region_lexicon_variants": {
+          "Bac": "kinh",
+          "Nam": "kieng",
+          "Trung": "kinh"
+        },
+        "question_mark_policy": null,
+        "self_correct_example": "Ha kinh lai xuong... khong, kinh ben ghe phu thoi",
+        "json_target": {
+          "action": "set_window",
+          "percent": "{percent}",
+          "side": "{side}"
+        },
+        "quota": 260,
+        "note": "Slot 'side' can xac nhan lai - xem note trong intent_taxonomy_v1.json"
+      },
+      {
+        "template_id": "CMD_EDGE_DOOR_LOCK_01",
+        "intent": "set_door_lock",
+        "group": "CMD_EDGE",
+        "slot_schema": {
+          "state": "categorical[lock,unlock]",
+          "side": "categorical[all,driver,passenger]"
+        },
+        "slot_position": "fixed",
+        "style_pool": [
+          "formal",
+          "casual",
+          "blunt"
+        ],
+        "length_buckets": [
+          "3-5",
+          "6-12"
+        ],
+        "colloquial_features": [
+          "filler_words"
+        ],
+        "region_lexicon_variants": {},
+        "question_mark_policy": null,
+        "self_correct_example": null,
+        "json_target": {
+          "action": "set_door_lock",
+          "state": "{state}",
+          "side": "{side}"
+        },
+        "quota": 230,
+        "note": "Khong tim thay co so khac biet vung mien ro rang cho tu 'khoa cua' nen de trong region_lexicon_variants."
+      },
+      {
+        "template_id": "CMD_EDGE_LIGHT_MODE_01",
+        "intent": "set_light_mode",
+        "group": "CMD_EDGE",
+        "slot_schema": {
+          "mode": "categorical[on,off,auto]"
+        },
+        "slot_position": "fixed",
+        "style_pool": [
+          "formal",
+          "casual",
+          "blunt"
+        ],
+        "length_buckets": [
+          "3-5",
+          "6-12"
+        ],
+        "colloquial_features": [
+          "filler_words"
+        ],
+        "region_lexicon_variants": {},
+        "question_mark_policy": null,
+        "self_correct_example": null,
+        "json_target": {
+          "action": "set_light_mode",
+          "mode": "{mode}"
+        },
+        "quota": 230,
+        "note": null
+      },
+      {
+        "template_id": "CMD_EDGE_WIPER_SPEED_01",
+        "intent": "set_wiper_speed",
+        "group": "CMD_EDGE",
+        "slot_schema": {
+          "speed": "categorical[off,low,medium,high]"
+        },
+        "slot_position": "fixed",
+        "style_pool": [
+          "formal",
+          "casual",
+          "blunt"
+        ],
+        "length_buckets": [
+          "3-5",
+          "6-12"
+        ],
+        "colloquial_features": [
+          "filler_words"
+        ],
+        "region_lexicon_variants": {},
+        "question_mark_policy": null,
+        "self_correct_example": null,
+        "json_target": {
+          "action": "set_wiper_speed",
+          "speed": "{speed}"
+        },
+        "quota": 230,
+        "note": "Gia tri 'off' moi them - can xac nhan lai schema CAN that."
+      },
+      {
+        "template_id": "CMD_EDGE_MEDIA_VOLUME_01",
+        "intent": "set_media_volume",
+        "group": "CMD_EDGE",
+        "slot_schema": {
+          "percent": "int[0-100]"
+        },
+        "slot_position": "variable",
+        "style_pool": [
+          "formal",
+          "casual",
+          "blunt",
+          "self_correct"
+        ],
+        "length_buckets": [
+          "3-5",
+          "6-12",
+          "13-20"
+        ],
+        "colloquial_features": [
+          "filler_words",
+          "self_correction"
+        ],
+        "region_lexicon_variants": {},
+        "question_mark_policy": null,
+        "self_correct_example": "Van to len bay muoi... thoi tam muoi phan tram di",
+        "json_target": {
+          "action": "set_media_volume",
+          "percent": "{percent}"
+        },
+        "quota": 260,
+        "note": null
+      },
+      {
+        "template_id": "CMD_EDGE_DEFROST_01",
+        "intent": "set_defrost",
+        "group": "CMD_EDGE",
+        "slot_schema": {
+          "zone": "categorical[front,rear,all]",
+          "state": "categorical[on,off]"
+        },
+        "slot_position": "fixed",
+        "style_pool": [
+          "formal",
+          "casual"
+        ],
+        "length_buckets": [
+          "3-5",
+          "6-12"
+        ],
+        "colloquial_features": [
+          "filler_words"
+        ],
+        "region_lexicon_variants": {},
+        "question_mark_policy": null,
+        "self_correct_example": null,
+        "json_target": {
+          "action": "set_defrost",
+          "zone": "{zone}",
+          "state": "{state}"
+        },
+        "quota": 100,
+        "note": "Intent de xuat moi - can CAN-Bus xac nhan truoc khi dung chinh thuc."
+      }
+    ],
+    "INFO_EDGE": [
+      {
+        "template_id": "INFO_EDGE_BATTERY_01",
+        "intent": "check_battery_status",
+        "group": "INFO_EDGE",
+        "slot_schema": {},
+        "slot_position": "none",
+        "style_pool": [
+          "formal",
+          "casual",
+          "question_form"
+        ],
+        "length_buckets": [
+          "3-5",
+          "6-12"
+        ],
+        "colloquial_features": [
+          "filler_words"
+        ],
+        "region_lexicon_variants": {},
+        "question_mark_policy": "20-30% khong dau ?",
+        "self_correct_example": null,
+        "json_target": {
+          "action": "check_battery"
+        },
+        "quota": 90,
+        "note": null
+      },
+      {
+        "template_id": "INFO_EDGE_TIRE_PRESSURE_01",
+        "intent": "check_tire_pressure",
+        "group": "INFO_EDGE",
+        "slot_schema": {},
+        "slot_position": "none",
+        "style_pool": [
+          "formal",
+          "casual",
+          "question_form"
+        ],
+        "length_buckets": [
+          "3-5",
+          "6-12"
+        ],
+        "colloquial_features": [
+          "filler_words"
+        ],
+        "region_lexicon_variants": {},
+        "question_mark_policy": "20-30% khong dau ?",
+        "self_correct_example": null,
+        "json_target": {
+          "action": "check_tire_pressure"
+        },
+        "quota": 85,
+        "note": null
+      },
+      {
+        "template_id": "INFO_EDGE_RANGE_ESTIMATE_01",
+        "intent": "check_range_estimate",
+        "group": "INFO_EDGE",
+        "slot_schema": {},
+        "slot_position": "none",
+        "style_pool": [
+          "formal",
+          "casual",
+          "question_form"
+        ],
+        "length_buckets": [
+          "3-5",
+          "6-12"
+        ],
+        "colloquial_features": [
+          "filler_words"
+        ],
+        "region_lexicon_variants": {},
+        "question_mark_policy": "20-30% khong dau ?",
+        "self_correct_example": null,
+        "json_target": {
+          "action": "check_range_estimate"
+        },
+        "quota": 85,
+        "note": null
+      },
+      {
+        "template_id": "INFO_EDGE_HVAC_STATUS_01",
+        "intent": "check_hvac_status",
+        "group": "INFO_EDGE",
+        "slot_schema": {},
+        "slot_position": "none",
+        "style_pool": [
+          "formal",
+          "casual",
+          "question_form"
+        ],
+        "length_buckets": [
+          "3-5",
+          "6-12"
+        ],
+        "colloquial_features": [
+          "filler_words"
+        ],
+        "region_lexicon_variants": {
+          "Bac": "dieu hoa",
+          "Nam": "may lanh",
+          "Trung": "dieu hoa"
+        },
+        "question_mark_policy": "20-30% khong dau ?",
+        "self_correct_example": null,
+        "json_target": {
+          "action": "check_hvac_status"
+        },
+        "quota": 80,
+        "note": "Intent moi, bo sung cho day du nhom."
+      },
+      {
+        "template_id": "INFO_EDGE_WINDOW_STATUS_01",
+        "intent": "check_window_status",
+        "group": "INFO_EDGE",
+        "slot_schema": {},
+        "slot_position": "none",
+        "style_pool": [
+          "formal",
+          "casual",
+          "question_form"
+        ],
+        "length_buckets": [
+          "3-5",
+          "6-12"
+        ],
+        "colloquial_features": [
+          "filler_words"
+        ],
+        "region_lexicon_variants": {
+          "Bac": "kinh",
+          "Nam": "kieng",
+          "Trung": "kinh"
+        },
+        "question_mark_policy": "20-30% khong dau ?",
+        "self_correct_example": null,
+        "json_target": {
+          "action": "check_window_status"
+        },
+        "quota": 80,
+        "note": "Intent moi, bo sung cho day du nhom."
+      },
+      {
+        "template_id": "INFO_EDGE_DOOR_LOCK_STATUS_01",
+        "intent": "check_door_lock_status",
+        "group": "INFO_EDGE",
+        "slot_schema": {},
+        "slot_position": "none",
+        "style_pool": [
+          "formal",
+          "casual",
+          "question_form"
+        ],
+        "length_buckets": [
+          "3-5",
+          "6-12"
+        ],
+        "colloquial_features": [
+          "filler_words"
+        ],
+        "region_lexicon_variants": {},
+        "question_mark_policy": "20-30% khong dau ?",
+        "self_correct_example": null,
+        "json_target": {
+          "action": "check_door_lock_status"
+        },
+        "quota": 80,
+        "note": "Intent moi, bo sung cho day du nhom."
+      }
+    ],
+    "QA_CLOUD": [
+      {
+        "template_id": "QA_CLOUD_WEATHER_01",
+        "intent": "query_weather",
+        "group": "QA_CLOUD",
+        "slot_schema": {
+          "location": "string"
+        },
+        "slot_position": "variable",
+        "style_pool": [
+          "formal",
+          "casual",
+          "question_form"
+        ],
+        "length_buckets": [
+          "3-5",
+          "6-12",
+          "13-20"
+        ],
+        "colloquial_features": [],
+        "region_lexicon_variants": {},
+        "question_mark_policy": "20-30% khong dau ?",
+        "self_correct_example": null,
+        "json_target": {
+          "action": "get_weather",
+          "location": "{location}"
+        },
+        "quota": 270,
+        "note": null
+      },
+      {
+        "template_id": "QA_CLOUD_TRAFFIC_01",
+        "intent": "query_traffic",
+        "group": "QA_CLOUD",
+        "slot_schema": {
+          "location": "string"
+        },
+        "slot_position": "variable",
+        "style_pool": [
+          "formal",
+          "casual",
+          "question_form"
+        ],
+        "length_buckets": [
+          "6-12",
+          "13-20"
+        ],
+        "colloquial_features": [],
+        "region_lexicon_variants": {},
+        "question_mark_policy": "20-30% khong dau ?",
+        "self_correct_example": null,
+        "json_target": {
+          "action": "get_traffic",
+          "location": "{location}"
+        },
+        "quota": 260,
+        "note": "Intent moi, bo sung."
+      },
+      {
+        "template_id": "QA_CLOUD_POI_SEARCH_01",
+        "intent": "query_poi_search",
+        "group": "QA_CLOUD",
+        "slot_schema": {
+          "category": "string",
+          "location": "string"
+        },
+        "slot_position": "variable",
+        "style_pool": [
+          "formal",
+          "casual",
+          "question_form"
+        ],
+        "length_buckets": [
+          "6-12",
+          "13-20"
+        ],
+        "colloquial_features": [],
+        "region_lexicon_variants": {},
+        "question_mark_policy": "20-30% khong dau ?",
+        "self_correct_example": null,
+        "json_target": {
+          "action": "search_poi",
+          "category": "{category}",
+          "location": "{location}"
+        },
+        "quota": 260,
+        "note": "Intent moi, bo sung. Vd: 'tim quan an gan day', 'tram xang gan nhat'."
+      },
+      {
+        "template_id": "QA_CLOUD_GENERAL_KNOWLEDGE_01",
+        "intent": "query_general_knowledge",
+        "group": "QA_CLOUD",
+        "slot_schema": {
+          "query": "string"
+        },
+        "slot_position": "variable",
+        "style_pool": [
+          "formal",
+          "casual",
+          "question_form"
+        ],
+        "length_buckets": [
+          "6-12",
+          "13-20"
+        ],
+        "colloquial_features": [],
+        "region_lexicon_variants": {},
+        "question_mark_policy": "20-30% khong dau ?",
+        "self_correct_example": null,
+        "json_target": {
+          "action": "general_query",
+          "query": "{query}"
+        },
+        "quota": 260,
+        "note": null
+      },
+      {
+        "template_id": "QA_CLOUD_NEWS_01",
+        "intent": "query_news",
+        "group": "QA_CLOUD",
+        "slot_schema": {
+          "topic": "string"
+        },
+        "slot_position": "variable",
+        "style_pool": [
+          "formal",
+          "casual",
+          "question_form"
+        ],
+        "length_buckets": [
+          "6-12",
+          "13-20"
+        ],
+        "colloquial_features": [],
+        "region_lexicon_variants": {},
+        "question_mark_policy": "20-30% khong dau ?",
+        "self_correct_example": null,
+        "json_target": {
+          "action": "get_news",
+          "topic": "{topic}"
+        },
+        "quota": 230,
+        "note": "Intent moi, bo sung."
+      },
+      {
+        "template_id": "QA_CLOUD_NAVIGATION_ETA_01",
+        "intent": "query_navigation_eta",
+        "group": "QA_CLOUD",
+        "slot_schema": {
+          "destination": "string"
+        },
+        "slot_position": "variable",
+        "style_pool": [
+          "formal",
+          "casual",
+          "question_form"
+        ],
+        "length_buckets": [
+          "6-12",
+          "13-20"
+        ],
+        "colloquial_features": [],
+        "region_lexicon_variants": {},
+        "question_mark_policy": "20-30% khong dau ?",
+        "self_correct_example": null,
+        "json_target": {
+          "action": "get_eta",
+          "destination": "{destination}"
+        },
+        "quota": 260,
+        "note": "Intent moi, bo sung."
+      },
+      {
+        "template_id": "QA_CLOUD_MUSIC_INFO_01",
+        "intent": "query_music_info",
+        "group": "QA_CLOUD",
+        "slot_schema": {
+          "query": "string"
+        },
+        "slot_position": "variable",
+        "style_pool": [
+          "formal",
+          "casual",
+          "question_form"
+        ],
+        "length_buckets": [
+          "6-12",
+          "13-20"
+        ],
+        "colloquial_features": [],
+        "region_lexicon_variants": {},
+        "question_mark_policy": "20-30% khong dau ?",
+        "self_correct_example": null,
+        "json_target": {
+          "action": "get_music_info",
+          "query": "{query}"
+        },
+        "quota": 260,
+        "note": "Intent moi, bo sung. PHAN BIET voi lenh dieu khien phat nhac (khong co trong CMD_EDGE hien tai - can xac nhan co can them hay khong)."
+      }
+    ],
+    "BOUNDARY": [
+      {
+        "template_id": "BOUNDARY_HVAC_01",
+        "intent": "ambiguous_hvac_suggestion",
+        "group": "BOUNDARY",
+        "slot_schema": {},
+        "slot_position": "none",
+        "style_pool": [
+          "casual",
+          "blunt",
+          "indirect"
+        ],
+        "length_buckets": [
+          "3-5",
+          "6-12"
+        ],
+        "colloquial_features": [
+          "filler_words",
+          "trailing_off"
+        ],
+        "region_lexicon_variants": {
+          "Bac": "dieu hoa",
+          "Nam": "may lanh",
+          "Trung": "dieu hoa"
+        },
+        "question_mark_policy": null,
+        "self_correct_example": null,
+        "json_target": {
+          "action": "route_to_hvac"
+        },
+        "quota": 90,
+        "note": "Vd: 'Nong qua.' - nhan gan 2 nguoi doc lap, bat dong thi giu nhan an toan (A3)."
+      },
+      {
+        "template_id": "BOUNDARY_MEDIA_01",
+        "intent": "ambiguous_media_suggestion",
+        "group": "BOUNDARY",
+        "slot_schema": {},
+        "slot_position": "none",
+        "style_pool": [
+          "casual",
+          "blunt",
+          "indirect"
+        ],
+        "length_buckets": [
+          "3-5",
+          "6-12"
+        ],
+        "colloquial_features": [
+          "filler_words",
+          "trailing_off"
+        ],
+        "region_lexicon_variants": {},
+        "question_mark_policy": null,
+        "self_correct_example": null,
+        "json_target": {
+          "action": "route_to_media"
+        },
+        "quota": 86,
+        "note": "Vd: 'Buon ngu qua.', 'On qua.'"
+      },
+      {
+        "template_id": "BOUNDARY_WINDOW_01",
+        "intent": "ambiguous_window_suggestion",
+        "group": "BOUNDARY",
+        "slot_schema": {},
+        "slot_position": "none",
+        "style_pool": [
+          "casual",
+          "blunt",
+          "indirect"
+        ],
+        "length_buckets": [
+          "3-5",
+          "6-12"
+        ],
+        "colloquial_features": [
+          "filler_words",
+          "trailing_off"
+        ],
+        "region_lexicon_variants": {},
+        "question_mark_policy": null,
+        "self_correct_example": null,
+        "json_target": {
+          "action": "route_to_window"
+        },
+        "quota": 86,
+        "note": "Vd: 'Ngot ngat qua.'"
+      },
+      {
+        "template_id": "BOUNDARY_LIGHT_01",
+        "intent": "ambiguous_light_suggestion",
+        "group": "BOUNDARY",
+        "slot_schema": {},
+        "slot_position": "none",
+        "style_pool": [
+          "casual",
+          "blunt",
+          "indirect"
+        ],
+        "length_buckets": [
+          "3-5",
+          "6-12"
+        ],
+        "colloquial_features": [
+          "filler_words",
+          "trailing_off"
+        ],
+        "region_lexicon_variants": {},
+        "question_mark_policy": null,
+        "self_correct_example": null,
+        "json_target": {
+          "action": "route_to_light"
+        },
+        "quota": 85,
+        "note": "Vd: 'Toi qua.'"
+      },
+      {
+        "template_id": "BOUNDARY_ROUTE_01",
+        "intent": "ambiguous_route_suggestion",
+        "group": "BOUNDARY",
+        "slot_schema": {},
+        "slot_position": "none",
+        "style_pool": [
+          "casual",
+          "blunt",
+          "indirect"
+        ],
+        "length_buckets": [
+          "3-5",
+          "6-12"
+        ],
+        "colloquial_features": [
+          "filler_words",
+          "trailing_off"
+        ],
+        "region_lexicon_variants": {},
+        "question_mark_policy": null,
+        "self_correct_example": null,
+        "json_target": {
+          "action": "route_to_navigation"
+        },
+        "quota": 85,
+        "note": "Vd: 'Duong nay dong qua.'"
+      },
+      {
+        "template_id": "BOUNDARY_COMFORT_GENERAL_01",
+        "intent": "ambiguous_comfort_general",
+        "group": "BOUNDARY",
+        "slot_schema": {},
+        "slot_position": "none",
+        "style_pool": [
+          "casual",
+          "blunt",
+          "indirect"
+        ],
+        "length_buckets": [
+          "3-5",
+          "6-12"
+        ],
+        "colloquial_features": [
+          "filler_words",
+          "trailing_off"
+        ],
+        "region_lexicon_variants": {},
+        "question_mark_policy": null,
+        "self_correct_example": null,
+        "json_target": {
+          "action": "route_to_clarify"
+        },
+        "quota": 85,
+        "note": "Vd: 'Kho chiu qua.' - khong ro nguyen nhan, bat buoc hoi lai thay vi doan."
+      },
+      {
+        "template_id": "BOUNDARY_INDIRECT_QUESTION_01",
+        "intent": "indirect_question_form",
+        "group": "BOUNDARY",
+        "slot_schema": {},
+        "slot_position": "none",
+        "style_pool": [
+          "casual",
+          "indirect",
+          "question_form"
+        ],
+        "length_buckets": [
+          "3-5",
+          "6-12"
+        ],
+        "colloquial_features": [
+          "filler_words"
+        ],
+        "region_lexicon_variants": {
+          "Bac": "dieu hoa",
+          "Nam": "may lanh",
+          "Trung": "dieu hoa"
+        },
+        "question_mark_policy": "giu dau ? o phan lon cau (day la dang hoi that, khac voi QA_CLOUD)",
+        "self_correct_example": null,
+        "json_target": {
+          "action": "route_to_clarify"
+        },
+        "quota": 83,
+        "note": "Vd: 'Bat dieu hoa duoc khong?' - khac BOUNDARY_HVAC (cau khang dinh) o cho day la cau hoi gian tiep that su."
+      }
+    ],
+    "OUT_OF_SCOPE": [
+      {
+        "template_id": "OUT_OF_SCOPE_HVAC_INVALID_01",
+        "intent": "invalid_hvac_temp_out_of_range",
+        "group": "OUT_OF_SCOPE",
+        "slot_schema": {
+          "temp": "int[<16 or >30]"
+        },
+        "slot_position": "variable",
+        "style_pool": [
+          "casual",
+          "blunt"
+        ],
+        "length_buckets": [
+          "3-5",
+          "6-12"
+        ],
+        "colloquial_features": [],
+        "region_lexicon_variants": {
+          "Bac": "dieu hoa",
+          "Nam": "may lanh",
+          "Trung": "dieu hoa"
+        },
+        "question_mark_policy": null,
+        "self_correct_example": null,
+        "json_target": {
+          "action": "reject_invalid_value"
+        },
+        "quota": 80,
+        "note": "Vd gia tri: 2, 5, 45, 50, 100 do C. FSM se chan dung cu phap nhung PHAI co buoc kiem dai gia tri rieng (A4) vi FSM chi dam bao la so nguyen, khong dam bao nam trong [16,30]."
+      },
+      {
+        "template_id": "OUT_OF_SCOPE_WINDOW_INVALID_01",
+        "intent": "invalid_window_percent_out_of_range",
+        "group": "OUT_OF_SCOPE",
+        "slot_schema": {
+          "percent": "int[<0 or >100]"
+        },
+        "slot_position": "variable",
+        "style_pool": [
+          "casual",
+          "blunt"
+        ],
+        "length_buckets": [
+          "3-5",
+          "6-12"
+        ],
+        "colloquial_features": [],
+        "region_lexicon_variants": {
+          "Bac": "kinh",
+          "Nam": "kieng",
+          "Trung": "kinh"
+        },
+        "question_mark_policy": null,
+        "self_correct_example": null,
+        "json_target": {
+          "action": "reject_invalid_value"
+        },
+        "quota": 70,
+        "note": "Vd: 'ha kinh 200%', '-50%'."
+      },
+      {
+        "template_id": "OUT_OF_SCOPE_DRIVING_CONTROL_01",
+        "intent": "unsupported_action_driving_control",
+        "group": "OUT_OF_SCOPE",
+        "slot_schema": {},
+        "slot_position": "none",
+        "style_pool": [
+          "casual",
+          "blunt"
+        ],
+        "length_buckets": [
+          "3-5",
+          "6-12"
+        ],
+        "colloquial_features": [],
+        "region_lexicon_variants": {},
+        "question_mark_policy": null,
+        "self_correct_example": null,
+        "json_target": {
+          "action": "reject_unsupported_safety"
+        },
+        "quota": 80,
+        "note": "Lenh ve ga/phanh/vo lang - PHAI tu choi cung bat ke model co 've hieu' y dinh hay khong. Day la nhom quan trong nhat de do an toan."
+      },
+      {
+        "template_id": "OUT_OF_SCOPE_UNRELATED_01",
+        "intent": "unsupported_action_unrelated",
+        "group": "OUT_OF_SCOPE",
+        "slot_schema": {},
+        "slot_position": "none",
+        "style_pool": [
+          "casual",
+          "blunt"
+        ],
+        "length_buckets": [
+          "3-5",
+          "6-12"
+        ],
+        "colloquial_features": [],
+        "region_lexicon_variants": {},
+        "question_mark_policy": null,
+        "self_correct_example": null,
+        "json_target": {
+          "action": "reject_unsupported_scope"
+        },
+        "quota": 70,
+        "note": "Vd: 'dat pizza di', 'goi dien cho me'."
+      }
+    ]
+  },
+  "cross_cutting_rules_applied": {
+    "A1": "Moi template co json_target khop 1-1 voi slot_schema; cau khong anh xa duoc sang JSON se bi loai o buoc soat tay (B8).",
+    "B1": "File nay la 'khuon' (template) - buoc ke tiep la LLM dien dat lai theo tung (intent x style_pool) thanh cac cau cu the, sinh theo lo nho tung cap de tranh lap.",
+    "B3": "region_lexicon_variants CHI dien khi co can cu that, con lai de trong - xem ghi chu tung template.",
+    "B4": "Xem number_conversion_rule_B4 o tren; can script rieng sinh bang day du 16-30/1-7/0-100.",
+    "B7": "Loai trung sau chuan hoa + gioi han ~5 bien the gan giong nhau moi template - ap dung o buoc sinh cau, khong the hien trong file nay.",
+    "C1_reminder": "Khi chia tap 80/10/10, chia theo template_id (khong phai theo tung cau) - moi nghia/khuon nam tron trong 1 tap."
+  }
+}

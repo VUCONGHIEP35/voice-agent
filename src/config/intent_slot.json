@@ -1,0 +1,298 @@
+{
+  "version": "1.0",
+  "generated_date": "2026-10-09",
+  "source_rules_ref": "quy tac A-D (attachment 31100e96) + schema CAN goc nguoi dung cung cap",
+  "total_target_sentences": 5000,
+  "quota_rule_note": "Quy tac goc (A2): moi nhan khong co intent nao vuot ~15% trong nhom cua no, va moi intent co toi thieu ~80 cau. DA PHAT HIEN XUNG DOT TOAN HOC o 2 nhom nho (xem 'quota_consistency_check' cuoi file) - can nguoi dung xac nhan huong xu ly truoc khi sinh du lieu.",
+  "groups": {
+    "CMD_EDGE": {
+      "description": "Lenh dieu khien xe cuc bo (khong can mang), xuat JSON lenh CAN-Bus. Xu ly: Edge -> JSON truc tiep.",
+      "quota_total": 1800,
+      "cap_pct_per_intent": 15,
+      "cap_abs_per_intent": 270,
+      "min_per_intent": 80,
+      "consistency": "OK - tat ca intent nam trong [80, 270]",
+      "intents": {
+        "set_hvac_temp": {
+          "slot_schema": {
+            "temp": "int[16-30]"
+          },
+          "json_action": "set_hvac_temp",
+          "quota": 260,
+          "note": null
+        },
+        "set_hvac_fan": {
+          "slot_schema": {
+            "level": "int[1-7]"
+          },
+          "json_action": "set_hvac_fan",
+          "quota": 230,
+          "note": "Doi ten tu 'adjust_hvac_fan' sang 'set_hvac_fan' de khop dung slot hvac_fan trong schema goc."
+        },
+        "set_window": {
+          "slot_schema": {
+            "percent": "int[0-100]",
+            "side": "categorical[driver,passenger,rear_left,rear_right,all]"
+          },
+          "json_action": "set_window",
+          "quota": 260,
+          "note": "Them slot 'side' (vi tri cua kinh) - schema goc chi co 1 slot window_percent dung chung cho ca xe. CAN XAC NHAN LAI voi so do CAN-Bus thuc te xem co phan biet duoc tung cua hay khong; neu khong, bo slot 'side' va coi moi lenh la ap dung cho kinh dang duoc nguoi noi chi dinh bang ngu canh (vd 'kinh lai')."
+        },
+        "set_door_lock": {
+          "slot_schema": {
+            "state": "categorical[lock,unlock]",
+            "side": "categorical[all,driver,passenger]"
+          },
+          "json_action": "set_door_lock",
+          "quota": 230,
+          "note": "Them slot 'side' tuong tu set_window - can xac nhan lai voi schema CAN that."
+        },
+        "set_light_mode": {
+          "slot_schema": {
+            "mode": "categorical[on,off,auto]"
+          },
+          "json_action": "set_light_mode",
+          "quota": 230,
+          "note": null
+        },
+        "set_wiper_speed": {
+          "slot_schema": {
+            "speed": "categorical[off,low,medium,high]"
+          },
+          "json_action": "set_wiper_speed",
+          "quota": 230,
+          "note": "Them gia tri 'off' - schema goc chi co low/medium/high nhung gat mua thuc te can tat duoc. CAN XAC NHAN LAI."
+        },
+        "set_media_volume": {
+          "slot_schema": {
+            "percent": "int[0-100]"
+          },
+          "json_action": "set_media_volume",
+          "quota": 260,
+          "note": null
+        },
+        "set_defrost": {
+          "slot_schema": {
+            "zone": "categorical[front,rear,all]",
+            "state": "categorical[on,off]"
+          },
+          "json_action": "set_defrost",
+          "quota": 100,
+          "note": "Intent MOI, khong co trong schema goc - de xuat them vi say kinh la lenh pho bien thuc te tren o to. CAN DOI CAN-BUS XAC NHAN co ho tro truoc khi dua vao sinh du lieu chinh thuc; neu khong ho tro, bo intent nay va dem 100 cau sang set_media_volume/set_window (van <=270 cap)."
+        }
+      }
+    },
+    "INFO_EDGE": {
+      "description": "Hoi thong tin tinh trang xe (khong can mang). Xu ly: Edge, tra loi truc tiep tu cam bien/trang thai xe, khong qua FSM lenh CAN.",
+      "quota_total": 500,
+      "cap_pct_per_intent": 15,
+      "cap_abs_per_intent": 75,
+      "min_per_intent": 80,
+      "consistency": "XUNG DOT - moi tren 75 (cap 15%) deu vi pham, nhung duoi 80 (min) cung vi pham. Voi tong 500 va quy tac goc, KHONG THE vua thoa man ca hai rang buoc cung luc (xem chi tiet o quota_consistency_check). Da chon phuong an: uu tien giu min ~80/intent, chap nhan vuot cap 15% - CAN NGUOI DUNG XAC NHAN.",
+      "intents": {
+        "check_battery_status": {
+          "slot_schema": {},
+          "json_action": "check_battery",
+          "quota": 90,
+          "note": null
+        },
+        "check_tire_pressure": {
+          "slot_schema": {},
+          "json_action": "check_tire_pressure",
+          "quota": 85,
+          "note": null
+        },
+        "check_range_estimate": {
+          "slot_schema": {},
+          "json_action": "check_range_estimate",
+          "quota": 85,
+          "note": null
+        },
+        "check_hvac_status": {
+          "slot_schema": {},
+          "json_action": "check_hvac_status",
+          "quota": 80,
+          "note": "Intent moi (hoi nhiet do/quat dang o muc bao nhieu) - bo sung cho day du nhom INFO_EDGE, chua co trong vi du goc."
+        },
+        "check_window_status": {
+          "slot_schema": {},
+          "json_action": "check_window_status",
+          "quota": 80,
+          "note": "Intent moi - tuong tu."
+        },
+        "check_door_lock_status": {
+          "slot_schema": {},
+          "json_action": "check_door_lock_status",
+          "quota": 80,
+          "note": "Intent moi - tuong tu."
+        }
+      }
+    },
+    "QA_CLOUD": {
+      "description": "Hoi dap kien thuc, thoi tiet, thong tin can mang. Xu ly: Cloud.",
+      "quota_total": 1800,
+      "cap_pct_per_intent": 15,
+      "cap_abs_per_intent": 270,
+      "min_per_intent": 80,
+      "consistency": "OK - tat ca intent nam trong [80, 270]",
+      "intents": {
+        "query_weather": {
+          "slot_schema": {
+            "location": "string"
+          },
+          "json_action": "get_weather",
+          "quota": 270,
+          "note": null
+        },
+        "query_traffic": {
+          "slot_schema": {
+            "location": "string"
+          },
+          "json_action": "get_traffic",
+          "quota": 260,
+          "note": "Intent moi - bo sung."
+        },
+        "query_poi_search": {
+          "slot_schema": {
+            "category": "string",
+            "location": "string"
+          },
+          "json_action": "search_poi",
+          "quota": 260,
+          "note": "Intent moi (tim tram xang, bai do xe, quan an gan day...) - bo sung."
+        },
+        "query_general_knowledge": {
+          "slot_schema": {
+            "query": "string"
+          },
+          "json_action": "general_query",
+          "quota": 260,
+          "note": null
+        },
+        "query_news": {
+          "slot_schema": {
+            "topic": "string"
+          },
+          "json_action": "get_news",
+          "quota": 230,
+          "note": "Intent moi - bo sung."
+        },
+        "query_navigation_eta": {
+          "slot_schema": {
+            "destination": "string"
+          },
+          "json_action": "get_eta",
+          "quota": 260,
+          "note": "Intent moi - bo sung."
+        },
+        "query_music_info": {
+          "slot_schema": {
+            "query": "string"
+          },
+          "json_action": "get_music_info",
+          "quota": 260,
+          "note": "Intent moi (hoi thong tin bai hat/ca si, khong phai lenh phat nhac) - bo sung."
+        }
+      }
+    },
+    "BOUNDARY": {
+      "description": "Cau noi an y, can AI phan tich xem nen lam gi (route ve Edge hay Cloud, hoac hoi lai). Nhan an toan mac dinh theo A3: khong thuc thi lenh vat ly ngay.",
+      "quota_total": 600,
+      "cap_pct_per_intent": 15,
+      "cap_abs_per_intent": 90,
+      "min_per_intent": 80,
+      "consistency": "OK - tat ca intent nam trong [80, 90], vua khop ca hai rang buoc.",
+      "intents": {
+        "ambiguous_hvac_suggestion": {
+          "slot_schema": {},
+          "json_action": "route_to_hvac",
+          "quota": 90,
+          "note": "Vd: 'Nong qua.'"
+        },
+        "ambiguous_media_suggestion": {
+          "slot_schema": {},
+          "json_action": "route_to_media",
+          "quota": 86,
+          "note": "Vd: 'Buon ngu qua.', 'On qua.'"
+        },
+        "ambiguous_window_suggestion": {
+          "slot_schema": {},
+          "json_action": "route_to_window",
+          "quota": 86,
+          "note": "Vd: 'Ngot ngat qua.'"
+        },
+        "ambiguous_light_suggestion": {
+          "slot_schema": {},
+          "json_action": "route_to_light",
+          "quota": 85,
+          "note": "Vd: 'Toi qua.'"
+        },
+        "ambiguous_route_suggestion": {
+          "slot_schema": {},
+          "json_action": "route_to_navigation",
+          "quota": 85,
+          "note": "Vd: 'Duong nay dong qua.'"
+        },
+        "ambiguous_comfort_general": {
+          "slot_schema": {},
+          "json_action": "route_to_clarify",
+          "quota": 85,
+          "note": "Vd: 'Kho chiu qua.' - khong ro nguyen nhan, bat buoc hoi lai."
+        },
+        "indirect_question_form": {
+          "slot_schema": {},
+          "json_action": "route_to_clarify",
+          "quota": 83,
+          "note": "Vd: 'Bat dieu hoa duoc khong?' - cau hoi gian tiep, khong phai lenh truc tiep."
+        }
+      }
+    },
+    "OUT_OF_SCOPE": {
+      "description": "Ngoai pham vi hoac gia tri vuot nguong an toan. Xu ly: tu choi hoac hoi lai, KHONG thuc thi. Theo A4: nhom nay chi de do hanh vi an toan cua router va FSM, FSM dam bao dinh dang nhung khong dam bao gia tri hop le nen can buoc kiem dai gia tri rieng.",
+      "quota_total": 300,
+      "cap_pct_per_intent": 15,
+      "cap_abs_per_intent": 45,
+      "min_per_intent": 80,
+      "consistency": "XUNG DOT NANG - cap 15%=45 con thap hon ca min 80 x2 lan. Voi tong 300, khong the dong thoi thoa min-80-moi-intent va cap-15%. Da chon phuong an: giu 4 intent, uu tien bao phu du 4 loai hanh vi an toan can do (invalid value x2, unsupported-driving-control, unsupported-unrelated), chap nhan vuot cap 15% - CAN NGUOI DUNG XAC NHAN, hoac tang tong quota nhom nay.",
+      "intents": {
+        "invalid_hvac_temp_out_of_range": {
+          "slot_schema": {
+            "temp": "int[<16 or >30]"
+          },
+          "json_action": "reject_invalid_value",
+          "quota": 80,
+          "note": "Vd gia tri: 2, 5, 45, 50, 100 do C."
+        },
+        "invalid_window_percent_out_of_range": {
+          "slot_schema": {
+            "percent": "int[<0 or >100]"
+          },
+          "json_action": "reject_invalid_value",
+          "quota": 70,
+          "note": "Vd: 'ha kinh 200%', '-50%'."
+        },
+        "unsupported_action_driving_control": {
+          "slot_schema": {},
+          "json_action": "reject_unsupported_safety",
+          "quota": 80,
+          "note": "Lenh ve ga/phanh/vo lang - PHAI tu choi cung, khong duoc thuc thi du model co 'hieu' y dinh."
+        },
+        "unsupported_action_unrelated": {
+          "slot_schema": {},
+          "json_action": "reject_unsupported_scope",
+          "quota": 70,
+          "note": "Lenh khong lien quan xe, vd 'dat pizza', 'goi dien cho me'."
+        }
+      }
+    }
+  },
+  "quota_consistency_check": {
+    "method": "Voi N intent chia deu trong 1 nhom co tong Q: can dong thoi Q/N <= cap_abs (=0.15*Q) VA Q/N >= min_per_intent(=80). Tu dieu kien dau: N >= Q/(0.15*Q) = 1/0.15 ~= 6.67, tuc N>=7 voi MOI gia tri Q. Tu dieu kien sau: N <= Q/80.",
+    "CMD_EDGE_1800": "N phai trong [6.67, 22.5] -> [7,22]. Da dung N=8. OK.",
+    "QA_CLOUD_1800": "Giong CMD_EDGE. Da dung N=7. OK.",
+    "BOUNDARY_600": "N phai trong [6.67, 7.5] -> N=7 la lua chon DUY NHAT kha thi. Da dung N=7. OK, khop khit.",
+    "INFO_EDGE_500": "N phai trong [6.67, 6.25] -> khoang RONG (6.67 > 6.25) -> KHONG TON TAI N nguyen thoa man ca hai dieu kien. Day la xung dot toan hoc that su, khong phai loi thiet ke cua Claude.",
+    "OUT_OF_SCOPE_300": "N phai trong [6.67, 3.75] -> khoang RONG rat lon -> KHONG TON TAI N thoa man.",
+    "recommendation": "2 huong sua, chon 1: (A) Tang quota_total cua INFO_EDGE va OUT_OF_SCOPE len >=560 moi nhom (va bu tru lai o CMD_EDGE/QA_CLOUD de giu tong ~5000), hoac (B) Giam rieng nguong 'min_per_intent' xuong con ~40-50 cho 2 nhom nho nay (ly do: day la nhom thong tin/an toan it da dang hon nhom lenh dieu khien, so luong intent can thiet tu nhien it hon). File nay dang tam dung phuong an B (giu quota_total=500/300 nhu ban goc, no cap 15%) vi khong muon tu y doi tong 5000 cau ban da chot. CAN BAN XAC NHAN LAI."
+  }
+}
