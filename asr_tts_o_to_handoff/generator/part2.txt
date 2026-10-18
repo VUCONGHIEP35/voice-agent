@@ -1,0 +1,258 @@
+## CS04 | phat_bai_ca_si
+Mở bài hát {bai_hat} của {ca_si}|L|t|N1
+Mở bài {bai_hat}|L|t|N12
+Phát nhạc của {ca_si}|L|t|N10
+Mở nhạc của {ca_si}|L|t|N14
+Mở nhạc {ca_si}|L|t|N12
+Phát {bai_hat} của {ca_si}|L|t|N11
+Phát bài hát {bai_hat} của {ca_si}|L|t|N11
+Phát nhạc {bai_hat}|L|t|N10
+Cho nghe bài {bai_hat} đi|L|m
+Bật bài {bai_hat} lên|L|m
+Nghe {ca_si} đi|C|m
+Tôi muốn nghe bài {bai_hat}|L|t
+Mở bài {bai_hat} giúp tôi|L|l
+Bật mấy bài hay của {ca_si} nhé|L|m
+## CS04 | phat_the_loai_playlist
+Mở nhạc {the_loai}|L|t|N12
+Mở bảng xếp hạng nhạc Việt|L|t|N12
+Phát nhạc {the_loai}|L|t
+Bật playlist {ten_playlist}|L|t
+Mở danh sách nhạc yêu thích|L|t
+Bật nhạc không lời|L|t
+Cho nghe nhạc trữ tình đi|L|m
+Mở nhạc cho buổi sáng|L|t
+Phát nhạc nhẹ nhàng để dễ lái xe|L|t
+Bật nhạc thiếu nhi|L|t
+Bật nhạc lên|L|t
+Mở nhạc đi|L|m
+## CS04 | nguon_nhac_bluetooth_usb
+Bật nhạc từ Bluetooth|L|t|N1
+Phát nhạc từ Bluetooth|L|t|N1
+Mở nhạc từ USB|L|t|N1
+Phát nhạc từ USB|L|t|N1
+Bật nhạc từ điện thoại|L|t
+Chuyển sang nguồn USB|L|t
+Kết nối Bluetooth với điện thoại|L|t
+Chuyển nguồn âm thanh sang Bluetooth|L|t
+Nghe nhạc trong USB|L|t
+Mở nhạc trong USB giúp tôi|L|l
+## CS04 | radio
+Mở đài Radio|L|t|N1
+Mở kênh {kenh_radio}|L|t|N1
+Mở đài {kenh_radio}|L|t
+Tắt đài|L|t|N1
+Chuyển sang đài {tan_so}|L|t
+Bật đài FM {tan_so}|L|t
+Chuyển kênh tiếp theo|L|t
+Tìm đài khác|L|t
+Nghe radio|C|t
+Bật đài lên nhé|L|m
+## CS04 | podcast
+Mở Podcast chủ đề {chu_de}|L|t|N1
+Dừng Podcast|L|t|N1
+Phát podcast {ten_podcast}|L|t
+Mở tập mới nhất của podcast {ten_podcast}|L|t
+Tiếp tục nghe podcast|L|t
+Chuyển sang tập tiếp theo|L|t
+Nghe podcast về {chu_de}|L|t
+Tua podcast {so} phút|L|t
+Bật podcast cho tôi nghe|L|l
+## CS04 | am_luong
+Tăng âm lượng|L|t|N10
+Giảm âm lượng|L|t|N10
+Tăng âm lượng lên {muc}|L|t
+Âm lượng {phan_tram} phần trăm|C|t
+Nhỏ tiếng xuống|L|m
+To lên chút|C|m
+Tắt tiếng|L|t
+Bật tiếng lại|L|t
+Nhạc to quá|C|m
+Vặn nhỏ lại đi|L|m
+Âm lượng tối đa|C|t
+Giảm tiếng nhạc một chút nhé|L|m
+## CS04 | chuyen_bai_tam_dung
+Chuyển bài hát sau|L|t|N1
+Chuyển bài hát trước|L|t|N1
+Bài hát tiếp theo|C|t|N7
+Dừng nhạc|L|t|N1
+Tạm dừng|L|t
+Tiếp tục phát|L|t
+Phát lại bài này|L|t
+Bài trước|C|t
+Qua bài đi|L|m
+Tua nhanh {so} giây|L|t
+Lặp lại bài này|L|t
+Phát ngẫu nhiên|L|t
+Hẹn giờ tắt nhạc sau {so} phút|L|t
+## CS04 | yeu_thich
+Thêm bài này vào yêu thích|L|t
+Thích bài này|L|m
+Lưu bài hát này vào danh sách yêu thích|L|t
+Bỏ yêu thích bài này|L|t
+Thêm vào playlist {ten_playlist}|L|t
+Bài này hay đấy, lưu lại nhé|L|m
+Xóa bài này khỏi yêu thích|L|t
+Đánh dấu bài này giúp tôi|L|l
+Thả tim bài này|L|m
+## CS04 | hoi_bai_dang_phat
+Bài này là bài gì?|Q|t
+Bài đang phát là bài nào?|Q|t
+Ai hát bài này vậy?|Q|m
+Đây là bài hát gì?|Q|t
+Tên bài hát này là gì?|Q|t
+Bài vừa rồi là bài gì?|Q|t
+Ca sĩ nào đang hát?|Q|t
+Bài này của ai?|Q|m
+Cho tôi biết tên bài đang phát|L|l
+Đang phát bài nào thế|Q|m
+## CS05 | goi_theo_ten
+Gọi cho {ten_lien_he}|L|t|N7
+Gọi điện cho {ten_lien_he}|L|t
+Gọi {ten_lien_he}|C|t
+Gọi {ten_lien_he} đi|L|m
+Gọi cho {ten_lien_he} ở cơ quan|L|t
+Gọi điện cho {ten_lien_he} giúp tôi|L|l
+Gọi {ten_lien_he} bằng Zalo|L|t
+Gọi lại cho {ten_lien_he}|L|t
+Cho tôi gọi {ten_lien_he}|L|t
+Gọi cho {ten_lien_he} số di động|L|t
+Gọi cho mẹ|L|t|N8
+## CS05 | goi_theo_so
+Gọi điện tới số {so_dien_thoai}|L|t|N4
+Gọi cho số {so_dien_thoai}|L|t|N10
+Gọi số {so_dien_thoai}|C|t
+Quay số {so_dien_thoai}|L|t
+Gọi tới số {so_dien_thoai} giúp tôi|L|l
+Gọi số điện thoại {so_dien_thoai}|L|t
+Bấm gọi số {so_dien_thoai}|L|t
+Gọi điện cho số {so_dien_thoai} nhé|L|m
+Gọi đến số {so_dien_thoai}|L|t
+## CS05 | nhan_tu_choi_cuoc_goi
+Nghe máy|C|t
+Trả lời cuộc gọi|L|t
+Nhận cuộc gọi|L|t
+Từ chối cuộc gọi|L|t
+Cúp máy|C|t
+Kết thúc cuộc gọi|L|t
+Bắt máy đi|L|m
+Không nghe, từ chối đi|L|m
+Ai gọi vậy?|Q|m
+Từ chối và nhắn là tôi đang lái xe|L|t
+## CS05 | goi_lai
+Gọi lại số vừa rồi|L|t
+Gọi lại cho người vừa gọi|L|t
+Gọi lại cuộc gọi nhỡ|L|t
+Gọi lại|C|t
+Ai vừa gọi nhỡ?|Q|t
+Gọi lại số gần nhất|L|t
+Quay số lại|L|t
+Cuộc gọi nhỡ gần nhất là của ai?|Q|t
+Gọi lại cho người đã gọi nhỡ nhé|L|m
+## CS05 | soan_gui_tin_nhan
+Nhắn tin cho {ten_lien_he} {noi_dung}|L|t|N7
+Gửi tin nhắn cho {ten_lien_he} rằng {noi_dung}|L|t|N7
+Nhắn cho {ten_lien_he} là {noi_dung}|L|t|N8
+Gửi tin nhắn cho {ten_lien_he} {noi_dung}|L|t|N10
+Soạn tin nhắn cho {ten_lien_he}|L|t
+Gửi tin nhắn cho {ten_lien_he}|L|t
+Nhắn lại là tôi đến sau|L|t
+Trả lời tin nhắn: {noi_dung}|L|t
+Gửi đi|C|t
+Sửa lại tin nhắn|L|t
+Nhắn tin cho {ten_lien_he} nội dung là {noi_dung} nhé|L|m
+## CS05 | doc_tin_nhan
+Đọc tin nhắn mới nhất|L|t|N8
+Đọc tin nhắn|L|t
+Có tin nhắn mới không?|Q|t
+Đọc tin nhắn của {ten_lien_he}|L|t
+Đọc lại tin nhắn|L|t
+Ai nhắn tin cho tôi vậy?|Q|m
+Đọc tin nhắn chưa đọc|L|t
+Tin nhắn cuối cùng là gì?|Q|t
+Đọc giúp tôi tin nhắn mới|L|l
+## CS05 | doc_thong_bao
+Đọc thông báo|L|t
+Có thông báo gì mới không?|Q|t
+Đọc thông báo mới nhất|L|t
+Đọc thông báo từ {ung_dung}|L|t
+Bỏ qua thông báo này|L|t
+Tắt đọc thông báo|L|t
+Đọc to thông báo lên|L|t
+Tôi có thông báo nào không?|Q|t
+Đọc giúp tôi thông báo Messenger|L|l
+## CS05 | nhan_zalo
+Nhắn Zalo cho {ten_lien_he}|L|t
+Nhắn Zalo cho {ten_lien_he} là {noi_dung}|L|t
+Gửi tin Zalo cho {ten_lien_he}|L|t
+Đọc tin nhắn Zalo|L|t
+Trả lời Zalo của {ten_lien_he}|L|t
+Có tin Zalo mới không?|Q|t
+Gọi Zalo cho {ten_lien_he}|L|t
+Nhắn qua Zalo là tôi sắp đến nhé|L|m
+Soạn tin Zalo gửi {ten_lien_he}|L|t
+Zalo của {ten_lien_he} nói gì vậy?|Q|m
+## CS06 | ap_suat_lop
+Áp suất lốp bao nhiêu?|Q|t
+Kiểm tra áp suất lốp|L|t
+Lốp xe có đủ hơi không?|Q|t
+Áp suất lốp trước bên trái là bao nhiêu?|Q|t
+Lốp nào đang thiếu hơi?|Q|t
+Xem áp suất bốn bánh|L|t
+Áp suất lốp sau bao nhiêu psi?|Q|t
+Cho tôi biết tình trạng lốp|L|l
+Bánh xe có bị xì hơi không?|Q|m
+Áp suất lốp|C|t
+## CS06 | nhien_lieu_quang_duong
+Còn bao nhiêu xăng?|Q|t
+Xe còn đi được bao nhiêu cây số?|Q|t
+Với lượng xăng này đi được bao xa?|Q|t
+Còn xăng không?|Q|m
+Mức nhiên liệu hiện tại là bao nhiêu?|Q|t
+Xăng còn mấy phần trăm?|Q|t
+Còn đủ xăng đến {dia_diem} không?|Q|t
+Lượng xăng còn lại bao nhiêu lít?|Q|t
+Mức tiêu hao nhiên liệu hiện tại là bao nhiêu?|Q|t
+Nhiên liệu|C|t
+## CS06 | bao_duong
+Khi nào cần bảo dưỡng?|Q|t
+Còn bao nhiêu km nữa thì bảo dưỡng?|Q|t
+Đến hạn bảo dưỡng chưa?|Q|t
+Lần bảo dưỡng tiếp theo là khi nào?|Q|t
+Nhắc tôi đi bảo dưỡng xe|L|t
+Đã đến lúc thay dầu chưa?|Q|t
+Kiểm tra lịch bảo dưỡng|L|t
+Đặt lịch bảo dưỡng xe|L|t
+Bao giờ phải thay lốp?|Q|t
+Cần thay dầu chưa nhỉ?|Q|m
+## CS06 | den_canh_bao
+Đèn cảnh báo này là gì?|Q|t
+Đèn vàng trên đồng hồ báo gì vậy?|Q|m
+Xe có đang báo lỗi gì không?|Q|t
+Có cảnh báo nào trên xe không?|Q|t
+Đèn động cơ sáng là sao?|Q|m
+Đèn báo phanh sáng, lỗi gì thế?|Q|m
+Kiểm tra lỗi xe|L|t
+Đèn cảnh báo lốp sáng là sao?|Q|m
+Xe báo lỗi gì vậy?|Q|m
+Kiểm tra giúp tôi các đèn cảnh báo|L|l
+## CS06 | nhiet_do_dong_co
+Nhiệt độ động cơ bao nhiêu?|Q|t
+Động cơ có nóng quá không?|Q|t
+Nhiệt độ nước làm mát bao nhiêu?|Q|t
+Xe có bị quá nhiệt không?|Q|t
+Kiểm tra nhiệt độ máy|L|t
+Máy có nóng không?|Q|m
+Nhiệt độ dầu bao nhiêu?|Q|t
+Kim nhiệt độ có bình thường không?|Q|t
+Xem nhiệt độ động cơ giúp tôi|L|l
+## CS06 | so_km_da_di
+Xe đã đi được bao nhiêu km?|Q|t
+Số km đã đi là bao nhiêu?|Q|t
+Đồng hồ công-tơ-mét bao nhiêu?|Q|t
+Hôm nay đã chạy bao nhiêu cây?|Q|m
+Chuyến này đi được bao xa rồi?|Q|t
+Tổng số km của xe là bao nhiêu?|Q|t
+Quãng đường chuyến đi hiện tại|C|t
+Odo hiện tại là bao nhiêu?|Q|t
+Đã đi bao nhiêu km rồi?|Q|m

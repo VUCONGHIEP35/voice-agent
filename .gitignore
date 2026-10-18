@@ -69,3 +69,55 @@ data/
 *.mp3
 *.flac
 *.ogg
+
+# ===== Bổ sung cho nhánh TTS: bộ sinh câu asr_tts_o_to_handoff/ =====
+# Cấu hình máy cục bộ (chứa đường dẫn có tên người dùng)
+.mcp.json
+.claude/
+*.log
+*.tmp
+~$*
+
+# data/ đã bị bỏ qua ở trên. Riêng bảng đặc tả v0.3 (hạn ngạch, mẫu khung) mà build10k.py đọc thì giữ;
+# các bộ câu m1m2_10k*, bản lưu trước sửa, tệp khảo sát... vẫn không đẩy.
+!asr_tts_o_to_handoff/data/
+asr_tts_o_to_handoff/data/*
+!asr_tts_o_to_handoff/data/du_lieu_asr_tts_o_to_v0.3.xlsx
+!asr_tts_o_to_handoff/data/du_lieu_asr_tts_o_to_v0.3.jsonl
+
+# Đầu ra dựng bảng v0.3
+asr_tts_o_to_handoff/out/
+
+# Bản ghi cuộc trò chuyện gốc (có thể chứa thông tin cá nhân)
+asr_tts_o_to_handoff/docs/phien_claude_ai.jsonl
+
+# Kết quả đo, kiểm (sinh lại được bằng diversity10k.py, validate10k.py)
+**/diversity_near_dups.tsv
+**/diversity_report.json
+**/qa_report.json
+
+# Notebook đã chạy kèm kết quả
+**/*_result.ipynb
+**/*_ketqua.ipynb
+
+# Âm thanh, kho nén, trọng số mô hình, kết quả chạy TTS/ASR
+*.m4a
+*.opus
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.onnx
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+samples/
+clean_ref/
+selftest/
+audio48/
+audio16/
+snr_probe_result.csv
+hw_report.json

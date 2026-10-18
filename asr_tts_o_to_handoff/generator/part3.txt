@@ -1,0 +1,525 @@
+## CS07 | phan_tram_pin
+Pin còn bao nhiêu phần trăm?|Q|t
+Còn bao nhiêu pin?|Q|t
+Dung lượng pin hiện tại là bao nhiêu?|Q|t
+Pin xe còn mấy phần trăm?|Q|t
+Mức pin bao nhiêu rồi?|Q|m
+Kiểm tra pin|L|t
+Pin còn nhiều không?|Q|m
+Xem phần trăm pin giúp tôi|L|l
+Pin sắp hết chưa?|Q|m
+Pin|C|t
+## CS07 | quang_duong_con_lai_ev
+Pin còn đi được bao xa?|Q|t
+Quãng đường còn lại là bao nhiêu km?|Q|t
+Với lượng pin này đi được bao nhiêu cây số?|Q|t
+Có đủ pin đến {dia_diem} không?|Q|t
+Còn chạy được bao nhiêu km nữa?|Q|t
+Pin có đủ để đi về nhà không?|Q|t
+Đến {dia_diem} thì còn bao nhiêu phần trăm pin?|Q|t
+Quãng đường đi được còn bao nhiêu?|Q|t
+Về đến nhà còn dư bao nhiêu pin?|Q|m
+## CS07 | tim_tram_sac
+Tìm trạm sạc quanh đây|L|t|N1
+Tìm trạm sạc quanh {dia_diem}|L|t|N1
+Trạm sạc gần nhất ở đâu?|Q|t
+Dẫn đường đến trạm sạc gần nhất|L|t
+Có trạm sạc nào trên đường đi không?|Q|t
+Tìm trạm sạc nhanh|L|t
+Tìm trạm sạc còn trống|L|t
+Gần đây có trạm sạc không?|Q|m
+Tìm trạm sạc dọc đường đi giúp tôi|L|l
+Chỉ đường đến trạm sạc {ten_tram_sac}|L|t
+## CS07 | thoi_gian_chi_phi_sac
+Sạc đầy mất bao lâu?|Q|t
+Sạc từ {phan_tram} lên 80 phần trăm mất bao lâu?|Q|t
+Còn bao lâu nữa thì sạc đầy?|Q|t
+Sạc hết bao nhiêu tiền?|Q|t
+Chi phí sạc lần này là bao nhiêu?|Q|t
+Bao giờ sạc xong?|Q|m
+Thời gian sạc còn lại?|C|t
+Sạc đến 80 phần trăm mất bao nhiêu phút?|Q|t
+Giá sạc ở đây bao nhiêu một ki-lô-oát giờ?|Q|t
+Tiền sạc hôm nay hết bao nhiêu?|Q|m
+## CS07 | cong_sac
+Mở nắp cổng sạc|L|t
+Đóng nắp cổng sạc|L|t
+Mở cổng sạc|L|t
+Cổng sạc đã đóng chưa?|Q|t
+Mở nắp sạc ra|L|m
+Nhả súng sạc|L|t
+Mở khóa đầu sạc|L|t
+Đóng nắp sạc lại đi|L|m
+Bật đèn cổng sạc|L|t
+Mở cổng sạc giúp tôi|L|l
+## CS07 | gioi_han_sac
+Đặt giới hạn sạc {phan_tram} phần trăm|L|t
+Chỉ sạc đến {phan_tram} phần trăm thôi|L|t
+Giới hạn sạc hiện tại là bao nhiêu?|Q|t
+Đổi giới hạn sạc lên {phan_tram} phần trăm|L|t
+Dừng sạc ở {phan_tram} phần trăm|L|t
+Tắt giới hạn sạc|L|t
+Sạc đầy 100 phần trăm|L|t
+Cho sạc tới {phan_tram} thôi nhé|L|m
+Đặt mức sạc tối đa là {phan_tram}|L|t
+## CS07 | hen_gio_sac
+Hẹn giờ sạc lúc {thoi_gian}|L|t
+Đặt lịch sạc ban đêm|L|t
+Bắt đầu sạc lúc {thoi_gian}|L|t
+Hẹn giờ sạc xong trước {thoi_gian}|L|t
+Hủy hẹn giờ sạc|L|t
+Sạc vào giờ thấp điểm|L|t
+Bắt đầu sạc ngay|L|t
+Dừng sạc|L|t
+Lịch hẹn sạc hiện tại là gì?|Q|t
+Hẹn sạc xe sau {thoi_gian} nhé|L|m
+## CS08 | tac_duong_phia_truoc
+Phía trước có tắc đường không?|Q|t
+Tình hình giao thông phía trước thế nào?|Q|t
+Tình hình giao thông trên đường đến {dia_diem} của tôi như thế nào?|Q|t|N11
+Đường phía trước có kẹt không?|Q|t
+Có kẹt xe không?|Q|m
+Kẹt xe đến đâu?|Q|m
+Phía trước đang ùn tắc à?|Q|m
+Đường {ten_duong} có đông không?|Q|t
+Còn kẹt bao lâu nữa?|Q|m
+Tắc đường ở đâu?|Q|m
+Giao thông|C|t
+## CS08 | tai_nan_su_co
+Phía trước có tai nạn không?|Q|t
+Có tai nạn trên đường đi không?|Q|t
+Sao đường phía trước tắc vậy, có tai nạn à?|Q|m
+Cảnh báo tai nạn trên tuyến này|L|t
+Có sự cố gì trên đường không?|Q|t
+Có công trình thi công phía trước không?|Q|t
+Có ngập nước ở phía trước không?|Q|t
+Tai nạn ở chỗ nào vậy?|Q|m
+Báo cho tôi các sự cố phía trước|L|l
+## CS08 | toc_do_toi_da
+Tốc độ tối đa của đoạn đường này là bao nhiêu?|Q|t
+Giới hạn tốc độ ở đây là bao nhiêu?|Q|t
+Đoạn này chạy tối đa bao nhiêu ki-lô-mét một giờ?|Q|t
+Tốc độ cho phép là bao nhiêu?|Q|t
+Giới hạn tốc độ|C|t
+Tôi đang chạy quá tốc độ không?|Q|t
+Đường này giới hạn mấy chục?|Q|m
+Cao tốc này chạy tối đa bao nhiêu?|Q|t
+Cho tôi biết giới hạn tốc độ đoạn này|L|l
+## CS08 | camera_phat_nguoi
+Phía trước có camera phạt nguội không?|Q|t
+Có camera giám sát tốc độ không?|Q|t
+Báo camera phạt nguội|L|t
+Cảnh báo camera tốc độ|L|t
+Còn bao xa tới camera tiếp theo?|Q|t
+Bật cảnh báo camera phạt nguội|L|t
+Có bắn tốc độ phía trước không?|Q|m
+Đoạn này có camera không?|Q|m
+Kiểm tra phạt nguội xe của tôi|L|t
+Tắt cảnh báo camera|L|t
+## CS08 | thoi_tiet_hom_nay_mai
+Thời tiết hôm nay thế nào?|Q|t|N7
+Thời tiết ngày mai thế nào?|Q|t|N10
+Hôm nay có mưa không?|Q|t|N8
+Dự báo thời tiết hôm nay|L|t|N8
+Thời tiết bên ngoài thế nào|Q|t|N12
+Thời tiết|C|t|N17
+Thời tiết ở {thanh_pho} thế nào?|Q|t
+Ngày mai trời có nắng không?|Q|t
+Cuối tuần này thời tiết ra sao?|Q|t
+Thời tiết ở {dia_diem} lúc tôi đến thế nào?|Q|t
+## CS08 | nhiet_do_mua
+Nhiệt độ ngoài trời bao nhiêu?|Q|t
+Bây giờ bao nhiêu độ?|Q|m
+Hôm nay nóng bao nhiêu độ?|Q|t
+Chiều nay có mưa không?|Q|t
+Khi nào thì tạnh mưa?|Q|t
+Xác suất mưa bao nhiêu phần trăm?|Q|t
+Ở {thanh_pho} đang mưa không?|Q|t
+Mưa to không?|Q|m
+Trời có mưa dọc đường không?|Q|t
+Nhiệt độ cao nhất hôm nay là bao nhiêu?|Q|t
+## CS08 | chat_luong_khong_khi
+Chất lượng không khí hôm nay thế nào?|Q|t
+Chỉ số AQI bao nhiêu?|Q|t
+Không khí ở {thanh_pho} có ô nhiễm không?|Q|t
+Bụi mịn hôm nay bao nhiêu?|Q|t
+Chỉ số bụi PM2.5 hiện tại là bao nhiêu?|Q|t
+Hôm nay không khí có tốt không?|Q|t
+AQI {thanh_pho}|C|t
+Không khí bên ngoài có sạch không?|Q|t
+Chất lượng không khí quanh đây|C|t
+## CS08 | gio_den_theo_giao_thong
+Với tình hình giao thông này mấy giờ tới nơi?|Q|t
+Mấy giờ tôi đến {dia_diem} nếu đi bây giờ?|Q|t
+Giờ đến có bị trễ vì kẹt xe không?|Q|t
+Nếu đi đường này thì mấy giờ đến?|Q|t
+Có kịp đến {dia_diem} lúc {thoi_gian} không?|Q|t
+Giờ đến mới nhất là mấy giờ?|Q|t
+Cập nhật giờ đến giúp tôi|L|l
+## CS10 | nhac_viec
+Nhắc tôi {noi_dung}|L|t|N7
+Nhắc tôi {noi_dung} vào {thoi_gian}|L|t|N12
+Nhắc tôi {noi_dung} lúc {thoi_gian}|L|t|N8
+Đặt lời nhắc {noi_dung} vào lúc {thoi_gian}|L|t|N7
+Tạo nhắc nhở|L|t|N17
+Nhắc tôi {noi_dung} vào lúc {thoi_gian} hàng ngày|L|t|N11
+Nhắc tôi khi đến nơi là gọi cho {ten_lien_he}|L|t
+Mai nhắc tôi {noi_dung}|L|t
+Nhớ nhắc tôi nhé|L|m
+Nhắc tôi mua {mon_hang} khi đi ngang siêu thị|L|t
+Đặt nhắc nhở giúp tôi|L|l
+## CS10 | dat_lich
+Đặt lịch hẹn với {ten_lien_he} vào {thoi_gian} tại {dia_diem}|L|t|N10
+Đặt lịch họp với {ten_lien_he} vào {thoi_gian}|L|t|N8
+Tạo lịch hẹn|L|t|N17
+Hôm nay tôi có lịch gì?|Q|t
+Lịch ngày mai có gì?|Q|t
+Cuộc họp tiếp theo là lúc nào?|Q|t
+Thêm sự kiện vào lịch|L|t
+Hủy lịch họp lúc {thoi_gian}|L|t
+Dời cuộc họp sang {thoi_gian}|L|t
+Đặt bàn|C|t|N17
+Xem lịch tuần này giúp tôi|L|l
+## CS10 | bao_thuc_hen_gio
+Đặt báo thức lúc {thoi_gian}|L|t|N10
+Đặt báo thức|L|t|N17
+Đánh thức tôi lúc {thoi_gian}|L|t|N8
+Hẹn giờ {so} phút|L|t
+Tắt báo thức|L|t
+Hủy báo thức {thoi_gian}|L|t
+Báo thức mấy giờ?|Q|t
+Đếm ngược {so} phút|L|t
+Hoãn báo thức {so} phút nữa|L|t
+Đặt báo thức ngày mai lúc {thoi_gian} nhé|L|m
+## CS10 | hoi_gio_ngay
+Mấy giờ rồi?|Q|m
+Bây giờ là mấy giờ?|Q|t
+Hôm nay là thứ mấy?|Q|t
+Hôm nay ngày bao nhiêu?|Q|t
+Hôm nay là ngày mấy âm lịch|Q|t|N12
+Mai là thứ mấy?|Q|t
+Giờ ở {thanh_pho} là mấy giờ?|Q|t
+Còn mấy ngày nữa đến Tết?|Q|t
+Cho tôi biết bây giờ là mấy giờ|L|l
+## CS10 | hoi_quan_an
+Hôm nay ăn gì nhỉ?|Q|m|N5
+Tôi đói|C|t|N6
+Gợi ý quán ăn ngon gần đây|L|t
+Quanh đây có quán phở nào ngon không?|Q|t
+Tìm nhà hàng hải sản|L|t
+Quán cơm nào mở cửa giờ này?|Q|t
+Đặt bàn ở {ten_quan} lúc {thoi_gian}|L|t
+Cho tôi số điện thoại quán {ten_quan}|L|l
+Ăn trưa ở đâu bây giờ nhỉ?|Q|m
+Đề xuất chỗ ăn tối cho {so} người|L|t
+## CS10 | hoi_dap_chung
+Dân số Hà Nội là bao nhiêu|Q|t|N15
+Việt Nam giáp với nước nào|Q|t|N15
+Tác giả thuyết tương đối là ai|Q|t|N15
+Ai là người sáng lập Apple?|Q|t|N8
+12 x 15 bằng bao nhiêu|Q|t|N12
+250 Đô là bao nhiêu tiền Việt|Q|t|N12
+Giá vàng hôm nay|C|t|N12
+Tính 15 nhân với 25|L|t|N8
+Đổi 100 USD sang VND|L|t|N8
+Thủ đô của {quoc_gia} là gì?|Q|t
+Làm sao để giảm cân|Q|t|N5
+Tại sao trời lại mưa?|Q|t
+## CS10 | chao_cam_on
+Cảm ơn|C|t
+Cảm ơn nhé|C|m
+Cảm ơn bạn nhiều|C|l
+Xin chào|C|t
+Chào buổi sáng|C|t
+Chào bạn|C|m
+Tạm biệt|C|t
+Hẹn gặp lại|C|m
+Bạn khỏe không?|Q|m
+Giỏi lắm, cảm ơn|C|m
+## CS10 | tro_chuyen_tam_su
+Tôi buồn quá|C|m|N5
+Tâm sự với tôi đi|L|m|N5
+Bạn yêu ai nhất|Q|m|N5
+Chỉ tôi mấy câu thả thính|L|m|N5
+Tôi mệt quá|C|m
+Nói chuyện với tôi một lát đi|L|m
+Hát cho tôi nghe đi|L|m
+Bạn tên là gì?|Q|t
+Hôm nay tôi vui lắm|C|m
+## CS10 | ke_chuyen_cuoi
+Kể truyện cười|L|t|N1
+Kể nhiều truyện cười|L|t|N1
+Kể {so} truyện cười|L|t|N1
+Kể chuyện cười đi {wake}|L|m|N5
+Kể chuyện cười đi|L|m|N5
+Cho tôi nghe một câu chuyện cười|L|l
+Kể chuyện tiếu lâm|L|t
+Có chuyện cười nào mới không?|Q|m
+Kể thêm một chuyện nữa|L|m
+Đố vui tôi một câu đi|L|m
+## CS10 | tin_tuc
+Hôm nay có tin gì mới|Q|t|N12
+Đọc tin tức mới nhất|L|t
+Đọc tin tức|L|t
+Có tin gì nóng không?|Q|m
+Đọc báo cho tôi nghe|L|t
+Tin thể thao hôm nay|C|t
+Tin giao thông mới nhất|C|t
+Cho nghe bản tin sáng|L|t
+Đọc tiêu đề tin hôm nay|L|t
+Tin tức về {chu_de}|C|t
+Đọc tiếp tin sau|L|t
+## CS12 | noi_lai
+Nói lại|L|t
+Bạn nói lại được không?|Q|l
+Nhắc lại đi|L|m
+Gì cơ?|Q|m
+Tôi chưa nghe rõ, nói lại giúp tôi|L|l
+Lặp lại câu vừa rồi|L|t
+Nói chậm lại một chút|L|t
+Hả?|C|m
+Bạn vừa nói gì vậy?|Q|m
+Đọc lại|L|t
+## CS12 | sua_lenh
+Không phải, ý tôi là {cau_dung}|L|t
+Nhầm rồi, {cau_dung}|L|m
+Sai rồi, tôi muốn đến {dia_diem}|L|t
+Không, ý tôi là bài {bai_hat}|L|t
+Sửa lại thành {nhiet_do} độ|L|t
+Đổi lại thành {dia_diem}|L|t
+Ý tôi là {ca_si} cơ|L|m
+Không đúng, làm lại|L|t
+Tôi nói là {dia_diem}, không phải chỗ đó|L|t
+Chọn lại|L|t
+## CS12 | chon_ket_qua
+Cái thứ nhất|C|t
+Cái thứ hai|C|t
+Chọn cái cuối|L|t
+Số {so}|C|t
+Cái đầu tiên|C|t
+Chọn kết quả thứ ba|L|t
+Lấy cái thứ hai nhé|L|m
+Chọn cái gần nhất|L|t
+Cái cuối cùng|C|t
+Quán thứ hai|C|t
+Chọn số {so} đi|L|m
+## CS12 | xac_nhan_dong_y
+Có|C|t
+Vâng|C|l
+Đúng rồi|C|t
+Ừ|C|m
+Đồng ý|C|t
+Ok|C|m
+Được rồi, làm đi|L|m
+Xác nhận|L|t
+Đúng rồi, dẫn đường đi|L|m
+Phải|C|t
+## CS12 | tu_choi_huy_dung
+Không|C|t
+Thôi|C|m
+Hủy|L|t
+Dừng lại|L|t
+Không phải|C|t
+Thôi khỏi|C|m
+Hủy đi|L|m
+Đừng|C|m
+Không cần đâu|C|t
+Thôi, không làm nữa|L|m
+Dừng|C|t
+## CS12 | xem_them_lua_chon
+Xem thêm|L|t
+Kết quả tiếp theo|C|t
+Còn nữa không?|Q|m
+Cho xem các kết quả khác|L|t
+Trang sau|C|t
+Quay lại|L|t
+Về trang trước|L|t
+Còn lựa chọn nào khác không?|Q|t
+Cái khác đi|C|m
+Đọc thêm|L|t
+## CS09 | goi_cap_cuu_115
+Gọi cấp cứu|L|t
+Gọi 115|L|t
+Gọi cấp cứu 115|L|t
+Gọi xe cứu thương|L|t
+Gọi 115 giúp tôi, có người bị thương|L|l
+Có người bất tỉnh, gọi cấp cứu|L|t
+Gọi bệnh viện gần nhất|L|t
+Gọi cấp cứu ngay đi|L|m
+Cần xe cấp cứu|C|t
+Người này không thở, gọi 115|L|t
+## CS09 | goi_cong_an_113
+Gọi công an|L|t
+Gọi 113|L|t
+Gọi cảnh sát|L|t
+Gọi công an 113|L|t
+Báo công an|L|t
+Có người trộm xe, gọi 113|L|t
+Gọi cảnh sát giao thông|L|t
+Tôi cần gọi công an gấp|L|t
+Gọi 113 ngay|L|m
+Gọi công an khu vực|L|t
+## CS09 | goi_cuu_hoa_114
+Gọi cứu hỏa|L|t
+Gọi 114|L|t
+Gọi cứu hỏa 114|L|t
+Xe cháy rồi, gọi 114|L|t
+Gọi phòng cháy chữa cháy|L|t
+Có cháy, gọi cứu hỏa|L|t
+Gọi 114 ngay|L|m
+Báo cháy|C|t
+Cháy xe, gọi cứu hỏa giúp tôi|L|l
+Có khói bốc ra từ nắp capo, gọi 114|L|t
+## CS09 | cuu_ho_giao_thong
+Gọi cứu hộ giao thông|L|t
+Gọi cứu hộ|L|t
+Xe hết xăng, gọi cứu hộ|L|t
+Xe chết máy, gọi cứu hộ|L|t
+Gọi xe cứu hộ đến chỗ tôi|L|t
+Gọi đường dây nóng cứu hộ|L|t
+Nổ lốp rồi, gọi cứu hộ|L|t
+Xe hỏng, cần kéo xe|C|t
+Gọi tổng đài cứu hộ|L|t
+Gửi vị trí của tôi cho cứu hộ|L|t
+## CS09 | bao_tai_nan
+Tôi bị tai nạn|C|t
+Báo tai nạn|L|t
+Vừa xảy ra tai nạn|C|t
+Báo tai nạn giao thông|L|t
+Có tai nạn ở đây, báo giúp tôi|L|l
+Tôi vừa va chạm|C|t
+Gửi vị trí tai nạn cho người thân|L|t
+Chia sẻ vị trí của tôi với {ten_lien_he}|L|t
+Báo tai nạn cho {ten_lien_he}|L|t
+Có người bị thương|C|t
+## CS09 | toi_on
+Tôi ổn|C|t
+Tôi không sao|C|t
+Không có chuyện gì đâu|C|t
+Tôi ổn, không cần gọi cấp cứu|C|t
+Không cần cấp cứu|C|t
+Mình không sao|C|m
+Tôi vẫn ổn|C|t
+Hủy cuộc gọi khẩn cấp, tôi ổn|L|t
+Báo nhầm thôi, tôi không sao|C|m
+Không sao, cảm ơn|C|m
+## CS09 | keu_cuu
+Cứu tôi với|C|t
+Cứu với|C|t
+Giúp tôi với|C|t
+Cứu tôi|C|t
+Có ai không, cứu với|C|t
+Tôi cần giúp đỡ gấp|C|t
+Cứu, có người bị thương|C|t
+Tôi bị cướp|C|t
+Cứu mạng|C|t
+Gọi người đến giúp tôi|L|t
+## CS02 | canh_bao_lech_lan
+Tắt cảnh báo lệch làn|L|t
+Bật cảnh báo lệch làn|L|t
+Tắt hỗ trợ giữ làn|L|t
+Bật hỗ trợ giữ làn đường|L|t
+Giảm độ nhạy cảnh báo lệch làn|L|t
+Tắt cảnh báo rời làn đường|L|t
+Cảnh báo lệch làn kêu hoài, tắt đi|L|m
+Bật lại giữ làn|L|t
+Tăng độ nhạy cảnh báo lệch làn|L|t
+Tắt rung vô lăng khi lệch làn|L|t
+## CS02 | canh_bao_va_cham
+Tắt cảnh báo va chạm|L|t
+Bật cảnh báo va chạm phía trước|L|t
+Giảm độ nhạy cảnh báo va chạm|L|t
+Tắt phanh khẩn cấp tự động|L|t
+Bật phanh tự động khẩn cấp|L|t
+Cảnh báo va chạm kêu nhiều quá|C|m
+Chỉnh cảnh báo va chạm sớm hơn|L|t
+Tắt cảnh báo khoảng cách|L|t
+Bật lại cảnh báo va chạm|L|t
+## CS02 | canh_bao_diem_mu
+Tắt cảnh báo điểm mù|L|t
+Bật cảnh báo điểm mù|L|t
+Tắt cảnh báo điểm mù bên phải|L|t
+Giảm độ nhạy cảnh báo điểm mù|L|t
+Bật hỗ trợ điểm mù|L|t
+Cảnh báo điểm mù kêu liên tục, tắt đi|L|m
+Tắt đèn cảnh báo điểm mù trên gương|L|t
+Bật lại cảnh báo điểm mù|L|t
+Đèn điểm mù nhấp nháy hoài|C|m
+## CS02 | canh_bao_met_moi
+Tắt cảnh báo mệt mỏi|L|t
+Bật cảnh báo buồn ngủ|L|t
+Tôi tỉnh rồi|C|t
+Tôi không buồn ngủ|C|t
+Tôi vẫn tỉnh táo|C|t
+Tắt cảnh báo mất tập trung|L|t
+Tôi ổn, tắt cảnh báo buồn ngủ đi|L|m
+Giảm độ nhạy cảnh báo mệt mỏi|L|t
+Bật theo dõi tài xế|L|t
+Tôi đã nghỉ rồi, tắt cảnh báo đi|L|m
+## CS02 | do_nhay_canh_bao_chung
+Giảm độ nhạy cảnh báo|L|t
+Tăng độ nhạy cảnh báo|L|t
+Chỉnh độ nhạy cảnh báo ở mức trung bình|L|t
+Cảnh báo kêu nhiều quá|C|m
+Tắt hết cảnh báo đi|L|m
+Tắt âm cảnh báo|L|t
+Bật lại các cảnh báo an toàn|L|t
+Giảm âm lượng cảnh báo|L|t
+Tắt cảnh báo này|L|t
+Đừng báo nữa|C|m
+Tắt cảnh báo tốc độ|L|t
+## CS11 | tre_xem_nhac_phim_truyen
+Bật nhạc thiếu nhi cho bé|L|t
+Mở phim hoạt hình cho các bé|L|t
+Kể chuyện cho bé nghe|L|t
+Cho bé xem phim {ten_phim}|L|t
+Con muốn nghe nhạc|C|m
+Con muốn xem phim|C|m
+Cho con nghe bài {bai_hat}|L|m
+Kể chuyện cổ tích đi|L|m
+Bật truyện cho bé ngủ|L|t
+Mở phim cho con xem nhé|L|m
+## CS11 | dieu_hoa_khoang_sau
+Chỉnh điều hòa hàng ghế sau|L|t
+Tăng điều hòa khoang sau|L|t
+Hàng ghế sau nóng quá|C|m
+Giảm quạt gió phía sau|L|t
+Bật điều hòa sau {nhiet_do} độ|L|t
+Tắt điều hòa hàng ghế sau|L|t
+Phía sau lạnh quá|C|m
+Chỉnh hướng gió sau xuống chân|L|t
+Tăng quạt hàng ghế thứ ba|L|t
+Con thấy nóng|C|m
+## CS11 | tat_loa_sau
+Tắt loa sau|L|t
+Bật loa sau|L|t
+Tắt tiếng loa hàng ghế sau|L|t
+Chỉ phát nhạc ở phía trước|L|t
+Giảm âm lượng loa sau|L|t
+Bé đang ngủ, tắt loa sau đi|L|m
+Chuyển âm thanh về hàng ghế trước|L|t
+Phát nhạc riêng cho hàng ghế sau|L|t
+Tắt âm phía sau|L|t
+Loa sau nhỏ lại chút nhé|L|m
+## CS11 | che_do_yen_tinh
+Bật chế độ yên tĩnh|L|t
+Chế độ yên tĩnh|C|t
+Bé đang ngủ, bật chế độ yên lặng|L|m
+Tắt chế độ yên tĩnh|L|t
+Giảm hết âm thanh trong xe|L|t
+Chế độ cho bé ngủ|C|t
+Tắt tiếng thông báo|L|t
+Nói nhỏ thôi|L|m
+Hạ âm lượng cho bé ngủ|L|t
+Yên tĩnh đi|L|m
+## CS11 | nhac_day_an_toan_ghe_sau
+Nhắc dây an toàn ghế sau|L|t
+Ghế sau đã thắt dây an toàn chưa?|Q|t
+Kiểm tra dây an toàn hàng ghế sau|L|t
+Bật nhắc nhở dây an toàn cho ghế sau|L|t
+Có ai ở ghế sau chưa thắt dây không?|Q|t
+Tắt nhắc dây an toàn ghế sau|L|t
+Nhắc các con thắt dây an toàn|L|t
+Dây an toàn ghế giữa đã cài chưa?|Q|t
+Báo nếu ghế sau chưa cài dây|L|t
+Con thắt dây an toàn đi|L|m

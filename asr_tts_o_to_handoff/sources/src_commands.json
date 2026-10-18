@@ -1,0 +1,7970 @@
+{
+ "sources": [
+  {
+   "id": "N1",
+   "url": "https://vinfastauto.com/vn_vi/node/9362",
+   "what": "Trang chính thức VinFast (tiếng Việt): từ đánh thức 'Hey VinFast'/'VinFast ơi' và danh sách câu lệnh mẫu: điều hòa, quạt gió, hướng gió, lấy gió trong/ngoài, sấy kính, cốp, wifi, dẫn đường, tìm trạm sạc, nhạc Bluetooth/USB, radio, podcast, kể truyện cười",
+   "fetched": true
+  },
+  {
+   "id": "N2",
+   "url": "https://vinfastauto.com/vn_vi/cau-hoi-thuong-gap/cau-hoi-xe-o-to/tro-ly-ao",
+   "what": "Mục Trợ lý ảo của VinFast: trùng nội dung N1 (xác nhận chéo)",
+   "fetched": true
+  },
+  {
+   "id": "N3",
+   "url": "https://vinfastauto.com/vn_en/node/9362",
+   "what": "Bản tiếng Anh của N1; thêm lệnh 'Open Front/Rear Camera' (chỉ thấy bản Anh, mẫu tiếng Việt được tự soạn)",
+   "fetched": true
+  },
+  {
+   "id": "N4",
+   "url": "https://doanhnhan.baophapluat.vn/tro-ly-ao-vinfast-da-thay-doi-thoi-quen-lai-xe-cua-nguoi-viet-the-nao-64239.html",
+   "what": "Hai ví dụ: 'Hey VinFast, tăng điều hòa lên 2 độ C'; 'Hey VinFast, gọi điện tới số 098xxxxxxx'",
+   "fetched": true
+  },
+  {
+   "id": "N5",
+   "url": "https://diendandoanhnghiep.vn/tro-ly-ao-vivi-vinfast-dau-an-moi-cua-ky-nguyen-cong-nghe-giong-noi-214119.html",
+   "what": "Ví dụ hội thoại với Vivi: 'Tôi buồn quá', 'Tâm sự với tôi đi', 'Bạn yêu ai nhất', 'Làm sao để giảm cân', 'Hôm nay ăn gì nhỉ?', 'Chỉ tôi mấy câu thả thính', 'Kể chuyện cười đi ViVi'",
+   "fetched": true
+  },
+  {
+   "id": "N6",
+   "url": "https://tuoitre.vn/nu-youtuber-noi-tieng-danh-gia-vinfast-vf8-camera-thu-vi-sau-vo-lang-chia-khoa-se-som-thay-doi-20220428080105356.htm",
+   "what": "Bài đánh giá VF8: 'tăng nhiệt độ điều hòa' (trực tiếp), 'tôi thấy lạnh', 'tôi đói' (gián tiếp)",
+   "fetched": true
+  },
+  {
+   "id": "N7",
+   "url": "https://fptshop.com.vn/tin-tuc/thu-thuat/huong-dan-su-dung-siri-tren-iphone-trong-o-to-78318",
+   "what": "Siri trên ô tô: 'Gọi cho [tên]', 'Nhắn tin cho', 'Chỉ đường đến [địa điểm]', 'Phát nhạc', 'Bài hát tiếp theo', 'Thời tiết hôm nay thế nào', 'Nhắc tôi…', 'Chỉ đường về nhà'",
+   "fetched": true
+  },
+  {
+   "id": "N8",
+   "url": "https://viettelstore.vn/tin-tuc/siri-co-the-lam-duoc-gi",
+   "what": "Ví dụ Siri tiếng Việt: thời tiết, nhắc việc, báo thức, lịch họp, gọi cho mẹ, nhắn cho Linh, đọc tin nhắn mới nhất, tính toán, đổi tiền, hỏi đáp",
+   "fetched": true
+  },
+  {
+   "id": "N9",
+   "url": "https://www.thegioididong.com/tin-tuc/cach-su-dung-siri-tieng-viet-1576421",
+   "what": "Siri: 'chỉ đường đến Nhà thờ Đức Bà'",
+   "fetched": true
+  },
+  {
+   "id": "N10",
+   "url": "https://www.thegioididong.com/hoi-dap/huong-dan-su-dung-tro-ly-ao-siri-tren-iphone-590970",
+   "what": "Siri: gọi cho tên/số, nhắn tin, đặt lịch hẹn, báo thức, lời nhắc, tìm quán cà phê gần đây, chỉ đường, thời tiết ngày mai, phát nhạc, tăng âm lượng",
+   "fetched": true
+  },
+  {
+   "id": "N11",
+   "url": "https://www.tcl.com/vn/vi/blog/playbooks/google-assistant-101-how-to-make-it-enjoyable-and-useful-for-you",
+   "what": "Google Assistant tiếng Việt: nhắc việc, hỏi đường/khoảng cách/thời gian/giao thông, phát nhạc theo bài/ca sĩ",
+   "fetched": true
+  },
+  {
+   "id": "N12",
+   "url": "https://apps.apple.com/vn/app/id1564418703",
+   "what": "Mô tả app Kiki (Zalo): 'Mở bài…', 'Mở nhạc Rap', 'mở nhạc Tuấn Hưng', 'Mở bảng xếp hạng nhạc Việt', thời tiết, giá vàng, ngày âm lịch, tin mới, nhắc việc, tính toán, đổi tiền",
+   "fetched": true
+  },
+  {
+   "id": "N13",
+   "url": "https://zalo.me/en/post/kiki-auto",
+   "what": "Trang Kiki Auto: ví dụ 'Chỉ đường tới cây xăng gần nhất'",
+   "fetched": true
+  },
+  {
+   "id": "N14",
+   "url": "https://fptshop.com.vn/tin-tuc/thu-thuat/cach-dieu-khien-nhac-bang-giong-noi-tren-zing-mp3-nho-tro-ly-ao-kiki-160640",
+   "what": "Kiki + Zing MP3: 'mở nhạc của Bích Phương'; mô tả hẹn giờ tắt nhạc (chỉ mô tả)",
+   "fetched": true
+  },
+  {
+   "id": "N15",
+   "url": "https://tech.zingnews.vn/tro-ly-ao-tieng-viet-kiki-ra-mat-da-nen-tang-chay-duoc-tren-oto-post1164990.html",
+   "what": "Kiki: từ đánh thức 'Kiki ơi'; câu hỏi tri thức 'Dân số Hà Nội là bao nhiêu', 'Việt Nam giáp với nước nào', 'Tác giả thuyết tương đối là ai'",
+   "fetched": true
+  },
+  {
+   "id": "N16",
+   "url": "https://tech.zingnews.vn/tro-ly-ai-tren-o-to-yeu-to-khien-nguoi-mua-xe-can-nhac-khi-chot-keo-post1578442.html",
+   "what": "Cách nói địa điểm lưu sẵn khi xin chỉ đường: 'nhà', 'cơ quan', 'quê'",
+   "fetched": true
+  },
+  {
+   "id": "N17",
+   "url": "https://www.thegioididong.com/hoi-dap/huong-dan-su-dung-tro-ly-ao-google-asisstant-tren-1164688",
+   "what": "Google Assistant tiếng Việt: 'Tạo lịch hẹn', 'Tạo nhắc nhở', 'Gọi điện', 'Gửi tin nhắn', 'Đặt bàn', 'Thời tiết', 'Đặt báo thức', 'Kết quả bóng đá Euro'",
+   "fetched": true
+  },
+  {
+   "id": "N18",
+   "url": "https://vnexpress.net/nguoi-dung-noi-gi-ve-xe-dien-vinfast-4708961.html",
+   "what": "Chủ xe VF8 mô tả chức năng Vivi (chỉnh quạt gió/điều hòa, camera 360, lên xuống kính, đóng mở cốp, giá vàng/ngoại hối); chỉ là mô tả chức năng, không phải câu nói nguyên văn",
+   "fetched": true
+  },
+  {
+   "id": "N19",
+   "url": "https://baodautu.vn/vf-8-xe-em-hon-them-nhieu-tinh-nang-moi-sau-moi-lan-cap-nhat-phan-mem-d199336.html",
+   "what": "Từ đánh thức 'VinFast ơi' và 'Hey VinFast' (chỉ từ đánh thức)",
+   "fetched": true
+  },
+  {
+   "id": "N20",
+   "url": "https://www.brandsvietnam.com/congdong/topic/345237-kiki-auto-cua-zalo-ai-dat-1-trieu-luot-cai-dat-tren-o-to",
+   "what": "Mô tả chức năng Kiki Auto: dẫn đường, nhạc, tra cứu, kiểm tra phạt nguội, mở camera, tăng/giảm âm lượng, cảnh báo tốc độ (không có câu nguyên văn)",
+   "fetched": true
+  },
+  {
+   "id": "N21",
+   "url": "https://fptshop.com.vn/tin-tuc/thu-thuat/huong-dan-cai-dat-tro-ly-ao-kiki-giong-noi-tieng-viet-160618",
+   "what": "Đã đọc: chỉ mô tả nhóm chức năng Kiki (chỉ đường, mở Youtube, mở nhạc, tin tức), không có câu lệnh nguyên văn",
+   "fetched": true
+  },
+  {
+   "id": "N22",
+   "url": "https://cellphones.com.vn/sforum/tro-ly-kiki-zalo",
+   "what": "Đã đọc: chỉ mô tả nhóm chức năng Kiki, không có câu lệnh nguyên văn",
+   "fetched": true
+  },
+  {
+   "id": "N23",
+   "url": "https://www.thegioididong.com/tin-tuc/chung-ta-da-co-the-su-dung-google-assistant-bang-tieng-viet-1164350",
+   "what": "Đã đọc: chỉ mô tả chung (gọi điện, nhắn tin, bật tắt wifi, mở ứng dụng); không có câu nguyên văn",
+   "fetched": true
+  },
+  {
+   "id": "N24",
+   "url": "https://www.dienmayxanh.com/kinh-nghiem-hay/xx-meo-cuc-hay-khi-dung-google-assistant-co-the-ba-1235178",
+   "what": "Đã đọc: ví dụ Google Assistant đều bằng tiếng Anh, không dùng",
+   "fetched": true
+  },
+  {
+   "id": "N25",
+   "url": "https://vnreview.vn/threads/tro-ly-giong-noi-vivi-tren-o-to-vinfast-co-gi-noi-bat.9737/latest",
+   "what": "Không truy cập được (robots.txt chặn)",
+   "fetched": false
+  },
+  {
+   "id": "N26",
+   "url": "https://vnreview.vn/threads/huong-dan-cai-dat-kiki-dieu-khien-bang-giong-noi-tren-o-to-cuc-don-gian.2927/latest",
+   "what": "Không truy cập được (robots.txt chặn)",
+   "fetched": false
+  },
+  {
+   "id": "N27",
+   "url": "https://support.google.com/androidauto/answer/6395485",
+   "what": "Trang hỗ trợ Android Auto của Google (cả bản vi và en): lỗi khi tải",
+   "fetched": false
+  },
+  {
+   "id": "N28",
+   "url": "https://tinhte.vn/t/3241824",
+   "what": "Tinh tế 'Trên tay Kiki': lỗi khi tải",
+   "fetched": false
+  },
+  {
+   "id": "N29",
+   "url": "https://tinhte.vn/thread/2954403",
+   "what": "Tinh tế skills tiếng Việt cho Google Assistant: lỗi khi tải",
+   "fetched": false
+  },
+  {
+   "id": "N30",
+   "url": "https://om.vinfastauto.com/vi_vn",
+   "what": "Sách hướng dẫn sử dụng VinFast online: lỗi khi tải",
+   "fetched": false
+  },
+  {
+   "id": "N31",
+   "url": "https://tapchitoaan.vn/tro-ly-ao-vinfast-3.0-cham-dung-gu-nguoi-tre-15389.html",
+   "what": "Bài về Trợ lý ảo VinFast 3.0: lỗi khi tải",
+   "fetched": false
+  },
+  {
+   "id": "N32",
+   "url": "https://support.google.com/maps/answer/6251268",
+   "what": "Trợ giúp Google Maps (lệnh giọng nói): lỗi khi tải",
+   "fetched": false
+  }
+ ],
+ "intents": [
+  {
+   "case": "CS01",
+   "intent": "dan_duong_den_dia_diem",
+   "patterns": [
+    {
+     "text": "Dẫn đường đến {dia_diem}",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Chỉ đường đến {dia_diem}",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N7",
+     "register": "trung tính"
+    },
+    {
+     "text": "Chỉ đường tới {dia_diem}",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N13",
+     "register": "trung tính"
+    },
+    {
+     "text": "Làm cách nào để đến {dia_diem}?",
+     "act": "Câu hỏi",
+     "evidence": "seen",
+     "source": "N11",
+     "register": "trung tính"
+    },
+    {
+     "text": "Cho tôi đường đến {dia_diem}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đưa tôi đến {dia_diem} nhé",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Tôi muốn đi {dia_diem}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đi {dia_diem}",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "{dia_diem}, dẫn đường",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Giúp tôi tìm đường đến {dia_diem}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    },
+    {
+     "text": "Dẫn đường đến số {so_nha} {ten_duong}, {quan_huyen}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Mở bản đồ chỉ đường đến {dia_diem} đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Đường nào đến {dia_diem} nhanh nhất?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS01",
+   "intent": "ve_nha_co_quan",
+   "patterns": [
+    {
+     "text": "Chỉ đường về nhà",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N7",
+     "register": "trung tính"
+    },
+    {
+     "text": "Dẫn đường về nhà",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Dẫn đường đến cơ quan",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đưa tôi về nhà đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Về nhà",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đi làm",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tôi muốn về nhà",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đường về nhà đi hướng nào?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Chỉ đường về quê",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Dẫn tôi đến chỗ làm nhé",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Đưa tôi về {dia_chi_luu} giúp tôi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    }
+   ]
+  },
+  {
+   "case": "CS01",
+   "intent": "hoi_con_bao_xa",
+   "patterns": [
+    {
+     "text": "Từ đây đến {dia_diem} bao xa?",
+     "act": "Câu hỏi",
+     "evidence": "seen",
+     "source": "N11",
+     "register": "trung tính"
+    },
+    {
+     "text": "Còn bao xa nữa?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Còn bao nhiêu cây số nữa thì tới?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cách {dia_diem} bao xa?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đến nơi còn xa không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Còn bao nhiêu ki-lô-mét nữa?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Khoảng cách tới điểm đến là bao nhiêu?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    },
+    {
+     "text": "Bao xa nữa tới nơi?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Còn xa không",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Tới {dia_diem} còn bao nhiêu cây?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    }
+   ]
+  },
+  {
+   "case": "CS01",
+   "intent": "hoi_thoi_gian_den",
+   "patterns": [
+    {
+     "text": "Mất bao lâu để đến đó bằng ô tô?",
+     "act": "Câu hỏi",
+     "evidence": "seen",
+     "source": "N11",
+     "register": "trung tính"
+    },
+    {
+     "text": "Mấy giờ thì tới?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bao giờ đến nơi?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Còn bao lâu nữa thì đến?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đến {dia_diem} mất bao lâu?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Giờ đến dự kiến là mấy giờ?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    },
+    {
+     "text": "Khi nào mình tới nơi?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Còn mấy phút nữa?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Đi từ đây đến {dia_diem} hết bao nhiêu phút?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tôi sẽ tới lúc mấy giờ?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Còn bao lâu",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    }
+   ]
+  },
+  {
+   "case": "CS01",
+   "intent": "tranh_ket_xe_cong_trinh",
+   "patterns": [
+    {
+     "text": "Tìm đường khác tránh kẹt xe",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Có đường nào tránh tắc không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đổi đường khác đi, chỗ này kẹt quá",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Tránh công trình phía trước",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Chọn đường ít kẹt hơn",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tìm lộ trình khác giúp tôi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    },
+    {
+     "text": "Có đường vòng nào không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đi đường khác",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Né chỗ tắc đường đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Tránh khu vực đang thi công",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đường này kẹt, có lối nào khác không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS01",
+   "intent": "chon_lo_trinh",
+   "patterns": [
+    {
+     "text": "Chọn đường nhanh nhất",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đi đường ngắn nhất",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tránh cao tốc",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Không đi đường cao tốc",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tránh đường thu phí",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tránh trạm thu phí BOT",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đổi sang lộ trình ngắn nhất",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cho tôi xem các tuyến đường khác",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Ưu tiên đường nhanh nhất, đừng qua trạm thu phí",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tôi muốn đi đường quốc lộ thôi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật tránh cao tốc nhé",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Có lộ trình nào không phải trả phí không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS01",
+   "intent": "them_diem_dung",
+   "patterns": [
+    {
+     "text": "Thêm điểm dừng {dia_diem}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Ghé {dia_diem} trước rồi mới đến {dia_diem_2}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Thêm điểm dừng ở trạm xăng gần nhất",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Dừng ở {dia_diem} một chút",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Thêm một điểm dừng trên đường",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Ghé qua {dia_diem} đã",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Cho tôi ghé cây xăng trên đường đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    },
+    {
+     "text": "Thêm {dia_diem} vào lộ trình",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bỏ điểm dừng vừa thêm",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Xóa điểm dừng cuối",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS01",
+   "intent": "huy_dan_duong",
+   "patterns": [
+    {
+     "text": "Thoát chế độ dẫn đường",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Hủy dẫn đường",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Dừng dẫn đường",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tắt dẫn đường đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Thôi không đi nữa",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Hủy chuyến đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Kết thúc dẫn đường",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Không cần chỉ đường nữa",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Hủy lộ trình",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Thoát dẫn đường nhé",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    }
+   ]
+  },
+  {
+   "case": "CS01",
+   "intent": "tim_dia_diem_gan_day",
+   "patterns": [
+    {
+     "text": "Tìm {loai_dia_diem} quanh đây",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Tìm {loai_dia_diem} gần đây",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N10",
+     "register": "trung tính"
+    },
+    {
+     "text": "Tìm {loai_dia_diem} quanh {dia_diem}",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Chỉ đường tới {loai_dia_diem} gần nhất",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N13",
+     "register": "trung tính"
+    },
+    {
+     "text": "Gần đây có {loai_dia_diem} nào không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bãi đỗ xe nào gần nhất?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tìm cây xăng gần nhất",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tôi cần đổ xăng",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tôi đói",
+     "act": "Câu cụt",
+     "evidence": "seen",
+     "source": "N6",
+     "register": "trung tính"
+    },
+    {
+     "text": "Quanh đây có quán ăn nào ngon không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Có quán cà phê nào đang mở cửa gần đây không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cho tôi biết chỗ đậu xe gần đây",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    },
+    {
+     "text": "Tìm nhà hàng gần đây nhé",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    }
+   ]
+  },
+  {
+   "case": "CS01",
+   "intent": "nhac_lai_chi_dan",
+   "patterns": [
+    {
+     "text": "Nhắc lại chỉ dẫn",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Lặp lại hướng dẫn vừa rồi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Rẽ chỗ nào?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Nói lại đoạn đường vừa nãy",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tiếp theo đi hướng nào?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Sắp tới rẽ ở đâu?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đoạn tiếp theo rẽ trái hay phải?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cho nghe lại hướng dẫn",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Nhắc lại đi",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Chỉ đường lại một lần nữa",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS01",
+   "intent": "tat_bat_tieng_dan_duong",
+   "patterns": [
+    {
+     "text": "Tắt tiếng dẫn đường",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật tiếng dẫn đường",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tắt giọng chỉ đường",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật lại giọng hướng dẫn",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Chỉ đọc cảnh báo thôi, đừng đọc hướng dẫn",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Giảm âm lượng dẫn đường",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tăng âm lượng giọng chỉ đường",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tắt tiếng hướng dẫn nhé",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Đừng đọc đường nữa",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Tắt tiếng bản đồ",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS03",
+   "intent": "dieu_hoa_bat_tat_nhiet_do",
+   "patterns": [
+    {
+     "text": "Bật điều hòa {nhiet_do} độ",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật {nhiet_do} độ",
+     "act": "Câu cụt",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Tăng điều hòa lên {nhiet_do} độ",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Giảm điều hòa về {nhiet_do} độ",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Tăng điều hòa lên {delta} độ C",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N4",
+     "register": "trung tính"
+    },
+    {
+     "text": "Tăng nhiệt độ điều hòa",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N6",
+     "register": "trung tính"
+    },
+    {
+     "text": "Giảm nhiệt độ điều hòa xuống một chút",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật điều hòa lên",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tắt điều hòa đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Chỉnh điều hòa xuống {nhiet_do} độ giúp tôi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    },
+    {
+     "text": "Điều hòa lạnh thêm chút nữa",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Điều hòa bên lái {nhiet_do} độ, bên phụ {nhiet_do_2} độ",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS03",
+   "intent": "dieu_hoa_noi_nong_lanh",
+   "patterns": [
+    {
+     "text": "Tôi nóng",
+     "act": "Câu cụt",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Tôi hơi nóng",
+     "act": "Câu cụt",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Tôi nóng quá",
+     "act": "Câu cụt",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "thân mật"
+    },
+    {
+     "text": "Tôi lạnh",
+     "act": "Câu cụt",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Tôi hơi lạnh",
+     "act": "Câu cụt",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Tôi lạnh quá",
+     "act": "Câu cụt",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "thân mật"
+    },
+    {
+     "text": "Tôi thấy lạnh",
+     "act": "Câu cụt",
+     "evidence": "seen",
+     "source": "N6",
+     "register": "trung tính"
+    },
+    {
+     "text": "Nóng quá",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Trong xe nóng quá",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Lạnh quá, chỉnh lại giúp tôi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    },
+    {
+     "text": "Oi quá, bật điều hòa lên",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    }
+   ]
+  },
+  {
+   "case": "CS03",
+   "intent": "dieu_hoa_quat_gio",
+   "patterns": [
+    {
+     "text": "Đặt quạt gió mức {muc_quat}",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Tăng quạt gió lên mức {muc_quat}",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Giảm quạt gió đi {so} mức",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Tăng quạt lên",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Giảm gió xuống",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Quạt số {muc_quat}",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Quạt mạnh nhất",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Thổi nhẹ thôi",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Bật quạt gió",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Giảm quạt xuống chút nhé",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    }
+   ]
+  },
+  {
+   "case": "CS03",
+   "intent": "dieu_hoa_huong_gio",
+   "patterns": [
+    {
+     "text": "Đặt quạt gió hướng {huong_gio}",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Chỉnh quạt gió hướng {huong_gio}",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Thổi gió vào mặt",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gió xuống chân",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Thổi vào kính trước",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Chỉnh hướng gió xuống chân giúp tôi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    },
+    {
+     "text": "Đừng thổi thẳng vào mặt",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Hướng gió lên mặt và chân",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cho gió thổi lên kính",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS03",
+   "intent": "dieu_hoa_lay_gio",
+   "patterns": [
+    {
+     "text": "Lấy gió trong",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Lấy gió ngoài",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật lấy gió trong",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Chuyển sang gió ngoài",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đóng gió ngoài lại, bên ngoài nhiều bụi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Xe có mùi, lấy gió ngoài đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Tắt lấy gió trong",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cho điều hòa lấy gió ngoài nhé",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Bật chế độ tuần hoàn khí trong xe",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS03",
+   "intent": "say_kinh",
+   "patterns": [
+    {
+     "text": "Bật sấy kính",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Tắt sấy kính",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật sấy kính trước",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Sấy kính trước",
+     "act": "Câu cụt",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Dừng sấy kính trước",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Sấy kính sau",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Kính mờ quá, sấy kính đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Bật chống mờ kính",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tắt sấy kính sau",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Kính bị đọng sương, làm khô giúp tôi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    }
+   ]
+  },
+  {
+   "case": "CS03",
+   "intent": "dieu_hoa_che_do",
+   "patterns": [
+    {
+     "text": "Bật chế độ làm mát",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Tắt chế độ làm mát",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật chế độ auto",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Điều hòa để tự động",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Chuyển điều hòa sang chế độ tự động",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tắt chế độ auto",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật A/C",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cho điều hòa chạy auto đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Làm mát nhanh",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS03",
+   "intent": "ghe_suoi_lam_mat_massage",
+   "patterns": [
+    {
+     "text": "Bật sưởi ghế lái",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tắt sưởi ghế",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật làm mát ghế",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật massage ghế",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Sưởi ghế mức {muc}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Làm mát ghế phụ",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Giảm sưởi ghế xuống",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Ghế lạnh quá, bật sưởi lên",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Tắt massage đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Bật thông gió ghế lái giúp tôi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    }
+   ]
+  },
+  {
+   "case": "CS03",
+   "intent": "ghe_nho_vi_tri",
+   "patterns": [
+    {
+     "text": "Nhớ vị trí ghế này",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Lưu vị trí ghế vào bộ nhớ {so}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi lại vị trí ghế {ten_lien_he}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đưa ghế về vị trí đã lưu",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Chỉnh ghế về vị trí của tôi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Ghế lùi ra sau chút",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Nâng ghế lên",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Ghế tiến lên một chút nhé",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Dùng vị trí ghế số {so}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS03",
+   "intent": "cua_kinh",
+   "patterns": [
+    {
+     "text": "Mở cửa kính bên lái",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Hạ kính xuống",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đóng hết cửa kính",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Kéo kính lên",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Mở cửa kính sau bên phải",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Hạ kính xuống một nửa",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Mở hé kính",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đóng kính lại đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Hạ kính phụ xuống giúp tôi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    },
+    {
+     "text": "Mở tất cả các cửa kính",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS03",
+   "intent": "cua_so_troi",
+   "patterns": [
+    {
+     "text": "Mở cửa sổ trời",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đóng cửa sổ trời",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Mở hé cửa sổ trời",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Mở rèm che nắng cửa sổ trời",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đóng rèm lại",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Mở cửa sổ trời một nửa",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đóng cửa sổ trời lại đi, trời mưa rồi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Kéo rèm cửa sổ trời",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cho tôi mở cửa sổ trời",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    }
+   ]
+  },
+  {
+   "case": "CS03",
+   "intent": "den_noi_that",
+   "patterns": [
+    {
+     "text": "Bật đèn nội thất",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tắt đèn trong xe",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật đèn đọc sách",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đổi màu đèn nội thất sang màu xanh",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Giảm độ sáng đèn trong xe",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật đèn trần",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tối quá, bật đèn lên",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Tắt đèn nền đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Đèn nội thất sáng hơn chút",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS03",
+   "intent": "khoa_mo_cua",
+   "patterns": [
+    {
+     "text": "Khóa cửa",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Mở khóa cửa",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Khóa xe lại",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Mở khóa xe",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Mở cửa xe",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Khóa hết các cửa",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cửa đã khóa chưa?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật khóa trẻ em",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Mở khóa cửa phía sau",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Khóa cửa giúp tôi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    }
+   ]
+  },
+  {
+   "case": "CS03",
+   "intent": "guong",
+   "patterns": [
+    {
+     "text": "Gập gương lại",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Mở gương ra",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Chỉnh gương chiếu hậu bên phải xuống",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gập gương chiếu hậu",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật sấy gương",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Chỉnh gương bên trái ra ngoài một chút",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tự gập gương khi khóa xe",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Hạ gương phụ xuống khi lùi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gương phải nghiêng xuống chút nhé",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    }
+   ]
+  },
+  {
+   "case": "CS03",
+   "intent": "cop_xe",
+   "patterns": [
+    {
+     "text": "Mở cốp",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Đóng cốp",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Mở cốp xe",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Đóng cốp xe",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Mở nắp xe sau",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Đóng nắp xe sau",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Mở cốp sau giúp tôi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    },
+    {
+     "text": "Đóng cốp lại đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Mở cốp trước",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cốp mở ra",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS03",
+   "intent": "gat_mua",
+   "patterns": [
+    {
+     "text": "Bật gạt mưa",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tắt cần gạt mưa",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gạt mưa nhanh lên",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gạt mưa chậm lại",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật gạt mưa tự động",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gạt nước một lần",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Mưa to quá, tăng gạt mưa lên",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Bật gạt mưa phía sau",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Phun nước rửa kính",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật gạt mưa giúp tôi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    }
+   ]
+  },
+  {
+   "case": "CS03",
+   "intent": "che_do_lai",
+   "patterns": [
+    {
+     "text": "Chuyển sang chế độ lái thể thao",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Chế độ lái tiết kiệm",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Chuyển chế độ Eco",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật chế độ Sport",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Chuyển sang chế độ lái thường",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đổi chế độ lái",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật chế độ lái êm",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tắt chế độ thể thao đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Chọn chế độ lái Normal",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cho xe chạy chế độ tiết kiệm nhé",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    }
+   ]
+  },
+  {
+   "case": "CS03",
+   "intent": "wifi_camera",
+   "patterns": [
+    {
+     "text": "Bật wifi",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Tắt wifi",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật wifi trên xe",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Mở camera trước",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Mở camera sau",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật camera 360",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tắt camera đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Bật camera lùi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Mở camera hành trình",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS04",
+   "intent": "phat_bai_ca_si",
+   "patterns": [
+    {
+     "text": "Mở bài hát {bai_hat} của {ca_si}",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Mở bài {bai_hat}",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N12",
+     "register": "trung tính"
+    },
+    {
+     "text": "Phát nhạc của {ca_si}",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N10",
+     "register": "trung tính"
+    },
+    {
+     "text": "Mở nhạc của {ca_si}",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N14",
+     "register": "trung tính"
+    },
+    {
+     "text": "Mở nhạc {ca_si}",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N12",
+     "register": "trung tính"
+    },
+    {
+     "text": "Phát {bai_hat} của {ca_si}",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N11",
+     "register": "trung tính"
+    },
+    {
+     "text": "Phát bài hát {bai_hat} của {ca_si}",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N11",
+     "register": "trung tính"
+    },
+    {
+     "text": "Phát nhạc {bai_hat}",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N10",
+     "register": "trung tính"
+    },
+    {
+     "text": "Cho nghe bài {bai_hat} đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Bật bài {bai_hat} lên",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Nghe {ca_si} đi",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Tôi muốn nghe bài {bai_hat}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Mở bài {bai_hat} giúp tôi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    },
+    {
+     "text": "Bật mấy bài hay của {ca_si} nhé",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    }
+   ]
+  },
+  {
+   "case": "CS04",
+   "intent": "phat_the_loai_playlist",
+   "patterns": [
+    {
+     "text": "Mở nhạc {the_loai}",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N12",
+     "register": "trung tính"
+    },
+    {
+     "text": "Mở bảng xếp hạng nhạc Việt",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N12",
+     "register": "trung tính"
+    },
+    {
+     "text": "Phát nhạc {the_loai}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật playlist {ten_playlist}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Mở danh sách nhạc yêu thích",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật nhạc không lời",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cho nghe nhạc trữ tình đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Mở nhạc cho buổi sáng",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Phát nhạc nhẹ nhàng để dễ lái xe",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật nhạc thiếu nhi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật nhạc lên",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Mở nhạc đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    }
+   ]
+  },
+  {
+   "case": "CS04",
+   "intent": "nguon_nhac_bluetooth_usb",
+   "patterns": [
+    {
+     "text": "Bật nhạc từ Bluetooth",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Phát nhạc từ Bluetooth",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Mở nhạc từ USB",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Phát nhạc từ USB",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật nhạc từ điện thoại",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Chuyển sang nguồn USB",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Kết nối Bluetooth với điện thoại",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Chuyển nguồn âm thanh sang Bluetooth",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Nghe nhạc trong USB",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Mở nhạc trong USB giúp tôi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    }
+   ]
+  },
+  {
+   "case": "CS04",
+   "intent": "radio",
+   "patterns": [
+    {
+     "text": "Mở đài Radio",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Mở kênh {kenh_radio}",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Mở đài {kenh_radio}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tắt đài",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Chuyển sang đài {tan_so}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật đài FM {tan_so}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Chuyển kênh tiếp theo",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tìm đài khác",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Nghe radio",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật đài lên nhé",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    }
+   ]
+  },
+  {
+   "case": "CS04",
+   "intent": "podcast",
+   "patterns": [
+    {
+     "text": "Mở Podcast chủ đề {chu_de}",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Dừng Podcast",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Phát podcast {ten_podcast}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Mở tập mới nhất của podcast {ten_podcast}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tiếp tục nghe podcast",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Chuyển sang tập tiếp theo",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Nghe podcast về {chu_de}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tua podcast {so} phút",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật podcast cho tôi nghe",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    }
+   ]
+  },
+  {
+   "case": "CS04",
+   "intent": "am_luong",
+   "patterns": [
+    {
+     "text": "Tăng âm lượng",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N10",
+     "register": "trung tính"
+    },
+    {
+     "text": "Giảm âm lượng",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N10",
+     "register": "trung tính"
+    },
+    {
+     "text": "Tăng âm lượng lên {muc}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Âm lượng {phan_tram} phần trăm",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Nhỏ tiếng xuống",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "To lên chút",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Tắt tiếng",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật tiếng lại",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Nhạc to quá",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Vặn nhỏ lại đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Âm lượng tối đa",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Giảm tiếng nhạc một chút nhé",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    }
+   ]
+  },
+  {
+   "case": "CS04",
+   "intent": "chuyen_bai_tam_dung",
+   "patterns": [
+    {
+     "text": "Chuyển bài hát sau",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Chuyển bài hát trước",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Bài hát tiếp theo",
+     "act": "Câu cụt",
+     "evidence": "seen",
+     "source": "N7",
+     "register": "trung tính"
+    },
+    {
+     "text": "Dừng nhạc",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Tạm dừng",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tiếp tục phát",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Phát lại bài này",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bài trước",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Qua bài đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Tua nhanh {so} giây",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Lặp lại bài này",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Phát ngẫu nhiên",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Hẹn giờ tắt nhạc sau {so} phút",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS04",
+   "intent": "yeu_thich",
+   "patterns": [
+    {
+     "text": "Thêm bài này vào yêu thích",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Thích bài này",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Lưu bài hát này vào danh sách yêu thích",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bỏ yêu thích bài này",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Thêm vào playlist {ten_playlist}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bài này hay đấy, lưu lại nhé",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Xóa bài này khỏi yêu thích",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đánh dấu bài này giúp tôi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    },
+    {
+     "text": "Thả tim bài này",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    }
+   ]
+  },
+  {
+   "case": "CS04",
+   "intent": "hoi_bai_dang_phat",
+   "patterns": [
+    {
+     "text": "Bài này là bài gì?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bài đang phát là bài nào?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Ai hát bài này vậy?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Đây là bài hát gì?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tên bài hát này là gì?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bài vừa rồi là bài gì?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Ca sĩ nào đang hát?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bài này của ai?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Cho tôi biết tên bài đang phát",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    },
+    {
+     "text": "Đang phát bài nào thế",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    }
+   ]
+  },
+  {
+   "case": "CS05",
+   "intent": "goi_theo_ten",
+   "patterns": [
+    {
+     "text": "Gọi cho {ten_lien_he}",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N7",
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi điện cho {ten_lien_he}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi {ten_lien_he}",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi {ten_lien_he} đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Gọi cho {ten_lien_he} ở cơ quan",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi điện cho {ten_lien_he} giúp tôi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    },
+    {
+     "text": "Gọi {ten_lien_he} bằng Zalo",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi lại cho {ten_lien_he}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cho tôi gọi {ten_lien_he}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi cho {ten_lien_he} số di động",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi cho mẹ",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N8",
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS05",
+   "intent": "goi_theo_so",
+   "patterns": [
+    {
+     "text": "Gọi điện tới số {so_dien_thoai}",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N4",
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi cho số {so_dien_thoai}",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N10",
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi số {so_dien_thoai}",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Quay số {so_dien_thoai}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi tới số {so_dien_thoai} giúp tôi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    },
+    {
+     "text": "Gọi số điện thoại {so_dien_thoai}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bấm gọi số {so_dien_thoai}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi điện cho số {so_dien_thoai} nhé",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Gọi đến số {so_dien_thoai}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS05",
+   "intent": "nhan_tu_choi_cuoc_goi",
+   "patterns": [
+    {
+     "text": "Nghe máy",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Trả lời cuộc gọi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Nhận cuộc gọi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Từ chối cuộc gọi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cúp máy",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Kết thúc cuộc gọi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bắt máy đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Không nghe, từ chối đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Ai gọi vậy?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Từ chối và nhắn là tôi đang lái xe",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS05",
+   "intent": "goi_lai",
+   "patterns": [
+    {
+     "text": "Gọi lại số vừa rồi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi lại cho người vừa gọi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi lại cuộc gọi nhỡ",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi lại",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Ai vừa gọi nhỡ?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi lại số gần nhất",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Quay số lại",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cuộc gọi nhỡ gần nhất là của ai?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi lại cho người đã gọi nhỡ nhé",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    }
+   ]
+  },
+  {
+   "case": "CS05",
+   "intent": "soan_gui_tin_nhan",
+   "patterns": [
+    {
+     "text": "Nhắn tin cho {ten_lien_he} {noi_dung}",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N7",
+     "register": "trung tính"
+    },
+    {
+     "text": "Gửi tin nhắn cho {ten_lien_he} rằng {noi_dung}",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N7",
+     "register": "trung tính"
+    },
+    {
+     "text": "Nhắn cho {ten_lien_he} là {noi_dung}",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N8",
+     "register": "trung tính"
+    },
+    {
+     "text": "Gửi tin nhắn cho {ten_lien_he} {noi_dung}",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N10",
+     "register": "trung tính"
+    },
+    {
+     "text": "Soạn tin nhắn cho {ten_lien_he}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gửi tin nhắn cho {ten_lien_he}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Nhắn lại là tôi đến sau",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Trả lời tin nhắn: {noi_dung}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gửi đi",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Sửa lại tin nhắn",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Nhắn tin cho {ten_lien_he} nội dung là {noi_dung} nhé",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    }
+   ]
+  },
+  {
+   "case": "CS05",
+   "intent": "doc_tin_nhan",
+   "patterns": [
+    {
+     "text": "Đọc tin nhắn mới nhất",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N8",
+     "register": "trung tính"
+    },
+    {
+     "text": "Đọc tin nhắn",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Có tin nhắn mới không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đọc tin nhắn của {ten_lien_he}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đọc lại tin nhắn",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Ai nhắn tin cho tôi vậy?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Đọc tin nhắn chưa đọc",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tin nhắn cuối cùng là gì?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đọc giúp tôi tin nhắn mới",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    }
+   ]
+  },
+  {
+   "case": "CS05",
+   "intent": "doc_thong_bao",
+   "patterns": [
+    {
+     "text": "Đọc thông báo",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Có thông báo gì mới không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đọc thông báo mới nhất",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đọc thông báo từ {ung_dung}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bỏ qua thông báo này",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tắt đọc thông báo",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đọc to thông báo lên",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tôi có thông báo nào không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đọc giúp tôi thông báo Messenger",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    }
+   ]
+  },
+  {
+   "case": "CS05",
+   "intent": "nhan_zalo",
+   "patterns": [
+    {
+     "text": "Nhắn Zalo cho {ten_lien_he}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Nhắn Zalo cho {ten_lien_he} là {noi_dung}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gửi tin Zalo cho {ten_lien_he}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đọc tin nhắn Zalo",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Trả lời Zalo của {ten_lien_he}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Có tin Zalo mới không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi Zalo cho {ten_lien_he}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Nhắn qua Zalo là tôi sắp đến nhé",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Soạn tin Zalo gửi {ten_lien_he}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Zalo của {ten_lien_he} nói gì vậy?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    }
+   ]
+  },
+  {
+   "case": "CS06",
+   "intent": "ap_suat_lop",
+   "patterns": [
+    {
+     "text": "Áp suất lốp bao nhiêu?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Kiểm tra áp suất lốp",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Lốp xe có đủ hơi không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Áp suất lốp trước bên trái là bao nhiêu?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Lốp nào đang thiếu hơi?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Xem áp suất bốn bánh",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Áp suất lốp sau bao nhiêu psi?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cho tôi biết tình trạng lốp",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    },
+    {
+     "text": "Bánh xe có bị xì hơi không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Áp suất lốp",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS06",
+   "intent": "nhien_lieu_quang_duong",
+   "patterns": [
+    {
+     "text": "Còn bao nhiêu xăng?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Xe còn đi được bao nhiêu cây số?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Với lượng xăng này đi được bao xa?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Còn xăng không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Mức nhiên liệu hiện tại là bao nhiêu?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Xăng còn mấy phần trăm?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Còn đủ xăng đến {dia_diem} không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Lượng xăng còn lại bao nhiêu lít?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Mức tiêu hao nhiên liệu hiện tại là bao nhiêu?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Nhiên liệu",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS06",
+   "intent": "bao_duong",
+   "patterns": [
+    {
+     "text": "Khi nào cần bảo dưỡng?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Còn bao nhiêu km nữa thì bảo dưỡng?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đến hạn bảo dưỡng chưa?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Lần bảo dưỡng tiếp theo là khi nào?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Nhắc tôi đi bảo dưỡng xe",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đã đến lúc thay dầu chưa?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Kiểm tra lịch bảo dưỡng",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đặt lịch bảo dưỡng xe",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bao giờ phải thay lốp?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cần thay dầu chưa nhỉ?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    }
+   ]
+  },
+  {
+   "case": "CS06",
+   "intent": "den_canh_bao",
+   "patterns": [
+    {
+     "text": "Đèn cảnh báo này là gì?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đèn vàng trên đồng hồ báo gì vậy?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Xe có đang báo lỗi gì không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Có cảnh báo nào trên xe không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đèn động cơ sáng là sao?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Đèn báo phanh sáng, lỗi gì thế?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Kiểm tra lỗi xe",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đèn cảnh báo lốp sáng là sao?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Xe báo lỗi gì vậy?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Kiểm tra giúp tôi các đèn cảnh báo",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    }
+   ]
+  },
+  {
+   "case": "CS06",
+   "intent": "nhiet_do_dong_co",
+   "patterns": [
+    {
+     "text": "Nhiệt độ động cơ bao nhiêu?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Động cơ có nóng quá không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Nhiệt độ nước làm mát bao nhiêu?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Xe có bị quá nhiệt không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Kiểm tra nhiệt độ máy",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Máy có nóng không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Nhiệt độ dầu bao nhiêu?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Kim nhiệt độ có bình thường không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Xem nhiệt độ động cơ giúp tôi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    }
+   ]
+  },
+  {
+   "case": "CS06",
+   "intent": "so_km_da_di",
+   "patterns": [
+    {
+     "text": "Xe đã đi được bao nhiêu km?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Số km đã đi là bao nhiêu?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đồng hồ công-tơ-mét bao nhiêu?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Hôm nay đã chạy bao nhiêu cây?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Chuyến này đi được bao xa rồi?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tổng số km của xe là bao nhiêu?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Quãng đường chuyến đi hiện tại",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Odo hiện tại là bao nhiêu?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đã đi bao nhiêu km rồi?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    }
+   ]
+  },
+  {
+   "case": "CS07",
+   "intent": "phan_tram_pin",
+   "patterns": [
+    {
+     "text": "Pin còn bao nhiêu phần trăm?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Còn bao nhiêu pin?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Dung lượng pin hiện tại là bao nhiêu?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Pin xe còn mấy phần trăm?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Mức pin bao nhiêu rồi?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Kiểm tra pin",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Pin còn nhiều không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Xem phần trăm pin giúp tôi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    },
+    {
+     "text": "Pin sắp hết chưa?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Pin",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS07",
+   "intent": "quang_duong_con_lai_ev",
+   "patterns": [
+    {
+     "text": "Pin còn đi được bao xa?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Quãng đường còn lại là bao nhiêu km?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Với lượng pin này đi được bao nhiêu cây số?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Có đủ pin đến {dia_diem} không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Còn chạy được bao nhiêu km nữa?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Pin có đủ để đi về nhà không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đến {dia_diem} thì còn bao nhiêu phần trăm pin?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Quãng đường đi được còn bao nhiêu?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Về đến nhà còn dư bao nhiêu pin?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    }
+   ]
+  },
+  {
+   "case": "CS07",
+   "intent": "tim_tram_sac",
+   "patterns": [
+    {
+     "text": "Tìm trạm sạc quanh đây",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Tìm trạm sạc quanh {dia_diem}",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Trạm sạc gần nhất ở đâu?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Dẫn đường đến trạm sạc gần nhất",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Có trạm sạc nào trên đường đi không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tìm trạm sạc nhanh",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tìm trạm sạc còn trống",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gần đây có trạm sạc không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Tìm trạm sạc dọc đường đi giúp tôi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    },
+    {
+     "text": "Chỉ đường đến trạm sạc {ten_tram_sac}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS07",
+   "intent": "thoi_gian_chi_phi_sac",
+   "patterns": [
+    {
+     "text": "Sạc đầy mất bao lâu?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Sạc từ {phan_tram} lên 80 phần trăm mất bao lâu?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Còn bao lâu nữa thì sạc đầy?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Sạc hết bao nhiêu tiền?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Chi phí sạc lần này là bao nhiêu?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bao giờ sạc xong?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Thời gian sạc còn lại?",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Sạc đến 80 phần trăm mất bao nhiêu phút?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Giá sạc ở đây bao nhiêu một ki-lô-oát giờ?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tiền sạc hôm nay hết bao nhiêu?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    }
+   ]
+  },
+  {
+   "case": "CS07",
+   "intent": "cong_sac",
+   "patterns": [
+    {
+     "text": "Mở nắp cổng sạc",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đóng nắp cổng sạc",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Mở cổng sạc",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cổng sạc đã đóng chưa?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Mở nắp sạc ra",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Nhả súng sạc",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Mở khóa đầu sạc",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đóng nắp sạc lại đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Bật đèn cổng sạc",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Mở cổng sạc giúp tôi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    }
+   ]
+  },
+  {
+   "case": "CS07",
+   "intent": "gioi_han_sac",
+   "patterns": [
+    {
+     "text": "Đặt giới hạn sạc {phan_tram} phần trăm",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Chỉ sạc đến {phan_tram} phần trăm thôi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Giới hạn sạc hiện tại là bao nhiêu?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đổi giới hạn sạc lên {phan_tram} phần trăm",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Dừng sạc ở {phan_tram} phần trăm",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tắt giới hạn sạc",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Sạc đầy 100 phần trăm",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cho sạc tới {phan_tram} thôi nhé",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Đặt mức sạc tối đa là {phan_tram}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS07",
+   "intent": "hen_gio_sac",
+   "patterns": [
+    {
+     "text": "Hẹn giờ sạc lúc {thoi_gian}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đặt lịch sạc ban đêm",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bắt đầu sạc lúc {thoi_gian}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Hẹn giờ sạc xong trước {thoi_gian}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Hủy hẹn giờ sạc",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Sạc vào giờ thấp điểm",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bắt đầu sạc ngay",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Dừng sạc",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Lịch hẹn sạc hiện tại là gì?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Hẹn sạc xe sau {thoi_gian} nhé",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    }
+   ]
+  },
+  {
+   "case": "CS08",
+   "intent": "tac_duong_phia_truoc",
+   "patterns": [
+    {
+     "text": "Phía trước có tắc đường không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tình hình giao thông phía trước thế nào?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tình hình giao thông trên đường đến {dia_diem} của tôi như thế nào?",
+     "act": "Câu hỏi",
+     "evidence": "seen",
+     "source": "N11",
+     "register": "trung tính"
+    },
+    {
+     "text": "Đường phía trước có kẹt không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Có kẹt xe không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Kẹt xe đến đâu?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Phía trước đang ùn tắc à?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Đường {ten_duong} có đông không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Còn kẹt bao lâu nữa?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Tắc đường ở đâu?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Giao thông",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS08",
+   "intent": "tai_nan_su_co",
+   "patterns": [
+    {
+     "text": "Phía trước có tai nạn không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Có tai nạn trên đường đi không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Sao đường phía trước tắc vậy, có tai nạn à?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Cảnh báo tai nạn trên tuyến này",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Có sự cố gì trên đường không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Có công trình thi công phía trước không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Có ngập nước ở phía trước không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tai nạn ở chỗ nào vậy?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Báo cho tôi các sự cố phía trước",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    }
+   ]
+  },
+  {
+   "case": "CS08",
+   "intent": "toc_do_toi_da",
+   "patterns": [
+    {
+     "text": "Tốc độ tối đa của đoạn đường này là bao nhiêu?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Giới hạn tốc độ ở đây là bao nhiêu?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đoạn này chạy tối đa bao nhiêu ki-lô-mét một giờ?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tốc độ cho phép là bao nhiêu?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Giới hạn tốc độ",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tôi đang chạy quá tốc độ không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đường này giới hạn mấy chục?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Cao tốc này chạy tối đa bao nhiêu?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cho tôi biết giới hạn tốc độ đoạn này",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    }
+   ]
+  },
+  {
+   "case": "CS08",
+   "intent": "camera_phat_nguoi",
+   "patterns": [
+    {
+     "text": "Phía trước có camera phạt nguội không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Có camera giám sát tốc độ không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Báo camera phạt nguội",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cảnh báo camera tốc độ",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Còn bao xa tới camera tiếp theo?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật cảnh báo camera phạt nguội",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Có bắn tốc độ phía trước không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Đoạn này có camera không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Kiểm tra phạt nguội xe của tôi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tắt cảnh báo camera",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS08",
+   "intent": "thoi_tiet_hom_nay_mai",
+   "patterns": [
+    {
+     "text": "Thời tiết hôm nay thế nào?",
+     "act": "Câu hỏi",
+     "evidence": "seen",
+     "source": "N7",
+     "register": "trung tính"
+    },
+    {
+     "text": "Thời tiết ngày mai thế nào?",
+     "act": "Câu hỏi",
+     "evidence": "seen",
+     "source": "N10",
+     "register": "trung tính"
+    },
+    {
+     "text": "Hôm nay có mưa không?",
+     "act": "Câu hỏi",
+     "evidence": "seen",
+     "source": "N8",
+     "register": "trung tính"
+    },
+    {
+     "text": "Dự báo thời tiết hôm nay",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N8",
+     "register": "trung tính"
+    },
+    {
+     "text": "Thời tiết bên ngoài thế nào",
+     "act": "Câu hỏi",
+     "evidence": "seen",
+     "source": "N12",
+     "register": "trung tính"
+    },
+    {
+     "text": "Thời tiết",
+     "act": "Câu cụt",
+     "evidence": "seen",
+     "source": "N17",
+     "register": "trung tính"
+    },
+    {
+     "text": "Thời tiết ở {thanh_pho} thế nào?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Ngày mai trời có nắng không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cuối tuần này thời tiết ra sao?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Thời tiết ở {dia_diem} lúc tôi đến thế nào?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS08",
+   "intent": "nhiet_do_mua",
+   "patterns": [
+    {
+     "text": "Nhiệt độ ngoài trời bao nhiêu?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bây giờ bao nhiêu độ?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Hôm nay nóng bao nhiêu độ?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Chiều nay có mưa không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Khi nào thì tạnh mưa?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Xác suất mưa bao nhiêu phần trăm?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Ở {thanh_pho} đang mưa không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Mưa to không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Trời có mưa dọc đường không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Nhiệt độ cao nhất hôm nay là bao nhiêu?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS08",
+   "intent": "chat_luong_khong_khi",
+   "patterns": [
+    {
+     "text": "Chất lượng không khí hôm nay thế nào?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Chỉ số AQI bao nhiêu?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Không khí ở {thanh_pho} có ô nhiễm không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bụi mịn hôm nay bao nhiêu?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Chỉ số bụi PM2.5 hiện tại là bao nhiêu?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Hôm nay không khí có tốt không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "AQI {thanh_pho}",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Không khí bên ngoài có sạch không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Chất lượng không khí quanh đây",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS08",
+   "intent": "gio_den_theo_giao_thong",
+   "patterns": [
+    {
+     "text": "Với tình hình giao thông này mấy giờ tới nơi?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Mấy giờ tôi đến {dia_diem} nếu đi bây giờ?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Giờ đến có bị trễ vì kẹt xe không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Nếu đi đường này thì mấy giờ đến?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Có kịp đến {dia_diem} lúc {thoi_gian} không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Giờ đến mới nhất là mấy giờ?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cập nhật giờ đến giúp tôi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    }
+   ]
+  },
+  {
+   "case": "CS10",
+   "intent": "nhac_viec",
+   "patterns": [
+    {
+     "text": "Nhắc tôi {noi_dung}",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N7",
+     "register": "trung tính"
+    },
+    {
+     "text": "Nhắc tôi {noi_dung} vào {thoi_gian}",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N12",
+     "register": "trung tính"
+    },
+    {
+     "text": "Nhắc tôi {noi_dung} lúc {thoi_gian}",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N8",
+     "register": "trung tính"
+    },
+    {
+     "text": "Đặt lời nhắc {noi_dung} vào lúc {thoi_gian}",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N7",
+     "register": "trung tính"
+    },
+    {
+     "text": "Tạo nhắc nhở",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N17",
+     "register": "trung tính"
+    },
+    {
+     "text": "Nhắc tôi {noi_dung} vào lúc {thoi_gian} hàng ngày",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N11",
+     "register": "trung tính"
+    },
+    {
+     "text": "Nhắc tôi khi đến nơi là gọi cho {ten_lien_he}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Mai nhắc tôi {noi_dung}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Nhớ nhắc tôi nhé",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Nhắc tôi mua {mon_hang} khi đi ngang siêu thị",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đặt nhắc nhở giúp tôi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    }
+   ]
+  },
+  {
+   "case": "CS10",
+   "intent": "dat_lich",
+   "patterns": [
+    {
+     "text": "Đặt lịch hẹn với {ten_lien_he} vào {thoi_gian} tại {dia_diem}",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N10",
+     "register": "trung tính"
+    },
+    {
+     "text": "Đặt lịch họp với {ten_lien_he} vào {thoi_gian}",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N8",
+     "register": "trung tính"
+    },
+    {
+     "text": "Tạo lịch hẹn",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N17",
+     "register": "trung tính"
+    },
+    {
+     "text": "Hôm nay tôi có lịch gì?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Lịch ngày mai có gì?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cuộc họp tiếp theo là lúc nào?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Thêm sự kiện vào lịch",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Hủy lịch họp lúc {thoi_gian}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Dời cuộc họp sang {thoi_gian}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đặt bàn",
+     "act": "Câu cụt",
+     "evidence": "seen",
+     "source": "N17",
+     "register": "trung tính"
+    },
+    {
+     "text": "Xem lịch tuần này giúp tôi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    }
+   ]
+  },
+  {
+   "case": "CS10",
+   "intent": "bao_thuc_hen_gio",
+   "patterns": [
+    {
+     "text": "Đặt báo thức lúc {thoi_gian}",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N10",
+     "register": "trung tính"
+    },
+    {
+     "text": "Đặt báo thức",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N17",
+     "register": "trung tính"
+    },
+    {
+     "text": "Đánh thức tôi lúc {thoi_gian}",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N8",
+     "register": "trung tính"
+    },
+    {
+     "text": "Hẹn giờ {so} phút",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tắt báo thức",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Hủy báo thức {thoi_gian}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Báo thức mấy giờ?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đếm ngược {so} phút",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Hoãn báo thức {so} phút nữa",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đặt báo thức ngày mai lúc {thoi_gian} nhé",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    }
+   ]
+  },
+  {
+   "case": "CS10",
+   "intent": "hoi_gio_ngay",
+   "patterns": [
+    {
+     "text": "Mấy giờ rồi?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Bây giờ là mấy giờ?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Hôm nay là thứ mấy?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Hôm nay ngày bao nhiêu?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Hôm nay là ngày mấy âm lịch",
+     "act": "Câu hỏi",
+     "evidence": "seen",
+     "source": "N12",
+     "register": "trung tính"
+    },
+    {
+     "text": "Mai là thứ mấy?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Giờ ở {thanh_pho} là mấy giờ?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Còn mấy ngày nữa đến Tết?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cho tôi biết bây giờ là mấy giờ",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    }
+   ]
+  },
+  {
+   "case": "CS10",
+   "intent": "hoi_quan_an",
+   "patterns": [
+    {
+     "text": "Hôm nay ăn gì nhỉ?",
+     "act": "Câu hỏi",
+     "evidence": "seen",
+     "source": "N5",
+     "register": "thân mật"
+    },
+    {
+     "text": "Tôi đói",
+     "act": "Câu cụt",
+     "evidence": "seen",
+     "source": "N6",
+     "register": "trung tính"
+    },
+    {
+     "text": "Gợi ý quán ăn ngon gần đây",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Quanh đây có quán phở nào ngon không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tìm nhà hàng hải sản",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Quán cơm nào mở cửa giờ này?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đặt bàn ở {ten_quan} lúc {thoi_gian}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cho tôi số điện thoại quán {ten_quan}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    },
+    {
+     "text": "Ăn trưa ở đâu bây giờ nhỉ?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Đề xuất chỗ ăn tối cho {so} người",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS10",
+   "intent": "hoi_dap_chung",
+   "patterns": [
+    {
+     "text": "Dân số Hà Nội là bao nhiêu",
+     "act": "Câu hỏi",
+     "evidence": "seen",
+     "source": "N15",
+     "register": "trung tính"
+    },
+    {
+     "text": "Việt Nam giáp với nước nào",
+     "act": "Câu hỏi",
+     "evidence": "seen",
+     "source": "N15",
+     "register": "trung tính"
+    },
+    {
+     "text": "Tác giả thuyết tương đối là ai",
+     "act": "Câu hỏi",
+     "evidence": "seen",
+     "source": "N15",
+     "register": "trung tính"
+    },
+    {
+     "text": "Ai là người sáng lập Apple?",
+     "act": "Câu hỏi",
+     "evidence": "seen",
+     "source": "N8",
+     "register": "trung tính"
+    },
+    {
+     "text": "12 x 15 bằng bao nhiêu",
+     "act": "Câu hỏi",
+     "evidence": "seen",
+     "source": "N12",
+     "register": "trung tính"
+    },
+    {
+     "text": "250 Đô là bao nhiêu tiền Việt",
+     "act": "Câu hỏi",
+     "evidence": "seen",
+     "source": "N12",
+     "register": "trung tính"
+    },
+    {
+     "text": "Giá vàng hôm nay",
+     "act": "Câu cụt",
+     "evidence": "seen",
+     "source": "N12",
+     "register": "trung tính"
+    },
+    {
+     "text": "Tính 15 nhân với 25",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N8",
+     "register": "trung tính"
+    },
+    {
+     "text": "Đổi 100 USD sang VND",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N8",
+     "register": "trung tính"
+    },
+    {
+     "text": "Thủ đô của {quoc_gia} là gì?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Làm sao để giảm cân",
+     "act": "Câu hỏi",
+     "evidence": "seen",
+     "source": "N5",
+     "register": "trung tính"
+    },
+    {
+     "text": "Tại sao trời lại mưa?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS10",
+   "intent": "chao_cam_on",
+   "patterns": [
+    {
+     "text": "Cảm ơn",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cảm ơn nhé",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Cảm ơn bạn nhiều",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    },
+    {
+     "text": "Xin chào",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Chào buổi sáng",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Chào bạn",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Tạm biệt",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Hẹn gặp lại",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Bạn khỏe không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Giỏi lắm, cảm ơn",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    }
+   ]
+  },
+  {
+   "case": "CS10",
+   "intent": "tro_chuyen_tam_su",
+   "patterns": [
+    {
+     "text": "Tôi buồn quá",
+     "act": "Câu cụt",
+     "evidence": "seen",
+     "source": "N5",
+     "register": "thân mật"
+    },
+    {
+     "text": "Tâm sự với tôi đi",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N5",
+     "register": "thân mật"
+    },
+    {
+     "text": "Bạn yêu ai nhất",
+     "act": "Câu hỏi",
+     "evidence": "seen",
+     "source": "N5",
+     "register": "thân mật"
+    },
+    {
+     "text": "Chỉ tôi mấy câu thả thính",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N5",
+     "register": "thân mật"
+    },
+    {
+     "text": "Tôi mệt quá",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Nói chuyện với tôi một lát đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Hát cho tôi nghe đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Bạn tên là gì?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Hôm nay tôi vui lắm",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    }
+   ]
+  },
+  {
+   "case": "CS10",
+   "intent": "ke_chuyen_cuoi",
+   "patterns": [
+    {
+     "text": "Kể truyện cười",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Kể nhiều truyện cười",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Kể {so} truyện cười",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N1",
+     "register": "trung tính"
+    },
+    {
+     "text": "Kể chuyện cười đi {wake}",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N5",
+     "register": "thân mật"
+    },
+    {
+     "text": "Kể chuyện cười đi",
+     "act": "Lệnh",
+     "evidence": "seen",
+     "source": "N5",
+     "register": "thân mật"
+    },
+    {
+     "text": "Cho tôi nghe một câu chuyện cười",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    },
+    {
+     "text": "Kể chuyện tiếu lâm",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Có chuyện cười nào mới không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Kể thêm một chuyện nữa",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Đố vui tôi một câu đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    }
+   ]
+  },
+  {
+   "case": "CS10",
+   "intent": "tin_tuc",
+   "patterns": [
+    {
+     "text": "Hôm nay có tin gì mới",
+     "act": "Câu hỏi",
+     "evidence": "seen",
+     "source": "N12",
+     "register": "trung tính"
+    },
+    {
+     "text": "Đọc tin tức mới nhất",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đọc tin tức",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Có tin gì nóng không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Đọc báo cho tôi nghe",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tin thể thao hôm nay",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tin giao thông mới nhất",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cho nghe bản tin sáng",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đọc tiêu đề tin hôm nay",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tin tức về {chu_de}",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đọc tiếp tin sau",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS12",
+   "intent": "noi_lai",
+   "patterns": [
+    {
+     "text": "Nói lại",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bạn nói lại được không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    },
+    {
+     "text": "Nhắc lại đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Gì cơ?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Tôi chưa nghe rõ, nói lại giúp tôi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    },
+    {
+     "text": "Lặp lại câu vừa rồi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Nói chậm lại một chút",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Hả?",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Bạn vừa nói gì vậy?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Đọc lại",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS12",
+   "intent": "sua_lenh",
+   "patterns": [
+    {
+     "text": "Không phải, ý tôi là {cau_dung}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Nhầm rồi, {cau_dung}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Sai rồi, tôi muốn đến {dia_diem}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Không, ý tôi là bài {bai_hat}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Sửa lại thành {nhiet_do} độ",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đổi lại thành {dia_diem}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Ý tôi là {ca_si} cơ",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Không đúng, làm lại",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tôi nói là {dia_diem}, không phải chỗ đó",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Chọn lại",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS12",
+   "intent": "chon_ket_qua",
+   "patterns": [
+    {
+     "text": "Cái thứ nhất",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cái thứ hai",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Chọn cái cuối",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Số {so}",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cái đầu tiên",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Chọn kết quả thứ ba",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Lấy cái thứ hai nhé",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Chọn cái gần nhất",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cái cuối cùng",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Quán thứ hai",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Chọn số {so} đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    }
+   ]
+  },
+  {
+   "case": "CS12",
+   "intent": "xac_nhan_dong_y",
+   "patterns": [
+    {
+     "text": "Có",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Vâng",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    },
+    {
+     "text": "Đúng rồi",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Ừ",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Đồng ý",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Ok",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Được rồi, làm đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Xác nhận",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đúng rồi, dẫn đường đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Phải",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS12",
+   "intent": "tu_choi_huy_dung",
+   "patterns": [
+    {
+     "text": "Không",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Thôi",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Hủy",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Dừng lại",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Không phải",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Thôi khỏi",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Hủy đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Đừng",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Không cần đâu",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Thôi, không làm nữa",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Dừng",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS12",
+   "intent": "xem_them_lua_chon",
+   "patterns": [
+    {
+     "text": "Xem thêm",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Kết quả tiếp theo",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Còn nữa không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Cho xem các kết quả khác",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Trang sau",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Quay lại",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Về trang trước",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Còn lựa chọn nào khác không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cái khác đi",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Đọc thêm",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS09",
+   "intent": "goi_cap_cuu_115",
+   "patterns": [
+    {
+     "text": "Gọi cấp cứu",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi 115",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi cấp cứu 115",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi xe cứu thương",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi 115 giúp tôi, có người bị thương",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    },
+    {
+     "text": "Có người bất tỉnh, gọi cấp cứu",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi bệnh viện gần nhất",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi cấp cứu ngay đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Cần xe cấp cứu",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Người này không thở, gọi 115",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS09",
+   "intent": "goi_cong_an_113",
+   "patterns": [
+    {
+     "text": "Gọi công an",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi 113",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi cảnh sát",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi công an 113",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Báo công an",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Có người trộm xe, gọi 113",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi cảnh sát giao thông",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tôi cần gọi công an gấp",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi 113 ngay",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Gọi công an khu vực",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS09",
+   "intent": "goi_cuu_hoa_114",
+   "patterns": [
+    {
+     "text": "Gọi cứu hỏa",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi 114",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi cứu hỏa 114",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Xe cháy rồi, gọi 114",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi phòng cháy chữa cháy",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Có cháy, gọi cứu hỏa",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi 114 ngay",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Báo cháy",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cháy xe, gọi cứu hỏa giúp tôi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    },
+    {
+     "text": "Có khói bốc ra từ nắp capo, gọi 114",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS09",
+   "intent": "cuu_ho_giao_thong",
+   "patterns": [
+    {
+     "text": "Gọi cứu hộ giao thông",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi cứu hộ",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Xe hết xăng, gọi cứu hộ",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Xe chết máy, gọi cứu hộ",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi xe cứu hộ đến chỗ tôi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi đường dây nóng cứu hộ",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Nổ lốp rồi, gọi cứu hộ",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Xe hỏng, cần kéo xe",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi tổng đài cứu hộ",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gửi vị trí của tôi cho cứu hộ",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS09",
+   "intent": "bao_tai_nan",
+   "patterns": [
+    {
+     "text": "Tôi bị tai nạn",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Báo tai nạn",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Vừa xảy ra tai nạn",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Báo tai nạn giao thông",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Có tai nạn ở đây, báo giúp tôi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "lịch sự"
+    },
+    {
+     "text": "Tôi vừa va chạm",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gửi vị trí tai nạn cho người thân",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Chia sẻ vị trí của tôi với {ten_lien_he}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Báo tai nạn cho {ten_lien_he}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Có người bị thương",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS09",
+   "intent": "toi_on",
+   "patterns": [
+    {
+     "text": "Tôi ổn",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tôi không sao",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Không có chuyện gì đâu",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tôi ổn, không cần gọi cấp cứu",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Không cần cấp cứu",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Mình không sao",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Tôi vẫn ổn",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Hủy cuộc gọi khẩn cấp, tôi ổn",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Báo nhầm thôi, tôi không sao",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Không sao, cảm ơn",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    }
+   ]
+  },
+  {
+   "case": "CS09",
+   "intent": "keu_cuu",
+   "patterns": [
+    {
+     "text": "Cứu tôi với",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cứu với",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Giúp tôi với",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cứu tôi",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Có ai không, cứu với",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tôi cần giúp đỡ gấp",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cứu, có người bị thương",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tôi bị cướp",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cứu mạng",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Gọi người đến giúp tôi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS02",
+   "intent": "canh_bao_lech_lan",
+   "patterns": [
+    {
+     "text": "Tắt cảnh báo lệch làn",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật cảnh báo lệch làn",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tắt hỗ trợ giữ làn",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật hỗ trợ giữ làn đường",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Giảm độ nhạy cảnh báo lệch làn",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tắt cảnh báo rời làn đường",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cảnh báo lệch làn kêu hoài, tắt đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Bật lại giữ làn",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tăng độ nhạy cảnh báo lệch làn",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tắt rung vô lăng khi lệch làn",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS02",
+   "intent": "canh_bao_va_cham",
+   "patterns": [
+    {
+     "text": "Tắt cảnh báo va chạm",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật cảnh báo va chạm phía trước",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Giảm độ nhạy cảnh báo va chạm",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tắt phanh khẩn cấp tự động",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật phanh tự động khẩn cấp",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cảnh báo va chạm kêu nhiều quá",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Chỉnh cảnh báo va chạm sớm hơn",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tắt cảnh báo khoảng cách",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật lại cảnh báo va chạm",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS02",
+   "intent": "canh_bao_diem_mu",
+   "patterns": [
+    {
+     "text": "Tắt cảnh báo điểm mù",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật cảnh báo điểm mù",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tắt cảnh báo điểm mù bên phải",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Giảm độ nhạy cảnh báo điểm mù",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật hỗ trợ điểm mù",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cảnh báo điểm mù kêu liên tục, tắt đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Tắt đèn cảnh báo điểm mù trên gương",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật lại cảnh báo điểm mù",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đèn điểm mù nhấp nháy hoài",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    }
+   ]
+  },
+  {
+   "case": "CS02",
+   "intent": "canh_bao_met_moi",
+   "patterns": [
+    {
+     "text": "Tắt cảnh báo mệt mỏi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật cảnh báo buồn ngủ",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tôi tỉnh rồi",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tôi không buồn ngủ",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tôi vẫn tỉnh táo",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tắt cảnh báo mất tập trung",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tôi ổn, tắt cảnh báo buồn ngủ đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Giảm độ nhạy cảnh báo mệt mỏi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật theo dõi tài xế",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tôi đã nghỉ rồi, tắt cảnh báo đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    }
+   ]
+  },
+  {
+   "case": "CS02",
+   "intent": "do_nhay_canh_bao_chung",
+   "patterns": [
+    {
+     "text": "Giảm độ nhạy cảnh báo",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tăng độ nhạy cảnh báo",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Chỉnh độ nhạy cảnh báo ở mức trung bình",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cảnh báo kêu nhiều quá",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Tắt hết cảnh báo đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Tắt âm cảnh báo",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật lại các cảnh báo an toàn",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Giảm âm lượng cảnh báo",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tắt cảnh báo này",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Đừng báo nữa",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Tắt cảnh báo tốc độ",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    }
+   ]
+  },
+  {
+   "case": "CS11",
+   "intent": "tre_xem_nhac_phim_truyen",
+   "patterns": [
+    {
+     "text": "Bật nhạc thiếu nhi cho bé",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Mở phim hoạt hình cho các bé",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Kể chuyện cho bé nghe",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Cho bé xem phim {ten_phim}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Con muốn nghe nhạc",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Con muốn xem phim",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Cho con nghe bài {bai_hat}",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Kể chuyện cổ tích đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Bật truyện cho bé ngủ",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Mở phim cho con xem nhé",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    }
+   ]
+  },
+  {
+   "case": "CS11",
+   "intent": "dieu_hoa_khoang_sau",
+   "patterns": [
+    {
+     "text": "Chỉnh điều hòa hàng ghế sau",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tăng điều hòa khoang sau",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Hàng ghế sau nóng quá",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Giảm quạt gió phía sau",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật điều hòa sau {nhiet_do} độ",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tắt điều hòa hàng ghế sau",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Phía sau lạnh quá",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Chỉnh hướng gió sau xuống chân",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tăng quạt hàng ghế thứ ba",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Con thấy nóng",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    }
+   ]
+  },
+  {
+   "case": "CS11",
+   "intent": "tat_loa_sau",
+   "patterns": [
+    {
+     "text": "Tắt loa sau",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật loa sau",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tắt tiếng loa hàng ghế sau",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Chỉ phát nhạc ở phía trước",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Giảm âm lượng loa sau",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bé đang ngủ, tắt loa sau đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Chuyển âm thanh về hàng ghế trước",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Phát nhạc riêng cho hàng ghế sau",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tắt âm phía sau",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Loa sau nhỏ lại chút nhé",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    }
+   ]
+  },
+  {
+   "case": "CS11",
+   "intent": "che_do_yen_tinh",
+   "patterns": [
+    {
+     "text": "Bật chế độ yên tĩnh",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Chế độ yên tĩnh",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bé đang ngủ, bật chế độ yên lặng",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Tắt chế độ yên tĩnh",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Giảm hết âm thanh trong xe",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Chế độ cho bé ngủ",
+     "act": "Câu cụt",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tắt tiếng thông báo",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Nói nhỏ thôi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    },
+    {
+     "text": "Hạ âm lượng cho bé ngủ",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Yên tĩnh đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    }
+   ]
+  },
+  {
+   "case": "CS11",
+   "intent": "nhac_day_an_toan_ghe_sau",
+   "patterns": [
+    {
+     "text": "Nhắc dây an toàn ghế sau",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Ghế sau đã thắt dây an toàn chưa?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Kiểm tra dây an toàn hàng ghế sau",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Bật nhắc nhở dây an toàn cho ghế sau",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Có ai ở ghế sau chưa thắt dây không?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Tắt nhắc dây an toàn ghế sau",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Nhắc các con thắt dây an toàn",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Dây an toàn ghế giữa đã cài chưa?",
+     "act": "Câu hỏi",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Báo nếu ghế sau chưa cài dây",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "trung tính"
+    },
+    {
+     "text": "Con thắt dây an toàn đi",
+     "act": "Lệnh",
+     "evidence": "constructed",
+     "source": null,
+     "register": "thân mật"
+    }
+   ]
+  }
+ ],
+ "slots_seen": {
+  "dia_diem": [
+   "Nhà thờ Đức Bà",
+   "cây xăng gần nhất",
+   "cửa hàng Thế Giới Di Động gần đây",
+   "Vincom Bà Triệu",
+   "nhà",
+   "cơ quan",
+   "quê"
+  ],
+  "loai_dia_diem": [
+   "quán cà phê",
+   "cây xăng",
+   "trạm sạc",
+   "quán ăn"
+  ],
+  "ten_lien_he": [
+   "mẹ",
+   "Mẹ",
+   "Linh",
+   "An"
+  ],
+  "ca_si": [
+   "Bích Phương",
+   "Tuấn Hưng",
+   "Hoàng Thùy Linh"
+  ],
+  "bai_hat": [
+   "Đi Đua Đưa Đi",
+   "See Tình",
+   "Đường Đến Ngày Vinh Quang",
+   "Let It Go"
+  ],
+  "the_loai": [
+   "Rap",
+   "nhạc Việt"
+  ],
+  "nhiet_do": [
+   "2 độ C",
+   "25 độ"
+  ],
+  "huong_gio": [
+   "mặt",
+   "chân",
+   "mặt, chân",
+   "chân và cửa kính trước"
+  ],
+  "thoi_gian": [
+   "8 giờ sáng mai",
+   "8 giờ sáng hàng ngày",
+   "9 giờ tối",
+   "6 giờ sáng mai",
+   "5 giờ chiều",
+   "3 giờ chiều ngày mai"
+  ],
+  "noi_dung": [
+   "đi khám sức khỏe",
+   "uống thuốc",
+   "mua sữa",
+   "ăn trưa",
+   "mình đến muộn 10 phút",
+   "con sẽ về trễ",
+   "con đang trên đường về"
+  ],
+  "chu_de": [
+   "(chỉ thấy placeholder X, Y, Z trong N1, chưa có giá trị thật)"
+  ],
+  "so_dien_thoai": [
+   "098xxxxxxx (đã bị che trong N4)"
+  ],
+  "ung_dung": [
+   "Zalo (chỉ thấy như tên ứng dụng), YouTube, Spotify, Netflix (N17, mở ứng dụng)"
+  ]
+ },
+ "particles": {
+  "cuoi_cau": [
+   "nhé",
+   "nha",
+   "đi",
+   "với",
+   "giúp tôi",
+   "giùm tôi",
+   "được không",
+   "làm ơn",
+   "thôi",
+   "luôn",
+   "ạ",
+   "nào",
+   "nhỉ",
+   "đã",
+   "hộ tôi"
+  ],
+  "mo_dau": [
+   "Cho tôi",
+   "Giúp tôi",
+   "Làm ơn",
+   "Hãy",
+   "Tôi muốn",
+   "Tôi cần",
+   "Bạn ơi",
+   "Này",
+   "Cho mình",
+   "Mở giúp",
+   "Nhờ bạn",
+   "Xin hãy",
+   "Ê"
+  ],
+  "wake": [
+   "Hey VinFast / VinFast ơi (N1,N19)",
+   "Kiki ơi (N15)",
+   "Ok Google / Hey Google (N17)",
+   "Hey Siri (N8,N9)"
+  ],
+  "ghi_chu": "Chỉ 'đi' (Kể chuyện cười đi, Tâm sự với tôi đi, N5), 'nhỉ' (Hôm nay ăn gì nhỉ, N5), 'giúp' và 'ơi' (từ đánh thức) thật sự thấy trong nguồn; các hạt còn lại do tự soạn theo tiếng Việt khẩu ngữ. Dùng khe {wake} tùy chọn, không gắn tên thương hiệu vào mẫu."
+ },
+ "notes": "1) Nguồn có câu lệnh thật tiếng Việt đáng tin nhất là trang chính thức VinFast (N1) cho điều hòa, quạt, sấy kính, cốp, wifi, dẫn đường, tìm trạm sạc, nhạc, radio, podcast, truyện cười. Các nhóm còn lại (Siri, Google Assistant, Kiki) chỉ có vài ví dụ rời rạc, nhiều bài chỉ mô tả chức năng. 2) Không tìm được tài liệu tiếng Việt về lệnh giọng nói trên xe Hyundai, Toyota, Kia, Mazda, MG, Ford tại Việt Nam; các tìm kiếm chỉ trả về tài liệu tiếng Anh/nước ngoài (không dùng). 3) Không tìm được thread Otofun/Voz/Webtretho có câu nói nguyên văn; không có trang diễn đàn nào truy cập được qua tìm kiếm. 4) Android Auto/Google Assistant: trang hỗ trợ của Google không tải được; chỉ dùng bài TCL (N11) và TGDĐ (N17). CarPlay: không có trang tiếng Việt riêng, dùng bài Siri (N7-N10). 5) Các nhóm CS02 (cảnh báo an toàn), CS06 (trạng thái xe), CS07 (xe điện, trừ 'Tìm trạm sạc'), CS09 (khẩn cấp), CS11 (hành khách) hầu như hoàn toàn tự soạn, chưa có bằng chứng nguồn về cách người Việt thực sự nói. 6) Các lệnh VinFast trong N1 dùng 'điều hoà' (dấu cũ); mẫu của tôi dùng 'điều hòa'. Các slot X trong N1 là placeholder, không phải giá trị thật. 7) Số điện thoại trong N4 bị che; tên kênh radio, tần số, tên trạm sạc, tên phố, tên quán trong mẫu là giá trị minh họa, chưa thấy trong nguồn. 8) Lệnh camera trước/sau chỉ thấy bản tiếng Anh (N3); mẫu tiếng Việt do tự soạn. 9) Dữ liệu 'seen' có thể đã được tôi chuyển sang dạng khe (ví dụ 'Gọi cho mẹ' thành 'Gọi cho {ten_lien_he}'); cấu trúc câu là thật, giá trị khe có thể khác. 10) Các câu 'Tôi nóng/Tôi lạnh/Tôi đói' là lệnh gián tiếp (suy ra ý định), cần nhãn riêng khi huấn luyện NLU."
+}

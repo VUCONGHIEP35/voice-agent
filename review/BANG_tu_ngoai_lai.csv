@@ -1,0 +1,59 @@
+﻿id,dang_viet(text_raw),nhom,so_cau_hien_co,cach_doc_hien_tai_trong_bo,cach_doc_de_xuat_1,cach_doc_de_xuat_2,cach_doc_de_xuat_3,muc_bang_chung,ghi_chu,nguoi_Bac_noi,nguoi_Trung_noi,nguoi_Nam_noi,trang_thai
+L01,YouTube,app/thương hiệu,7,giữ nguyên,diu túp,du túp,yu-tiub (đọc Anh),"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",Cùng nhãn text_raw=YouTube cho cả 3 cách đọc. Nguồn xác nhận người dùng nói 'mở YouTube' với Kiki; không có nguồn về cách đọc.,,,,chưa duyệt
+L02,YouTube Music,app/thương hiệu,4,giữ nguyên,diu túp miu-zích,du túp miu-zích,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
+L03,Spotify,app/thương hiệu,5,giữ nguyên,xpót-ti-phai,sờ-pót-ti-phai,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
+L04,Apple Music,app/thương hiệu,1,giữ nguyên,áp-pồ miu-zích,ép-pồ miu-zích,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
+L05,Zing MP3,app/thương hiệu,6,Zing em pê ba,díng em pê ba,zing em pê ba,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt","Phần 'Zing' đang giữ Latin, phần MP3 đã đổi chữ.",,,,chưa duyệt
+L06,Zalo,app/thương hiệu,129,giữ nguyên,za lô,da lô,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",Nhiều nhất trong bộ (129 câu); ưu tiên duyệt theo vùng.,,,,chưa duyệt
+L07,Messenger,app/thương hiệu,11,giữ nguyên,mét-sen-giơ,mê-sen-giơ,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
+L08,Facebook,app/thương hiệu,1,giữ nguyên,phây-búc,fây-búc,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",Chỉ 1 câu trong bộ.,,,,chưa duyệt
+L09,Viber,app/thương hiệu,8,giữ nguyên,vai-bơ,vi-bơ,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
+L10,Telegram,app/thương hiệu,6,giữ nguyên,te-lê-gram,tê-lê-gờ-ram,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
+L11,Gmail,app/thương hiệu,3,giữ nguyên,gờ-meo,di-meo,gi-meo,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
+L12,Google Maps,app/thương hiệu,4,giữ nguyên,gu-gồ mép,gu-gồ map,gu-gồ bản đồ,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
+L13,Waze,app/thương hiệu,0,(chưa có),oây,quây,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",Rất không chắc về cả hai cách đọc; ưu tiên thu giọng thật.,,,,chưa duyệt
+L14,Vietmap,app/thương hiệu,0,(chưa có),việt mép,việt map,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",Nguồn: Vietmap là bản đồ trên màn hình Android và VinFast (Vietmap Live).,,,,chưa duyệt
+L15,Apple CarPlay,app/thương hiệu,13,giữ nguyên,áp-pồ ca-pờ-lây,ép-pồ ca-pờ-lây,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
+L16,Android Auto,app/thương hiệu,11,giữ nguyên,an-đroi ô-tô,an-đờ-roi ô-tô,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
+L17,Netflix,app/thương hiệu,0,(chưa có),nét-phờ-lích,nét-phlích,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
+L18,TikTok,app/thương hiệu,0,(chưa có),tíc-tóc,tích-tóc,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
+L19,Grab,app/thương hiệu,0,(chưa có),grép,gờ-rép,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",Chưa rõ có nằm trong phạm vi lệnh trên xe không.,,,,chưa duyệt
+L20,Xanh SM,app/thương hiệu,0,(chưa có),xanh ét-em,xanh ét-mờ,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
+L21,VETC,app/thu phí,0,(chưa có),vê ê tê xê,vét-xê,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",Nguồn: VETC và ePass là hai thẻ thu phí không dừng.,,,,chưa duyệt
+L22,ePass,app/thu phí,0,(chưa có),i-pát,ê-pát,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
+L23,V-Green,app/sạc xe,0,(chưa có),vi-grin,vê-grin,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",Chỉ để kiểm chứng có người nói tên này khi tìm trạm sạc hay không.,,,,chưa duyệt
+L24,VinFast,tên hãng/từ đánh thức,0,(chưa có),vin-phát,vin-fát,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",Nguồn: từ đánh thức 'Hey VinFast'.,,,,chưa duyệt
+L25,Hey VinFast,từ đánh thức,0,(chưa có),hây vin-phát,hê vin-phát,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt","Nguồn: baophapluat, diendandoanhnghiep.",,,,chưa duyệt
+L26,ViVi,tên trợ lý,0,(chưa có),vi vi,,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",Nguồn: 'Kể chuyện cười đi ViVi'.,,,,chưa duyệt
+L27,Kiki,tên trợ lý,0,(chưa có),ki ki,,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",Chưa xác minh từ đánh thức của Kiki.,,,,chưa duyệt
+L28,Hey Google,từ đánh thức,0,(chưa có),hây gu-gồ,ô-kê gu-gồ,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",Nguồn: trang hỗ trợ Android Auto nêu 'Hey Google'.,,,,chưa duyệt
+L29,Siri,tên trợ lý,0,(chưa có),xi-ri,,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",Chưa kiểm nguồn về lệnh Siri tiếng Việt trên CarPlay.,,,,chưa duyệt
+L30,Bluetooth,kỹ thuật,28,giữ nguyên,bờ-lu-tút,blu-tút,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
+L31,Wi-Fi,kỹ thuật,20,giữ nguyên,oai-phai,quai-phai,guai-phai,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
+L32,USB,viết tắt,19,u ét bê,u ét bê,diu ét bi (đọc Anh),,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",Đã đổi chữ trong bộ.,,,,chưa duyệt
+L33,FM,viết tắt,77,ép em,ép em,ép-em,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",Đã đổi chữ trong bộ.,,,,chưa duyệt
+L34,MHz,đơn vị,92,mê ga héc,mê ga héc,mê-ga-héc,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",Đã đổi chữ trong bộ.,,,,chưa duyệt
+L35,GPS,viết tắt,0,(chưa có),gờ pê ét,gi pi ét,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
+L36,AQI,viết tắt,20,a quy i,a quy i,ây kiu ai (đọc Anh),,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",NGHI NGỜ: 'a quy i' có thể không phải cách người dùng nói; cần người nghe.,,,,chưa duyệt
+L37,ABS,viết tắt,5,a bê ét,a bê ét,ây bi ét (đọc Anh),,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
+L38,ATM,viết tắt,9,a tê em,a tê em,ây ti em (đọc Anh),,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
+L39,SMS,viết tắt,0,(chưa có),ét em ét,ét-mờ-ét,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
+L40,kWh,đơn vị,11,ki lô oát giờ,ki lô oát giờ,ca-vê-hát (đọc tắt),,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",Cần kiểm xem người dùng xe điện nói thế nào.,,,,chưa duyệt
+L41,USD,viết tắt,8,u ét đê,u ét đê,đô la Mỹ,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt","Cách thứ hai là nói nghĩa, không đọc chữ.",,,,chưa duyệt
+L42,PM2.5,viết tắt,7,pê em hai chấm năm,pê em hai chấm năm,pi em hai phẩy năm,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
+L43,podcast,từ vay,73,giữ nguyên,pót-cát,pod-cát,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",73 câu trong bộ.,,,,chưa duyệt
+L44,playlist,từ vay,34,giữ nguyên,plây-lít,pờ-lây-lít,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
+L45,air-con,từ vay,5,giữ nguyên,e con,e-con,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",Có thể thay bằng 'máy lạnh'/'điều hòa' tùy vùng.,,,,chưa duyệt
+L46,K-pop,thể loại nhạc,5,ca pop,kây pốp,ca pốp,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",NGHI NGỜ: bộ đang đọc 'ca pop'; cần người nghe.,,,,chưa duyệt
+L47,lo-fi,thể loại nhạc,7,lo fi,lô-phai,lô-phi,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
+L48,hip hop,thể loại nhạc,6,giữ nguyên,híp hóp,,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
+L49,remix,thể loại nhạc,8,giữ nguyên,ri-míc,ri-mích,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
+L50,ballad,thể loại nhạc,4,giữ nguyên,ba-lát,,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
+L51,Aeon,địa danh thương mại,15,giữ nguyên,ê-ôn,i-on,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
+L52,Lotte,địa danh thương mại,15,giữ nguyên,lốt-te,lốt-tê,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
+L53,Vinhomes,địa danh thương mại,14,giữ nguyên,vin-hôm,vin-hôm-xờ,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
+L54,Takashimaya,địa danh thương mại,7,giữ nguyên,ta-ka-si-ma-ya,,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
+L55,Mall,địa danh thương mại,32,giữ nguyên,mô,mồ,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",Trong bộ có 'mall' ở 32 câu.,,,,chưa duyệt
+L56,Eco / Sport / Normal,chế độ lái,23,giữ nguyên,ít-cô / xpót / nọc-mồ,,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",Chế độ lái VinFast; cách đọc thật chưa rõ.,,,,chưa duyệt
+L57,Cruise Control,chế độ lái,10,giữ nguyên,cờ-ruyz con-trôn,,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
+L58,camera / video / radio,từ vay Việt hóa,120,giữ nguyên,ca-me-ra / vi-đê-ô / ra-đi-ô,,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",Rủi ro thấp: đã quen với tiếng Việt.,,,,chưa duyệt

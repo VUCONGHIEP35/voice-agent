@@ -1,0 +1,3488 @@
+{
+ "sources": [
+  {
+   "id": "L1",
+   "url": "https://ling.yale.edu/media/227/download",
+   "what": "Jewell 2022 Yale 'Cross-dialectal perception of Vietnamese tones' - doc fetched OK; only tone facts + quả(Bắc)/trái(Nam); no Huế/Nghệ Tĩnh word lists; no Central speakers in study",
+   "fetched": true
+  },
+  {
+   "id": "L2",
+   "url": "https://vi.wikipedia.org/wiki/Phương_ngữ_tiếng_Việt",
+   "what": "vi.wikipedia Phương ngữ tiếng Việt - fetched OK (first attempt): Bắc/Nam word pairs, pronoun & demonstrative table Bắc/Trung/Nam with sub-regions (Thanh Nghệ Tĩnh, Bình Trị Thiên, Đà Nẵng), kinship demonstratives",
+   "fetched": true
+  },
+  {
+   "id": "L3",
+   "url": "https://en.wikipedia.org/wiki/Vietnamese_phonology",
+   "what": "en.wikipedia Vietnamese phonology - fetched OK: tone differences by region (hỏi/ngã merge in South); no vocabulary",
+   "fetched": true
+  },
+  {
+   "id": "L4",
+   "url": "https://en.wikipedia.org/wiki/Vietnamese_name",
+   "what": "en.wikipedia Vietnamese name - fetched OK: surname % (2022 figures), Thị/Văn, male padding names",
+   "fetched": true
+  },
+  {
+   "id": "L5",
+   "url": "https://en.wikipedia.org/wiki/Vietnamese_numerals",
+   "what": "en.wikipedia Vietnamese numerals - fetched OK: linh/lẻ, nghìn/ngàn, mươi, mốt, tư/bốn, lăm/nhăm; no rưỡi/date/year",
+   "fetched": true
+  },
+  {
+   "id": "L6",
+   "url": "https://en.wikipedia.org/wiki/Vietnamese_pronouns",
+   "what": "en.wikipedia Vietnamese pronouns - fetched OK: cha/ba/bố/tía/thầy; mẹ/má/u/bầm/mạ",
+   "fetched": true
+  },
+  {
+   "id": "L7",
+   "url": "https://en.wikipedia.org/wiki/Music_of_Vietnam",
+   "what": "en.wikipedia Music of Vietnam - fetched OK: genres, singers, rappers, bands",
+   "fetched": true
+  },
+  {
+   "id": "L8",
+   "url": "https://thaonco.com/?p=54785",
+   "what": "Thaonco 'Northern vs Southern Vietnamese' - fetched OK (commercial translation blog, medium reliability): dứa/thơm, thìa/muỗng, bát/chén, ngô/bắp, dép tông/dép xỏ ngón, túi/bịch ni lông, ạ-vâng/dạ, nha/nhé (its nhé=Southern claim looks wrong)",
+   "fetched": true
+  },
+  {
+   "id": "L9",
+   "url": "https://en.wikipedia.org/wiki/Vietnamese_language",
+   "what": "en.wikipedia Vietnamese language (Dialects section) - fetched OK: Bắc/Trung/Nam word table (này/ni/nè, đấy/nớ,tê/đó, răng, tui, tao/tau, mày/mi, hắn, trốc, đọi/chén-tô, thìa/muỗng)",
+   "fetched": true
+  },
+  {
+   "id": "L10",
+   "url": "https://huggingface.co/datasets/Biu3010/ViDia2Std/blob/main/test.csv",
+   "what": "HF dataset ViDia2Std (dialect->standard, truncated preview) - fetched OK: Central words nớ,tê,ni,ri,mô,chi,rứa,răng,mần,nỏ,nựa,chộ,dừ/chừ,mệ,eng,nác,miềng,choa,hè/hẹ/hầy,hung... (region labels not given per word)",
+   "fetched": true
+  },
+  {
+   "id": "L11",
+   "url": "https://mytour.vn/vi/blog/bai-viet/kho-tu-dien-tieng-hue-phong-phu.html",
+   "what": "Mytour 'Kho từ điển tiếng Huế' - fetched OK: mô, rứa, răng, chi, nớ, ri, mệ, o; some meanings inferred from examples",
+   "fetched": true
+  },
+  {
+   "id": "L12",
+   "url": "https://luatminhkhue.vn/100-ho-cua-nguoi-viet-nam-pho-bien-nhat-hien-nay.aspx",
+   "what": "Luật Minh Khuê - 100 họ - fetched OK: surname share ranges (not official stats)",
+   "fetched": true
+  },
+  {
+   "id": "L13",
+   "url": "https://lifestyle.zingnews.vn/dong-ho-nao-dong-nhat-chiem-gan-mot-nua-dan-so-viet-nam-post941378.html",
+   "what": "Znews 2019 - Nguyễn 38.4% (2015, UNESCO Heritage Center VN); Trần, Lê, Phạm ranked next, no %",
+   "fetched": true
+  },
+  {
+   "id": "L14",
+   "url": "https://migaku.com/blog/language-fun/vietnamese-numbers",
+   "what": "Migaku Vietnamese numbers - fetched OK: lẻ(South)/linh(North), mốt, lăm, mươi, nghìn/ngàn both",
+   "fetched": true
+  },
+  {
+   "id": "L15",
+   "url": "https://interspacemusic.com/blog/vietnams-music-market-runs-on-zing-mp3-and-nhaccuatui-spotify-reaches-barely-1-in-4-listeners/",
+   "what": "Interspace blog citing RMIT listener survey (year not stated): YouTube 77%, Zing MP3 52%, NhacCuaTui 32%, Spotify 28%",
+   "fetched": true
+  },
+  {
+   "id": "L16",
+   "url": "https://www.sggp.org.vn/content/NjI0MDQ3.html",
+   "what": "SGGP: first-week Billboard Vietnam Top Vietnamese Songs top 10",
+   "fetched": true
+  },
+  {
+   "id": "L17",
+   "url": "https://tienphong.vn/post-1397511.tpo",
+   "what": "Tiền Phong: Spotify Vietnam 2021 (Chúng Ta Của Hiện Tại, Nàng Thơ, Bước Qua Mùa Cô Đơn)",
+   "fetched": true
+  },
+  {
+   "id": "L18",
+   "url": "https://advertisingvietnam.com/article/spotify-wrapped-bts-den-taylor-swift-son-tung-m-tp-dan-dau-ve-luot-stream-tren-spotify-viet-nam-nam-2022-p21005",
+   "what": "Advertising Vietnam: Spotify Wrapped 2022 Vietnam top artists/songs",
+   "fetched": true
+  },
+  {
+   "id": "L19",
+   "url": "https://cellphones.com.vn/sforum/top-ca-si-viet-nam-noi-tieng",
+   "what": "CellphoneS: 15 popular Vietnamese singers with songs",
+   "fetched": true
+  },
+  {
+   "id": "L20",
+   "url": "https://www.sggp.org.vn/son-tung-m-tp-vu-hieuthuhai-thang-lon-o-bang-xep-hang-chinh-thuc-tai-viet-nam-post792162.html",
+   "what": "SGGP: chart winners (Đừng làm trái tim anh đau, Chúng ta của tương lai, Từng là)",
+   "fetched": true
+  },
+  {
+   "id": "L21",
+   "url": "https://trykaiwa.com/blog/vietnamese-asking-directions-realistic",
+   "what": "Kaiwa blog on directions - fetched OK: quẹo vs rẽ, hẻm/ngõ, ngã tư/ngã ba (region assignment not given by page)",
+   "fetched": true
+  },
+  {
+   "id": "L22",
+   "url": "https://vnreview.vn/threads/trai-nghiem-xe-dien-vinfast-vf-6-plus-lai-hay-tram-sac-chiem-uu-the.48488",
+   "what": "VNReview VF 6 Plus - fetched OK: trạm/trụ/cây sạc, sạc nhanh, cổng sạc, pin, Eco/Sport, Android Auto, Apple CarPlay, USB Type-C, camera toàn cảnh 360 độ",
+   "fetched": true
+  },
+  {
+   "id": "L23",
+   "url": "https://en.wiktionary.org/wiki/răng",
+   "what": "Wiktionary răng - Central dialect 'why/how' = sao",
+   "fetched": true
+  },
+  {
+   "id": "L24",
+   "url": "https://en.wikipedia.org/wiki/Vietnamese_pop",
+   "what": "en.wikipedia Vietnamese pop - Lam Phương, Phạm Duy, Trịnh Công Sơn, Khánh Ly, Văn Cao, Dương Thụ, Phú Quang; Tiến Quân Ca",
+   "fetched": true
+  },
+  {
+   "id": "L25",
+   "url": "https://blogs.transparent.com/vietnamese/wp-json/wp/v2/posts/59",
+   "what": "Transparent Language blog - fetched OK but table is internally noisy/inconsistent (e.g. columns look shifted); used only for mẹ/mạ/má, bố/cha/ba as corroboration",
+   "fetched": true
+  },
+  {
+   "id": "L26",
+   "url": "https://www.1stopasia.com/blog/wp-content/uploads/articles-download/Vietnamese-Dialects-Demystified-North-vs-South-and-Their-Impact-on-Localization.pdf",
+   "what": "1stopasia PDF - fetched OK but diacritics corrupted; xe máy vs xe Honda, má lớn (bà nội)",
+   "fetched": true
+  },
+  {
+   "id": "L27",
+   "url": "https://oto.com.vn/kinh-nghiem-mua-ban-xe/nhung-tuy-chon-trang-bi-ma-nhieu-tai-viet-muon-so-huu-articleid-ek46fyq",
+   "what": "oto.com.vn - only: camera 360 độ, cảm biến khoảng cách, màn hình trung tâm",
+   "fetched": true
+  },
+  {
+   "id": "K1",
+   "url": "(none)",
+   "what": "Model background knowledge of Vietnamese usage - NOT verified by any fetched source; treat as needs native-speaker review",
+   "fetched": false
+  },
+  {
+   "id": "X1",
+   "url": "various",
+   "what": "NOT accessible: vi.wikipedia (Họ người Việt, Từ vựng theo vùng, Nhạc vàng, Tiếng Huế, Giọng Nghệ Tĩnh, Phương ngữ Nam Bộ) -> URL_NOT_FOUND/proxy 403; en.wikipedia Huế dialect, Vietnamese particles, Bolero page -> not found; VNU PDF (Phạm Văn Tình) & plo.vn -> robots disallowed; Alves 2007 not accessed",
+   "fetched": false
+  }
+ ],
+ "lexicon": [
+  {
+   "concept": "rẽ (turn)",
+   "bac": "rẽ",
+   "trung": "rẽ/quẹo",
+   "nam": "quẹo",
+   "trung_sub": "L21 xác nhận cả hai từ tồn tại, 'quẹo' phổ biến hơn trong bài; gán vùng là theo K1. Nam: quẹo là chủ đạo",
+   "confidence": "medium",
+   "source": "L21,K1"
+  },
+  {
+   "concept": "ngõ/hẻm (lane)",
+   "bac": "ngõ (cũng: ngách, hẻm)",
+   "trung": "kiệt (Huế); hẻm (Nam Trung Bộ/Đà Nẵng); ngõ (Nghệ Tĩnh)",
+   "nam": "hẻm",
+   "trung_sub": "Huế=kiệt; Đà Nẵng trở vào=hẻm; Bắc Trung Bộ=ngõ (K1, chưa kiểm chứng)",
+   "confidence": "medium",
+   "source": "L21,K1"
+  },
+  {
+   "concept": "ngã tư (crossroads)",
+   "bac": "ngã tư",
+   "trung": "ngã tư",
+   "nam": "ngã tư",
+   "trung_sub": "L21 cho Hà Nội ngã tư; Sài Gòn 'ngã tư hoặc tư lộ' (nghi ngờ, không dùng)",
+   "confidence": "medium",
+   "source": "L21"
+  },
+  {
+   "concept": "ngã ba (T-junction)",
+   "bac": "ngã ba",
+   "trung": "ngã ba",
+   "nam": "ngã ba",
+   "trung_sub": "",
+   "confidence": "medium",
+   "source": "L21"
+  },
+  {
+   "concept": "tắc đường (traffic jam)",
+   "bac": "tắc đường",
+   "trung": "kẹt xe/tắc đường",
+   "nam": "kẹt xe",
+   "trung_sub": "",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "đỗ xe (park)",
+   "bac": "đỗ xe",
+   "trung": "đậu xe",
+   "nam": "đậu xe",
+   "trung_sub": "Bắc Trung Bộ có thể 'đỗ' - chưa rõ",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "điều hòa (A/C)",
+   "bac": "điều hòa",
+   "trung": "máy lạnh/điều hòa",
+   "nam": "máy lạnh",
+   "trung_sub": "L2 xác nhận 'máy lạnh' là từ Nam đi vào tiếng phổ thông",
+   "confidence": "high",
+   "source": "L2"
+  },
+  {
+   "concept": "bố (father)",
+   "bac": "bố (còn: thầy, cha - cũ/quê)",
+   "trung": "cha/ba",
+   "nam": "ba (còn: tía)",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L6,L25,L2"
+  },
+  {
+   "concept": "mẹ (mother)",
+   "bac": "mẹ (còn: u, bầm, mợ - quê/cũ)",
+   "trung": "mạ/mệ",
+   "nam": "má",
+   "trung_sub": "Huế: mạ; 'mệ' = bà/mẹ theo L10",
+   "confidence": "high",
+   "source": "L6,L25,L10"
+  },
+  {
+   "concept": "lợn/heo (pig, thịt lợn)",
+   "bac": "lợn",
+   "trung": "heo (Huế/Nam Trung Bộ); lợn (Bắc Trung Bộ)",
+   "nam": "heo",
+   "trung_sub": "phân vùng Trung theo K1, cần duyệt",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "ô tô (car)",
+   "bac": "ô tô",
+   "trung": "ô tô/xe hơi",
+   "nam": "xe hơi",
+   "trung_sub": "",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "xe máy (motorbike)",
+   "bac": "xe máy",
+   "trung": "xe máy",
+   "nam": "xe gắn máy / xe máy / xe Honda (khẩu ngữ)",
+   "trung_sub": "L26 (PDF lỗi dấu): Bắc 'xe máy', Nam 'xe Honda'",
+   "confidence": "medium",
+   "source": "L26,K1"
+  },
+  {
+   "concept": "cốp (trunk)",
+   "bac": "cốp (xe)",
+   "trung": "cốp",
+   "nam": "cốp / thùng xe (sau)",
+   "trung_sub": "'thùng xe' ở Nam cũng chỉ thùng xe tải; chưa chắc chỉ cốp. 'cốp' dùng cả nước",
+   "confidence": "low",
+   "source": "K1"
+  },
+  {
+   "concept": "nắp ca-pô (hood)",
+   "bac": "ca-pô/nắp ca-pô",
+   "trung": "ca-pô",
+   "nam": "ca-pô / nắp capo",
+   "trung_sub": "mượn tiếng Pháp capot; cốp<coffre",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "kính (glass, window)",
+   "bac": "kính",
+   "trung": "kiếng/kính",
+   "nam": "kiếng",
+   "trung_sub": "kính chắn gió = kiếng chắn gió (Nam). 'kiếng' còn = kính đeo mắt",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "gương chiếu hậu",
+   "bac": "gương chiếu hậu",
+   "trung": "gương/kiếng chiếu hậu",
+   "nam": "kiếng chiếu hậu / gương",
+   "trung_sub": "",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "phanh (brake)",
+   "bac": "phanh",
+   "trung": "thắng",
+   "nam": "thắng",
+   "trung_sub": "phanh tay = thắng tay (Nam); chân phanh = chân thắng",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "vô lăng (steering wheel)",
+   "bac": "vô lăng",
+   "trung": "vô lăng/tay lái",
+   "nam": "tay lái / vô-lăng",
+   "trung_sub": "vô lăng<volant (Pháp)",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "lốp (tyre)",
+   "bac": "lốp",
+   "trung": "vỏ xe/lốp",
+   "nam": "vỏ xe / lốp",
+   "trung_sub": "",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "săm (inner tube)",
+   "bac": "săm",
+   "trung": "ruột xe",
+   "nam": "ruột xe",
+   "trung_sub": "",
+   "confidence": "low",
+   "source": "K1"
+  },
+  {
+   "concept": "dầu nhớt (engine oil)",
+   "bac": "dầu/nhớt",
+   "trung": "nhớt",
+   "nam": "nhớt (thay nhớt)",
+   "trung_sub": "",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "ắc quy (battery 12V)",
+   "bac": "ắc quy",
+   "trung": "ắc quy/bình",
+   "nam": "bình / bình điện / ắc quy",
+   "trung_sub": "",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "mở/bật (turn on)",
+   "bac": "bật (đèn, điều hòa)",
+   "trung": "bật/mở",
+   "nam": "mở (mở đèn, mở máy lạnh) / bật",
+   "trung_sub": "Nam 'mở đèn' = bật đèn; cần cho lệnh thoại",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "vào (enter)",
+   "bac": "vào",
+   "trung": "vô/vào",
+   "nam": "vô",
+   "trung_sub": "vô/vào, ra; 'đi vô hẻm'",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "xem (look)",
+   "bac": "xem",
+   "trung": "coi/xem",
+   "nam": "coi",
+   "trung_sub": "'coi bản đồ'",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "tới (arrive)",
+   "bac": "đến",
+   "trung": "tới/đến",
+   "nam": "tới",
+   "trung_sub": "",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "vỉa hè (sidewalk)",
+   "bac": "vỉa hè",
+   "trung": "vỉa hè",
+   "nam": "vỉa hè / lề đường",
+   "trung_sub": "",
+   "confidence": "medium",
+   "source": "L21,K1"
+  },
+  {
+   "concept": "nón/mũ (hat, helmet)",
+   "bac": "mũ (mũ bảo hiểm)",
+   "trung": "nón",
+   "nam": "nón (nón bảo hiểm)",
+   "trung_sub": "Huế: nón lá/nón; Bắc: mũ",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "cảnh sát giao thông",
+   "bac": "công an giao thông / CSGT",
+   "trung": "CSGT",
+   "nam": "CSGT / cảnh sát giao thông",
+   "trung_sub": "",
+   "confidence": "low",
+   "source": "L21,K1"
+  },
+  {
+   "concept": "bát (bowl)",
+   "bac": "bát",
+   "trung": "đọi (Bắc Trung Bộ/Huế dialect); tô",
+   "nam": "chén (nhỏ), tô (lớn)",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L9,L8"
+  },
+  {
+   "concept": "thìa (spoon)",
+   "bac": "thìa",
+   "trung": "thìa",
+   "nam": "muỗng",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L9,L8"
+  },
+  {
+   "concept": "cốc/ly (glass cup)",
+   "bac": "cốc",
+   "trung": "ly",
+   "nam": "ly",
+   "trung_sub": "",
+   "confidence": "medium",
+   "source": "L25,K1"
+  },
+  {
+   "concept": "muôi/vá (ladle)",
+   "bac": "muôi",
+   "trung": "",
+   "nam": "vá",
+   "trung_sub": "",
+   "confidence": "low",
+   "source": "L25,K1"
+  },
+  {
+   "concept": "quả (fruit)",
+   "bac": "quả",
+   "trung": "trái",
+   "nam": "trái",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L1"
+  },
+  {
+   "concept": "hoa (flower)",
+   "bac": "hoa",
+   "trung": "bông/hoa",
+   "nam": "bông",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L2,L9"
+  },
+  {
+   "concept": "dứa/thơm (pineapple)",
+   "bac": "dứa",
+   "trung": "dứa/thơm (chưa rõ)",
+   "nam": "thơm",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L8"
+  },
+  {
+   "concept": "ngô/bắp (corn)",
+   "bac": "ngô",
+   "trung": "bắp",
+   "nam": "bắp",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L8"
+  },
+  {
+   "concept": "dép tông (flip-flops)",
+   "bac": "dép tông (dép lào)",
+   "trung": "",
+   "nam": "dép xỏ ngón / dép kẹp",
+   "trung_sub": "",
+   "confidence": "medium",
+   "source": "L8,K1"
+  },
+  {
+   "concept": "túi ni lông",
+   "bac": "túi ni lông",
+   "trung": "",
+   "nam": "bịch ni lông / bao",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L8"
+  },
+  {
+   "concept": "hoa tai/bông tai",
+   "bac": "hoa tai",
+   "trung": "bông tai",
+   "nam": "bông tai",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L2"
+  },
+  {
+   "concept": "gạch hoa/gạch bông",
+   "bac": "gạch hoa",
+   "trung": "",
+   "nam": "gạch bông",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L2"
+  },
+  {
+   "concept": "xì dầu/nước tương",
+   "bac": "xì dầu",
+   "trung": "",
+   "nam": "nước tương",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L2"
+  },
+  {
+   "concept": "mừng tuổi/lì xì",
+   "bac": "mừng tuổi",
+   "trung": "",
+   "nam": "lì xì",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L2"
+  },
+  {
+   "concept": "ví (wallet)",
+   "bac": "ví",
+   "trung": "ví",
+   "nam": "bóp / ví",
+   "trung_sub": "",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "chăn/mền",
+   "bac": "chăn",
+   "trung": "chăn",
+   "nam": "mền",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L2"
+  },
+  {
+   "concept": "bột giặt",
+   "bac": "xà phòng bột",
+   "trung": "",
+   "nam": "bột giặt",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L2"
+  },
+  {
+   "concept": "này (this)",
+   "bac": "này",
+   "trung": "ni/nì (Huế); ri (Nghệ Tĩnh/Bình Trị Thiên)",
+   "nam": "nè/nầy",
+   "trung_sub": "Huế: ni/nì; Thanh Nghệ Tĩnh: ri",
+   "confidence": "high",
+   "source": "L2,L9"
+  },
+  {
+   "concept": "đấy/ấy (that)",
+   "bac": "ấy/đấy",
+   "trung": "nớ, tê",
+   "nam": "đó",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L2,L9"
+  },
+  {
+   "concept": "thế này",
+   "bac": "thế này",
+   "trung": "ri này (Thanh Nghệ Tĩnh); ri nì (Bình Trị Thiên); ri nè (Đà Nẵng)",
+   "nam": "vầy / như vầy",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L2"
+  },
+  {
+   "concept": "thế/vậy (like that)",
+   "bac": "thế (ấy)",
+   "trung": "rứa / rứa tề / rứa đó",
+   "nam": "dị (phát âm 'vậy') / vậy",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L2"
+  },
+  {
+   "concept": "đâu/nào (where/which)",
+   "bac": "đâu/nào",
+   "trung": "mô / mồ nào",
+   "nam": "đâu",
+   "trung_sub": "L2 viết 'mồ nào'; L10,L11 viết 'mô'",
+   "confidence": "high",
+   "source": "L2,L10,L11"
+  },
+  {
+   "concept": "sao/tại sao (why/how)",
+   "bac": "sao/thế nào",
+   "trung": "răng",
+   "nam": "sao",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L2,L9,L23"
+  },
+  {
+   "concept": "gì (what)",
+   "bac": "gì",
+   "trung": "chi",
+   "nam": "gì",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L10,L11"
+  },
+  {
+   "concept": "không (no/not)",
+   "bac": "không",
+   "trung": "nỏ",
+   "nam": "hông / không",
+   "trung_sub": "nỏ: Trung (L10 chưa ghi vùng nhỏ, K1: Nghệ Tĩnh/Bắc Trung Bộ); hông: Nam (K1)",
+   "confidence": "medium",
+   "source": "L10,K1"
+  },
+  {
+   "concept": "tôi (I, neutral)",
+   "bac": "tôi",
+   "trung": "tui",
+   "nam": "tui",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L2,L9"
+  },
+  {
+   "concept": "tao (I, informal)",
+   "bac": "tao",
+   "trung": "tau (Bình Trị Thiên); ta (Đà Nẵng)",
+   "nam": "tao",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L2"
+  },
+  {
+   "concept": "mày (you, informal)",
+   "bac": "mày",
+   "trung": "mi",
+   "nam": "mày",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L2,L9"
+  },
+  {
+   "concept": "chúng mày",
+   "bac": "chúng mày",
+   "trung": "bây/bọn bây (Thanh Nghệ Tĩnh); tụi mi/tụi bay (Bình Trị Thiên)",
+   "nam": "tụi mày",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L2"
+  },
+  {
+   "concept": "chúng tôi",
+   "bac": "chúng tôi",
+   "trung": "bọn tui/tụi tui; choa/bọn choa (Thanh Nghệ Tĩnh)",
+   "nam": "tụi tui",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L2"
+  },
+  {
+   "concept": "nó/hắn (he/she/it)",
+   "bac": "nó (hắn: cũ/văn)",
+   "trung": "hắn/hấn",
+   "nam": "nó",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L2,L9"
+  },
+  {
+   "concept": "họ/chúng nó",
+   "bac": "chúng nó",
+   "trung": "bọn nớ (Thanh Nghệ Tĩnh); tụi nớ (Huế)",
+   "nam": "tụi nó",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L2"
+  },
+  {
+   "concept": "ông ấy",
+   "bac": "ông ấy",
+   "trung": "ông nớ",
+   "nam": "ổng",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L2"
+  },
+  {
+   "concept": "bà ấy",
+   "bac": "bà ấy",
+   "trung": "bà nớ (Đà Nẵng); mụ nớ/mệ nớ (Bình Trị Thiên)",
+   "nam": "bả",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L2"
+  },
+  {
+   "concept": "cô ấy",
+   "bac": "cô ấy",
+   "trung": "dì nớ/o nớ (Bình Trị Thiên)",
+   "nam": "cổ",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L2"
+  },
+  {
+   "concept": "chị ấy",
+   "bac": "chị ấy",
+   "trung": "chị nớ",
+   "nam": "chỉ",
+   "trung_sub": "LƯU Ý: 'chỉ' (Nam) trùng với 'chỉ' (only) - ASR dễ nhầm",
+   "confidence": "high",
+   "source": "L2"
+  },
+  {
+   "concept": "anh ấy",
+   "bac": "anh ấy",
+   "trung": "anh nớ",
+   "nam": "ảnh",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L2"
+  },
+  {
+   "concept": "bà (nội/ngoại)",
+   "bac": "bà",
+   "trung": "mệ (Huế)",
+   "nam": "bà / má lớn (bà nội, theo L26)",
+   "trung_sub": "mệ=bà/mẹ theo L10",
+   "confidence": "medium",
+   "source": "L10,L11,L26"
+  },
+  {
+   "concept": "cô (chị/em gái của bố)",
+   "bac": "cô",
+   "trung": "o (Huế)",
+   "nam": "cô",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L11"
+  },
+  {
+   "concept": "anh",
+   "bac": "anh",
+   "trung": "eng (Trung - vùng nhỏ chưa rõ)",
+   "nam": "anh",
+   "trung_sub": "",
+   "confidence": "medium",
+   "source": "L10"
+  },
+  {
+   "concept": "đầu (head)",
+   "bac": "đầu",
+   "trung": "trốc",
+   "nam": "đầu",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L9"
+  },
+  {
+   "concept": "gái (girl)",
+   "bac": "gái",
+   "trung": "gấy (Nghệ Tĩnh? chưa rõ)",
+   "nam": "gái",
+   "trung_sub": "",
+   "confidence": "low",
+   "source": "L10"
+  },
+  {
+   "concept": "làm (do)",
+   "bac": "làm",
+   "trung": "mần",
+   "nam": "làm (mần: dùng ở Nam Bộ nhưng ít hơn)",
+   "trung_sub": "",
+   "confidence": "medium",
+   "source": "L10,K1"
+  },
+  {
+   "concept": "thấy (see)",
+   "bac": "thấy",
+   "trung": "chộ",
+   "nam": "thấy",
+   "trung_sub": "vùng nhỏ chưa kiểm chứng (K1: Nghệ Tĩnh/Huế)",
+   "confidence": "medium",
+   "source": "L10"
+  },
+  {
+   "concept": "bây giờ (now)",
+   "bac": "bây giờ",
+   "trung": "chừ/dừ (Huế); bi giờ (Nghệ Tĩnh)",
+   "nam": "bây giờ / giờ",
+   "trung_sub": "",
+   "confidence": "medium",
+   "source": "L10,K1"
+  },
+  {
+   "concept": "nữa (more)",
+   "bac": "nữa",
+   "trung": "nựa",
+   "nam": "nữa",
+   "trung_sub": "",
+   "confidence": "medium",
+   "source": "L10"
+  },
+  {
+   "concept": "nước (water)",
+   "bac": "nước",
+   "trung": "nác (Bắc Trung Bộ)",
+   "nam": "nước",
+   "trung_sub": "",
+   "confidence": "medium",
+   "source": "L10"
+  },
+  {
+   "concept": "của mình",
+   "bac": "mình",
+   "trung": "miềng",
+   "nam": "mình",
+   "trung_sub": "",
+   "confidence": "low",
+   "source": "L10"
+  },
+  {
+   "concept": "thật (really)",
+   "bac": "thật",
+   "trung": "thiệt",
+   "nam": "thiệt",
+   "trung_sub": "",
+   "confidence": "medium",
+   "source": "L10,K1"
+  },
+  {
+   "concept": "lắm (very)",
+   "bac": "lắm",
+   "trung": "hung (?)",
+   "nam": "lắm / quá",
+   "trung_sub": "",
+   "confidence": "low",
+   "source": "L10"
+  },
+  {
+   "concept": "vâng/dạ (yes)",
+   "bac": "vâng, dạ, ạ",
+   "trung": "dạ",
+   "nam": "dạ",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L2,L9,L8"
+  },
+  {
+   "concept": "gọi (call)",
+   "bac": "gọi",
+   "trung": "gọi/kêu",
+   "nam": "kêu / gọi",
+   "trung_sub": "Nam 'gọi điện' vẫn dùng; 'kêu' cho 'gọi (người)'",
+   "confidence": "medium",
+   "source": "L2,K1"
+  },
+  {
+   "concept": "chậm/trễ",
+   "bac": "chậm",
+   "trung": "chậm/trễ",
+   "nam": "trễ",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L2"
+  },
+  {
+   "concept": "thuê/mướn",
+   "bac": "thuê",
+   "trung": "thuê",
+   "nam": "mướn",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L2"
+  },
+  {
+   "concept": "mau/lẹ",
+   "bac": "mau",
+   "trung": "mau/lẹ",
+   "nam": "lẹ",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L2"
+  },
+  {
+   "concept": "lau/chùi",
+   "bac": "lau",
+   "trung": "lau",
+   "nam": "chùi",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L2"
+  },
+  {
+   "concept": "tìm/kiếm",
+   "bac": "tìm",
+   "trung": "tìm",
+   "nam": "kiếm / tìm",
+   "trung_sub": "L2 liệt kê theo yếu tố trong từ ghép; 'tìm' vẫn dùng bình thường ở Nam, không thể giả định 'tìm' -> 'kiếm' trong lệnh thoại",
+   "confidence": "medium",
+   "source": "L2"
+  },
+  {
+   "concept": "đùa/giỡn",
+   "bac": "đùa",
+   "trung": "",
+   "nam": "giỡn",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L2"
+  },
+  {
+   "concept": "bẩn/dơ",
+   "bac": "bẩn",
+   "trung": "dơ",
+   "nam": "dơ",
+   "trung_sub": "Trung chưa kiểm chứng",
+   "confidence": "high",
+   "source": "L2"
+  },
+  {
+   "concept": "hỏng/hư",
+   "bac": "hỏng",
+   "trung": "hư",
+   "nam": "hư",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L2"
+  },
+  {
+   "concept": "ốm (ill)",
+   "bac": "ốm = bệnh",
+   "trung": "ốm = bệnh? (chưa rõ)",
+   "nam": "đau/bệnh; 'ốm' = gầy",
+   "trung_sub": "CẢNH BÁO: 'ốm' Bắc=bệnh, Nam=gầy",
+   "confidence": "high",
+   "source": "L2"
+  },
+  {
+   "concept": "nhà sách/cửa hàng sách",
+   "bac": "hiệu sách/cửa hàng sách",
+   "trung": "",
+   "nam": "nhà sách",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L2"
+  },
+  {
+   "concept": "phá/quậy",
+   "bac": "phá",
+   "trung": "",
+   "nam": "quậy",
+   "trung_sub": "",
+   "confidence": "high",
+   "source": "L2"
+  },
+  {
+   "concept": "nhỉ (tag)",
+   "bac": "nhỉ",
+   "trung": "hè/hẹ/hầy",
+   "nam": "hen/nhỉ",
+   "trung_sub": "",
+   "confidence": "medium",
+   "source": "L10,K1"
+  },
+  {
+   "concept": "chứ (surely)",
+   "bac": "chứ",
+   "trung": "chơ",
+   "nam": "chớ / chứ",
+   "trung_sub": "",
+   "confidence": "medium",
+   "source": "L10,K1"
+  }
+ ],
+ "particles": {
+  "bac": [
+   {
+    "form": "nhé",
+    "function": "đề nghị/nhắc nhẹ cuối câu ('bật điều hòa nhé')",
+    "confidence": "medium",
+    "source": "K1,L8(ghi nhầm là Nam)"
+   },
+   {
+    "form": "ạ",
+    "function": "kính ngữ cuối câu ('cho tôi đường đi ạ')",
+    "confidence": "high",
+    "source": "L8,L2"
+   },
+   {
+    "form": "vâng",
+    "function": "đáp đồng ý lịch sự (Bắc); 'dạ' cũng dùng nhưng 'vâng' đặc trưng Bắc",
+    "confidence": "high",
+    "source": "L8,L2"
+   },
+   {
+    "form": "ừ",
+    "function": "đáp thân mật, ngang hàng/bề trên với bề dưới",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "form": "hộ",
+    "function": "nhờ giúp ('mở cửa sổ hộ tôi')",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "form": "đi",
+    "function": "giục/đề nghị ('bật nhạc đi')",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "form": "nhỉ",
+    "function": "hỏi xác nhận/cảm thán",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "form": "đấy/đây",
+    "function": "nhấn mạnh",
+    "confidence": "low",
+    "source": "K1"
+   },
+   {
+    "form": "thôi",
+    "function": "kết thúc/hạn chế",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "form": "à / hả",
+    "function": "hỏi lại",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "form": "chứ",
+    "function": "khẳng định/phản bác nhẹ",
+    "confidence": "medium",
+    "source": "K1"
+   }
+  ],
+  "trung": [
+   {
+    "form": "dạ",
+    "function": "đáp lịch sự (Trung & Nam)",
+    "confidence": "high",
+    "source": "L2,L9"
+   },
+   {
+    "form": "hè / hẹ / hầy",
+    "function": "~ 'nhỉ' (cuối câu) - vùng nhỏ chưa rõ",
+    "confidence": "medium",
+    "source": "L10"
+   },
+   {
+    "form": "chơ",
+    "function": "~ 'chứ' (L10 chưa ghi vùng nhỏ)",
+    "confidence": "medium",
+    "source": "L10"
+   },
+   {
+    "form": "rứa / ri",
+    "function": "'thế/vậy', 'thế này' xuất hiện cuối câu trong 'làm chi rứa'",
+    "confidence": "high",
+    "source": "L2,L11"
+   },
+   {
+    "form": "nghe",
+    "function": "cuối câu như Nam ('đi nghe')",
+    "confidence": "low",
+    "source": "K1"
+   },
+   {
+    "form": "nờ? (do người yêu cầu liệt kê)",
+    "function": "KHÔNG xác minh được trong bất kỳ nguồn đọc được; có thể là biến thể cuối câu hỏi ở Trung nhưng chưa chắc",
+    "confidence": "low",
+    "source": "X1"
+   },
+   {
+    "form": "mô",
+    "function": "từ hỏi 'đâu/nào' đứng cuối hoặc giữa câu ('Biết mô'= biết đâu); không phải tiểu từ thuần túy",
+    "confidence": "medium",
+    "source": "L10,L11"
+   }
+  ],
+  "nam": [
+   {
+    "form": "nha",
+    "function": "cuối câu mềm hóa lời đề nghị ('bật máy lạnh nha')",
+    "confidence": "high",
+    "source": "L8,K1"
+   },
+   {
+    "form": "nghen / nghe",
+    "function": "tương tự 'nhé' ('đi nghen')",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "form": "hen / hén",
+    "function": "~ 'nhỉ/nhé' hỏi xác nhận",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "form": "nè",
+    "function": "gọi chú ý/chỉ ('xem nè')",
+    "confidence": "high",
+    "source": "L9"
+   },
+   {
+    "form": "dạ",
+    "function": "đáp lịch sự, đứng đầu hoặc cuối câu",
+    "confidence": "high",
+    "source": "L2,L9,L8"
+   },
+   {
+    "form": "dùm / giùm",
+    "function": "nhờ giúp ('mở kiếng dùm')",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "form": "hông",
+    "function": "~ 'không' cuối câu hỏi ('đi hông?')",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "form": "á / à",
+    "function": "nhấn mạnh",
+    "confidence": "low",
+    "source": "K1"
+   },
+   {
+    "form": "luôn",
+    "function": "'tiện thể' ('tắt luôn máy lạnh')",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "form": "đi nha",
+    "function": "đề nghị mềm: 'chạy đi nha'",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "form": "vậy",
+    "function": "cuối câu hỏi/kết luận",
+    "confidence": "low",
+    "source": "K1"
+   }
+  ],
+  "notes": "Tiểu từ: 'nhé' (Bắc) ~ 'nha/nghen' (Nam); 'hộ' (Bắc) ~ 'giùm/dùm' (Nam); 'vâng' đặc trưng Bắc, 'dạ' Trung/Nam. Nguồn L8 ghi 'nha' (Nam) là tương đương 'nhé' nhưng viết 'nhé is Southern equivalent' có vẻ đảo; không dùng. Trong thực tế người Bắc cũng dùng 'dạ'; người trẻ mọi miền dùng lẫn. Hầu hết mục 'medium' là kiến thức nền K1, cần người bản ngữ duyệt, đặc biệt Trung (Huế vs Nghệ Tĩnh)."
+ },
+ "number_rules": [
+  {
+   "topic": "0 ở hàng chục: lẻ/linh",
+   "rule": "101 = 'một trăm linh một' (Bắc) / 'một trăm lẻ một' (Trung, Nam); 1001 = 'một nghìn không trăm linh/lẻ một'",
+   "variants": "linh (Bắc), lẻ (Trung/Nam). Cả hai nên được chấp nhận làm đầu vào ASR",
+   "source": "L5,L14",
+   "confidence": "high"
+  },
+  {
+   "topic": "nghìn/ngàn",
+   "rule": "1.000 = 'một nghìn' (chuẩn/Bắc) hoặc 'một ngàn' (Nam)",
+   "variants": "Cả hai nghĩa như nhau; 'ngàn' Nam. Tiền: '50 nghìn'/'năm chục ngàn'",
+   "source": "L5,L14",
+   "confidence": "high"
+  },
+  {
+   "topic": "mười/mươi",
+   "rule": "10 = 'mười'; từ 20 trở lên = 'mươi' (hai mươi, ba mươi); 'chục' khẩu ngữ ('hai chục')",
+   "variants": "'mười' đọc trong 10-19; từ 20: 'mươi' (thanh ngang) - Nam thường đọc 'mươi' gần 'mưoi'",
+   "source": "L5,L14",
+   "confidence": "high"
+  },
+  {
+   "topic": "mốt",
+   "rule": "hàng đơn vị 1 sau 20 -> 'mốt': 21 = 'hai mươi mốt'; 11 = 'mười một' (không mốt)",
+   "variants": "'một' vẫn được hiểu; 'hai mươi một' ít gặp. 101 'một trăm linh một' dùng 'một' không phải 'mốt'",
+   "source": "L5,L14",
+   "confidence": "high"
+  },
+  {
+   "topic": "tư/bốn",
+   "rule": "4 ở hàng đơn vị sau 20: 'hai mươi tư' phổ biến; 'hai mươi bốn' cũng dùng; 14 = 'mười bốn' (khẩu ngữ), 'mười tư' (văn)",
+   "variants": "'tư' phổ biến hơn trong 24/34..; 'bốn' dùng đơn lẻ; tháng 4 luôn 'tháng tư'; 4 giờ = 'bốn giờ'",
+   "source": "L5",
+   "confidence": "high"
+  },
+  {
+   "topic": "lăm/năm/nhăm",
+   "rule": "5 ở hàng đơn vị sau 10: 15='mười lăm', 25='hai mươi lăm'; 105 = 'một trăm linh năm' (giữ 'năm'); 'nhăm' (một số người Bắc: 'hai mươi nhăm')",
+   "variants": "Nam hiếm dùng 'nhăm'; 'lăm' ở 15/25/...; 605 giữ 'năm' (L5)",
+   "source": "L5,L14",
+   "confidence": "high"
+  },
+  {
+   "topic": "rưỡi",
+   "rule": "'rưỡi' = nửa sau đơn vị: '9 giờ rưỡi' (9:30), '1,5 triệu' = 'một triệu rưỡi', '2,5 km' = 'hai cây rưỡi' (khẩu ngữ) / 'hai cây số rưỡi'",
+   "variants": "'hai phẩy năm ki-lô-mét' (đọc theo số) cũng gặp. L5 không nêu rưỡi -> kiến thức nền",
+   "source": "K1",
+   "confidence": "medium"
+  },
+  {
+   "topic": "số thập phân",
+   "rule": "Số viết dấu phẩy (1,5) đọc 'một phẩy năm'; Việt Nam hiện vừa dùng dấu phẩy (chuẩn) vừa dấu chấm (nhiều ứng dụng, nhất là sau ảnh hưởng quốc tế)",
+   "variants": "Nói: 'phẩy' (chuẩn); nhiều người đọc 'chấm' (ví dụ ở Nam, hoặc khi đọc từ màn hình có dấu chấm: '21 chấm 5 độ'). Số tiền '1.500.000' dấu chấm là phân cách nghìn",
+   "source": "L5(dấu phẩy),K1",
+   "confidence": "medium"
+  },
+  {
+   "topic": "năm (year)",
+   "rule": "'2025' = 'hai nghìn không trăm hai mươi lăm' (chính thức) hoặc 'hai không hai năm' (từng chữ số, khẩu ngữ); '1995' = 'một nghìn chín trăm chín mươi lăm' hoặc 'một chín chín năm'; nói 'năm 25' ít dùng",
+   "variants": "Bắc/Nam cùng cách; 'linh' vs 'lẻ': 'hai nghìn không trăm linh/lẻ năm' (2005) nhưng thường 'hai nghìn không trăm lẻ năm' hay 'hai không không năm'",
+   "source": "K1",
+   "confidence": "medium"
+  },
+  {
+   "topic": "giờ",
+   "rule": "'9 giờ 30' = 'chín giờ ba mươi' / 'chín giờ rưỡi'; 9:15 = 'chín giờ mười lăm'/'chín giờ mười lăm phút'; 9:45 = 'chín giờ bốn mươi lăm'/'mười giờ kém mười lăm'; 12:00 'mười hai giờ'/'giữa trưa'; 0:00 'không giờ'/'mười hai giờ đêm'; sáng/trưa/chiều/tối/đêm đi kèm",
+   "variants": "'kém' (Bắc/Nam đều dùng); 'rưỡi' chỉ cho :30; '6 giờ 5 phút' = 'sáu giờ năm phút' ('lăm' chỉ khi hàng chục: 'mười lăm', 'hai mươi lăm' ... '5' đơn = 'năm'). Dạng 24h: '14 giờ 30' = 'mười bốn giờ ba mươi' (thường dùng hàng không/đường sắt/văn bản)",
+   "source": "K1",
+   "confidence": "medium"
+  },
+  {
+   "topic": "ngày/tháng",
+   "rule": "'ngày 1' = 'ngày mùng một' (1-10: 'mùng') hoặc 'ngày một'; 'ngày 2' = 'ngày mùng hai'; từ ngày 11: 'ngày mười một'; '15/10' = 'ngày mười lăm tháng mười'; tháng: 'tháng một…tháng mười hai' (dương lịch); 'tháng giêng' (tháng 1 âm lịch), 'tháng chạp' (tháng 12 âm lịch); tháng 4 = 'tháng tư'",
+   "variants": "'mồng' (Bắc, viết mồng) / 'mùng' (Nam, viết mùng); '1 tháng 1' đọc 'mồng/mùng một tháng một'; 'tháng giêng' truyền thống; Nam có thể 'ba mươi tháng tư'",
+   "source": "K1",
+   "confidence": "medium"
+  },
+  {
+   "topic": "km/m",
+   "rule": "'km' = 'ki-lô-mét' (chuẩn); khẩu ngữ 'cây số' hoặc 'cây' ('hai cây'); 'm' = 'mét'; '500 m' = 'năm trăm mét'; '1,2 km' = 'một phẩy hai ki-lô-mét'",
+   "variants": "'cây số' phổ biến khẩu ngữ ở mọi vùng, mạnh ở Nam; 'km/h' = 'ki-lô-mét trên giờ' / 'cây số một giờ'",
+   "source": "K1",
+   "confidence": "medium"
+  },
+  {
+   "topic": "độ C/nhiệt độ",
+   "rule": "'28°C' = 'hai mươi tám độ C' / 'hai mươi tám độ xê' (khẩu ngữ); 'độ' đơn lẻ trong ngữ cảnh điều hòa là 'độ C'",
+   "variants": "Nam hay 'hai mươi tám độ'; 'xê' phát âm chữ C; 22,5°C = 'hai mươi hai độ rưỡi'/'hai mươi hai phẩy năm độ'",
+   "source": "K1",
+   "confidence": "medium"
+  },
+  {
+   "topic": "%",
+   "rule": "'50%' = 'năm mươi phần trăm'; '100%' = 'một trăm phần trăm'",
+   "variants": "'phần trăm' mọi vùng; pin '80%' = 'tám mươi phần trăm'",
+   "source": "K1",
+   "confidence": "high"
+  },
+  {
+   "topic": "MHz (FM)",
+   "rule": "'FM 102.7 MHz' = 'FM một trăm linh hai chấm bảy' hoặc 'một không hai phẩy bảy'; đơn vị 'mê-ga-hec'/'mê-ga-hét' ít đọc; thường đọc 'sóng FM một trăm linh hai chấm bảy'",
+   "variants": "Dấu thập phân: người dùng đài thường đọc 'chấm' (nhiều người quen) hoặc 'phẩy' (chuẩn); đọc từng chữ số cũng gặp: 'một không hai chấm bảy'",
+   "source": "K1",
+   "confidence": "low"
+  },
+  {
+   "topic": "tiền: VND/đồng/k",
+   "rule": "'50.000đ' = 'năm mươi nghìn đồng'; '50k' = 'năm mươi ca' hoặc 'năm chục ca' (khẩu ngữ); '1,5 triệu' = 'một triệu rưỡi' (khẩu ngữ) / 'một phẩy năm triệu'; '1 tỷ/tỉ' = 'một tỷ' (Nam 'tỉ')",
+   "variants": "'ngàn'/'nghìn'; 'tỷ' vs 'tỉ'; khẩu ngữ Nam 'chục ngàn', 'trăm rưỡi' = 150k; '25 củ' (Bắc, 25 triệu) tiếng lóng, bỏ qua",
+   "source": "K1",
+   "confidence": "medium"
+  },
+  {
+   "topic": "kWh",
+   "rule": "'kWh' = 'ki-lô-oát giờ' (hoặc 'ki-lô-oát-giờ'); khẩu ngữ gọi là 'số điện' (1 số = 1 kWh)",
+   "variants": "ASR dễ nhầm; pin '60 kWh' = 'sáu mươi ki-lô-oát giờ'",
+   "source": "K1",
+   "confidence": "medium"
+  },
+  {
+   "topic": "psi/bar (áp suất lốp)",
+   "rule": "'psi' đọc 'pi-ét-xi' (hoặc 'pê-ét-xi'); 'bar' đọc 'ba' hoặc 'bar' (như tiếng Anh /ba:/); khẩu ngữ: 'bơm 32 psi'/'bơm ba mươi hai' ; 2,3 bar = 'hai phẩy ba bar'",
+   "variants": "Khẩu ngữ thợ: 'ký' (kg/cm2) - 'bơm hai ký rưỡi' = 2,5 kgf/cm2 ~ 2,5 bar; độ chắc thấp",
+   "source": "K1",
+   "confidence": "low"
+  },
+  {
+   "topic": "lít",
+   "rule": "'l' = 'lít'; '8 l/100 km' = 'tám lít trên một trăm ki-lô-mét' / 'tám lít một trăm cây'",
+   "variants": "'lít' phát âm 'lít' mọi vùng",
+   "source": "K1",
+   "confidence": "medium"
+  },
+  {
+   "topic": "số điện thoại",
+   "rule": "Đọc từng chữ số: '0912 345 678' = 'không chín một hai, ba bốn năm, sáu bảy tám'; '0' = 'không'; '5' = 'năm' (không dùng 'lăm' khi đọc từng chữ số); '7' = 'bảy' (một số người viết/nói 'bẩy', L5 ghi biến thể này)",
+   "variants": "Nhóm chữ số khác nhau: 4-3-3, hoặc 3-3-4; '0' đọc 'không' (đôi khi 'o' trong khẩu ngữ, chưa xác minh); số lặp đôi như '88' có thể đọc 'tám tám' hoặc 'hai tám' (chưa xác minh)",
+   "source": "K1",
+   "confidence": "medium"
+  },
+  {
+   "topic": "biển số xe",
+   "rule": "'51F-123.45' = 'năm mươi mốt ép, một hai ba bốn năm' (hai chữ số vùng + chữ cái + số); chữ cái: A 'a', B 'bê', C 'xê', D 'đê', E 'e', F 'ép', G 'gờ'/'gi', H 'hát', K 'ca', L 'lờ'/'e-lờ', M 'mờ'/'em', N 'nờ'/'en', P 'pê', S 'ét', T 'tê', V 'vê', X 'ích-xì', Y 'y-dài'",
+   "variants": "Bắc đọc mã vùng 'hai mươi chín' (29) hoặc 'hai chín'; Nam 'năm mươi mốt' hoặc 'năm một'; tên chữ cái có nhiều biến thể ('ép', 'ép-phờ'); độ chắc thấp, cần người bản ngữ",
+   "source": "K1",
+   "confidence": "low"
+  },
+  {
+   "topic": "số khẩn cấp 113/114/115",
+   "rule": "Chuẩn: 113 công an, 114 cứu hỏa, 115 cấp cứu - đọc từng chữ số: 'một một ba', 'một một bốn', 'một một năm'",
+   "variants": "Đọc 'một trăm mười ba' hiếm; chấp nhận cả hai trong ASR.",
+   "source": "K1",
+   "confidence": "medium"
+  },
+  {
+   "topic": "chữ viết tắt/đọc tên",
+   "rule": "VOV = 'vê-ô-vê' hoặc 'vi-ô-vi' ('Đài Tiếng nói Việt Nam'); FM = 'ép-em' / 'ép-êm' / 'ép em'; GPS = 'gi-pi-ét' / 'định vị'; Wi-Fi = 'oai-phai' / 'wai-fai'; USB = 'u-ét-bê' / 'iu-ét-bi'; Bluetooth = 'blu-tút' / 'bờ-lu-tút'; AC = 'a-xê'/'ây-xi'; ECO = 'ê-cô' / 'i-cô' (chưa rõ cách nào phổ biến hơn); OK = 'ô-kê'",
+   "variants": "Phát âm hỗn hợp: đọc theo tên chữ cái tiếng Việt (bê, xê, đê...) hoặc theo tên tiếng Anh (bi, xi, đi); độ chắc thấp, đa biến thể; cần ghi âm và người bản ngữ duyệt",
+   "source": "K1",
+   "confidence": "low"
+  },
+  {
+   "topic": "lưu ý thanh điệu cho ASR",
+   "rule": "Nam: hỏi và ngã hợp nhất thành một thanh (L1,L3) - các cặp như 'bảy' (7) / 'bẫy', 'sửa'/'sữa' không phân biệt bằng thanh; Nam Bộ đọc 'nặng' hơi khác Bắc (L1)",
+   "variants": "Bắc Trung Bộ (Nghệ An): L3 ghi nhận một nhận xét dân gian rằng mọi thanh nghe như 'nặng', không phải kết luận khoa học",
+   "source": "L1,L3",
+   "confidence": "medium"
+  }
+ ],
+ "names": {
+  "surnames": [
+   {
+    "name": "Nguyễn",
+    "pct": "31.5% (L4, 2022) / 38.4% (L13, 2015) / 31.5-38.4% (L12)",
+    "source": "L4,L12,L13",
+    "confidence": "high"
+   },
+   {
+    "name": "Trần",
+    "pct": "10.9% (L4) / 10.9-12.1% (L12)",
+    "source": "L4,L12",
+    "confidence": "high"
+   },
+   {
+    "name": "Lê",
+    "pct": "8.9% (L4) / 8.9-9.5% (L12)",
+    "source": "L4,L12",
+    "confidence": "high"
+   },
+   {
+    "name": "Phạm",
+    "pct": "5.9% (L4) / 5.9-7.0% (L12)",
+    "source": "L4,L12",
+    "confidence": "high"
+   },
+   {
+    "name": "Hoàng/Huỳnh",
+    "pct": "5.1% gộp (L4,L12)",
+    "source": "L4,L12",
+    "confidence": "high"
+   },
+   {
+    "name": "Vũ/Võ",
+    "pct": "4.9% gộp (L4,L12)",
+    "source": "L4,L12",
+    "confidence": "high"
+   },
+   {
+    "name": "Phan",
+    "pct": "2.8% (L4) / 2.8-4.5% (L12)",
+    "source": "L4,L12",
+    "confidence": "high"
+   },
+   {
+    "name": "Trương",
+    "pct": "2.2%",
+    "source": "L4,L12",
+    "confidence": "high"
+   },
+   {
+    "name": "Bùi",
+    "pct": "2.1%",
+    "source": "L4,L12",
+    "confidence": "high"
+   },
+   {
+    "name": "Đỗ",
+    "pct": "1.9%",
+    "source": "L4,L12",
+    "confidence": "high"
+   },
+   {
+    "name": "Đặng",
+    "pct": "1.9% (L4) / 1.9-2.1% (L12)",
+    "source": "L4,L12",
+    "confidence": "high"
+   },
+   {
+    "name": "Ngô",
+    "pct": "1.7%",
+    "source": "L4,L12",
+    "confidence": "high"
+   },
+   {
+    "name": "Hồ",
+    "pct": "1.5%",
+    "source": "L4,L12",
+    "confidence": "high"
+   },
+   {
+    "name": "Dương",
+    "pct": "1.4%",
+    "source": "L4,L12",
+    "confidence": "high"
+   },
+   {
+    "name": "Lý",
+    "pct": "1.0% (L4)",
+    "source": "L4",
+    "confidence": "high"
+   },
+   {
+    "name": "Đinh",
+    "pct": "~1.0% (L12)",
+    "source": "L12",
+    "confidence": "medium"
+   },
+   {
+    "name": "Đoàn",
+    "pct": "",
+    "source": "K1",
+    "confidence": "low"
+   },
+   {
+    "name": "Lương",
+    "pct": "",
+    "source": "K1",
+    "confidence": "low"
+   },
+   {
+    "name": "Mai",
+    "pct": "",
+    "source": "K1",
+    "confidence": "low"
+   },
+   {
+    "name": "Lâm",
+    "pct": "",
+    "source": "K1",
+    "confidence": "low"
+   }
+  ],
+  "surname_notes": "Tỷ lệ là ước tính, không phải số liệu chính thức (L12). 'Huỳnh' và 'Võ' (biến thể của Hoàng và Vũ) tập trung Nam/Trung (K1, medium); 'Vũ','Đỗ','Đinh' tập trung Bắc (K1, medium). L4 và L13 khác nhau (31.5% vs 38.4%) do nguồn/năm khác nhau. vi.wikipedia 'Họ người Việt' không truy cập được.",
+  "male_middle": [
+   {
+    "name": "Văn",
+    "source": "L4",
+    "confidence": "high"
+   },
+   {
+    "name": "Hữu",
+    "source": "L4",
+    "confidence": "high"
+   },
+   {
+    "name": "Đức",
+    "source": "L4",
+    "confidence": "high"
+   },
+   {
+    "name": "Thành",
+    "source": "L4",
+    "confidence": "high"
+   },
+   {
+    "name": "Công",
+    "source": "L4",
+    "confidence": "high"
+   },
+   {
+    "name": "Minh",
+    "source": "L4",
+    "confidence": "high"
+   },
+   {
+    "name": "Quang",
+    "source": "L4",
+    "confidence": "high"
+   },
+   {
+    "name": "Đình",
+    "source": "K1",
+    "confidence": "medium"
+   },
+   {
+    "name": "Xuân",
+    "source": "K1",
+    "confidence": "medium"
+   },
+   {
+    "name": "Quốc",
+    "source": "K1",
+    "confidence": "medium"
+   },
+   {
+    "name": "Ngọc",
+    "source": "K1",
+    "confidence": "medium"
+   },
+   {
+    "name": "Anh",
+    "source": "K1",
+    "confidence": "medium"
+   },
+   {
+    "name": "Gia",
+    "source": "K1",
+    "confidence": "medium"
+   },
+   {
+    "name": "Bảo",
+    "source": "K1",
+    "confidence": "medium"
+   },
+   {
+    "name": "Duy",
+    "source": "K1",
+    "confidence": "medium"
+   },
+   {
+    "name": "Trọng",
+    "source": "K1",
+    "confidence": "low"
+   }
+  ],
+  "female_middle": [
+   {
+    "name": "Thị",
+    "source": "L4",
+    "confidence": "high"
+   },
+   {
+    "name": "Ngọc",
+    "source": "K1",
+    "confidence": "medium"
+   },
+   {
+    "name": "Thùy/Thúy",
+    "source": "K1",
+    "confidence": "medium"
+   },
+   {
+    "name": "Kim",
+    "source": "K1",
+    "confidence": "medium"
+   },
+   {
+    "name": "Mai",
+    "source": "K1",
+    "confidence": "medium"
+   },
+   {
+    "name": "Bích",
+    "source": "K1",
+    "confidence": "medium"
+   },
+   {
+    "name": "Hoài",
+    "source": "K1",
+    "confidence": "medium"
+   },
+   {
+    "name": "Phương",
+    "source": "K1",
+    "confidence": "medium"
+   },
+   {
+    "name": "Thanh",
+    "source": "K1",
+    "confidence": "medium"
+   },
+   {
+    "name": "Diệu",
+    "source": "K1",
+    "confidence": "low"
+   },
+   {
+    "name": "Khánh",
+    "source": "K1",
+    "confidence": "low"
+   },
+   {
+    "name": "Minh",
+    "source": "K1",
+    "confidence": "medium"
+   },
+   {
+    "name": "Hồng",
+    "source": "K1",
+    "confidence": "medium"
+   },
+   {
+    "name": "Thu",
+    "source": "K1",
+    "confidence": "medium"
+   }
+  ],
+  "male_given": [
+   {
+    "name": "Hùng",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Dũng",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Minh",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Tuấn",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Anh",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Nam",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Long",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Hải",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Phong",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Quang",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Khoa",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Thành",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Hiếu",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Trung",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Đạt",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Huy",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Khánh",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Bảo",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Phúc",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Sơn",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Nghĩa",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Tâm",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Phước",
+    "region": "thiên về Nam/Trung",
+    "confidence": "low",
+    "source": "K1"
+   },
+   {
+    "name": "Lộc",
+    "region": "thiên về Nam",
+    "confidence": "low",
+    "source": "K1"
+   },
+   {
+    "name": "Tài",
+    "region": "thiên về Nam",
+    "confidence": "low",
+    "source": "K1"
+   },
+   {
+    "name": "Hưng",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Cường",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Tùng",
+    "region": "thiên về Bắc",
+    "confidence": "low",
+    "source": "K1"
+   },
+   {
+    "name": "Đức",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Thắng",
+    "region": "thiên về Bắc",
+    "confidence": "low",
+    "source": "K1"
+   }
+  ],
+  "female_given": [
+   {
+    "name": "Linh",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Hương",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Lan",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Hoa",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Mai",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Hằng",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Thảo",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Trang",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Ngọc",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Thu",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Hà",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Phương",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Anh",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Nhung",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Yến",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Vy",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Trinh",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Ngân",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Nhi",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Quỳnh",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Hạnh",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Loan",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Dung",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Huyền",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Thủy",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Hiền",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Tuyết",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "name": "Hiếu",
+    "region": "toàn quốc",
+    "confidence": "low",
+    "source": "K1"
+   },
+   {
+    "name": "Lệ",
+    "region": "thiên về Trung (Huế)",
+    "confidence": "low",
+    "source": "K1"
+   },
+   {
+    "name": "Liên",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   }
+  ],
+  "given_notes": "Danh sách tên gọi là kiến thức nền K1 (không có bảng tần suất đọc được); thứ tự không phản ánh tần suất. Khác biệt vùng (Phước/Lộc/Tài ở Nam; Tùng/Thắng ở Bắc; Lệ/Công Tằng Tôn Nữ/Tôn Thất ở Huế) chỉ là xu hướng, độ chắc thấp. Thanh điệu: Nam hợp nhất hỏi/ngã (L1,L3) nên 'Hiển/Hiền', 'Thảo/Thao', 'Mỹ/Mị' dễ nhầm trong ASR Nam. L4: tên chính thường 1-2 âm tiết; tên đệm Thị/Văn ngày càng ít ở thế hệ trẻ.",
+  "titles": [
+   {
+    "title": "anh",
+    "use": "nam trẻ hơn/bằng tuổi",
+    "region": "toàn quốc; Nam: 'anh Hai/Ba' theo thứ tự sinh",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "title": "chị",
+    "use": "nữ lớn hơn một chút",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "title": "em",
+    "use": "người nhỏ tuổi hơn",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "title": "cô",
+    "use": "phụ nữ trung niên/giáo viên nữ/em gái của bố",
+    "region": "toàn quốc; Huế: 'o' cho em/chị gái của bố",
+    "confidence": "high",
+    "source": "L11,K1"
+   },
+   {
+    "title": "chú",
+    "use": "nam trung niên hoặc em trai của bố",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "title": "bác",
+    "use": "lớn tuổi hơn bố mẹ / anh chị của bố mẹ",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "title": "dì",
+    "use": "em gái của mẹ/phụ nữ trung niên",
+    "region": "toàn quốc; Nam 'dì' thông dụng",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "title": "thím",
+    "use": "vợ của chú",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "title": "cậu / mợ",
+    "use": "em trai của mẹ / vợ cậu",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "title": "dượng/dượng",
+    "use": "chồng của dì/cô",
+    "region": "Nam 'dượng', Bắc 'dượng/chú'",
+    "confidence": "low",
+    "source": "K1"
+   },
+   {
+    "title": "ông / bà",
+    "use": "người cao tuổi",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "title": "sếp",
+    "use": "cấp trên",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "title": "thầy / cô giáo",
+    "use": "giáo viên",
+    "region": "toàn quốc; 'thầy' Bắc nông thôn từng = bố (L6)",
+    "confidence": "medium",
+    "source": "L6,K1"
+   },
+   {
+    "title": "bác sĩ",
+    "use": "nghề y",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "title": "kỹ sư / luật sư / giáo sư",
+    "use": "danh xưng nghề",
+    "region": "toàn quốc",
+    "confidence": "low",
+    "source": "K1"
+   },
+   {
+    "title": "mình",
+    "use": "vợ chồng/người yêu gọi nhau",
+    "region": "toàn quốc",
+    "confidence": "high",
+    "source": "L6"
+   },
+   {
+    "title": "ông xã / bà xã",
+    "use": "chồng / vợ (thân mật)",
+    "region": "toàn quốc; phổ biến mọi miền, Nam 'chồng/vợ' vẫn thường",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "title": "vợ / chồng",
+    "use": "vợ / chồng",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "title": "con",
+    "use": "con của mình (danh bạ: 'Con Nam')",
+    "region": "toàn quốc",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "title": "ba / mẹ hoặc bố / mẹ",
+    "use": "danh bạ: 'Ba', 'Má', 'Bố', 'Mẹ' tùy vùng",
+    "region": "Bắc: bố/mẹ; Nam: ba/má; Trung: cha/mạ",
+    "confidence": "high",
+    "source": "L6,L25"
+   },
+   {
+    "title": "ôsin/anh tài/anh shipper/bảo vệ",
+    "use": "người làm dịch vụ trong danh bạ",
+    "region": "toàn quốc",
+    "confidence": "low",
+    "source": "K1"
+   }
+  ],
+  "kinship": [
+   {
+    "concept": "bố/cha",
+    "bac": "bố (còn: thầy, cha)",
+    "trung": "cha",
+    "nam": "ba (còn: tía)",
+    "confidence": "high",
+    "source": "L6,L25"
+   },
+   {
+    "concept": "mẹ",
+    "bac": "mẹ (còn: u, bầm, mợ)",
+    "trung": "mạ",
+    "nam": "má",
+    "confidence": "high",
+    "source": "L6,L25"
+   },
+   {
+    "concept": "bà (nội/ngoại)",
+    "bac": "bà nội/bà ngoại",
+    "trung": "mệ (Huế)",
+    "nam": "bà nội / má lớn (nội)",
+    "confidence": "medium",
+    "source": "L10,L11,L26"
+   },
+   {
+    "concept": "ông (nội/ngoại)",
+    "bac": "ông nội/ông ngoại",
+    "trung": "ông nội/ông ngoại",
+    "nam": "ông nội/ông ngoại",
+    "confidence": "low",
+    "source": "K1"
+   },
+   {
+    "concept": "cô (em/chị gái của bố)",
+    "bac": "cô",
+    "trung": "o",
+    "nam": "cô",
+    "confidence": "high",
+    "source": "L11"
+   },
+   {
+    "concept": "chị cả/anh cả",
+    "bac": "chị Cả/anh Cả",
+    "trung": "chị Cả/anh Cả (?)",
+    "nam": "chị Hai/anh Hai",
+    "confidence": "medium",
+    "source": "K1",
+    "note": "Nam Bộ: con đầu = Hai; thứ tự: Hai, Ba, Tư, Năm, Sáu, Bảy, Tám, Chín, Mười, Út"
+   },
+   {
+    "concept": "con út",
+    "bac": "con út",
+    "trung": "út",
+    "nam": "út",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "concept": "vợ",
+    "bac": "vợ / bà xã / nhà tôi",
+    "trung": "vợ / bà xã",
+    "nam": "vợ / bà xã / bả (ngôi 3)",
+    "confidence": "medium",
+    "source": "K1,L2"
+   },
+   {
+    "concept": "chồng",
+    "bac": "chồng / ông xã",
+    "trung": "chồng / ông xã",
+    "nam": "chồng / ông xã / ổng (ngôi 3)",
+    "confidence": "medium",
+    "source": "K1,L2"
+   },
+   {
+    "concept": "anh (gọi anh ruột/người lớn)",
+    "bac": "anh",
+    "trung": "anh / eng",
+    "nam": "anh",
+    "confidence": "medium",
+    "source": "L10"
+   },
+   {
+    "concept": "gọi người lớn tuổi bằng 'mệ/mụ'",
+    "bac": "bà/cụ",
+    "trung": "mệ / mụ (Bình Trị Thiên)",
+    "nam": "bà",
+    "confidence": "medium",
+    "source": "L2"
+   }
+  ]
+ },
+ "music": {
+  "genres": [
+   {
+    "genre": "nhạc trữ tình",
+    "note": "ballad/slow love song; L7 liệt kê 'ballad' là dòng slow-tempo phổ biến",
+    "confidence": "medium",
+    "source": "L7,K1"
+   },
+   {
+    "genre": "nhạc vàng",
+    "note": "nhạc Miền Nam trước 1975 (rumba/bolero/tango...) (L7)",
+    "confidence": "high",
+    "source": "L7"
+   },
+   {
+    "genre": "bolero",
+    "note": "nhịp chậm; cực kỳ phổ biến karaoke (L7)",
+    "confidence": "high",
+    "source": "L7"
+   },
+   {
+    "genre": "nhạc Trịnh (nhạc Trịnh Công Sơn)",
+    "note": "L7 chỉ nêu Trịnh Công Sơn là nhạc sĩ, không nêu 'nhạc Trịnh' là thể loại; cách gọi này phổ biến trong đời sống",
+    "confidence": "medium",
+    "source": "L7,L24,K1"
+   },
+   {
+    "genre": "V-pop",
+    "note": "nhạc pop Việt hiện đại; chịu ảnh hưởng hip-hop (L7)",
+    "confidence": "high",
+    "source": "L7"
+   },
+   {
+    "genre": "rap Việt / hip-hop",
+    "note": "(L7)",
+    "confidence": "high",
+    "source": "L7"
+   },
+   {
+    "genre": "EDM / nhạc điện tử",
+    "note": "",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "genre": "nhạc không lời / hòa tấu",
+    "note": "thường nghe trên xe, 'nhạc không lời thư giãn'",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "genre": "nhạc thiếu nhi",
+    "note": "nhạc cho trẻ em; 'nhạc thiếu nhi vui nhộn'",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "genre": "nhạc cách mạng / nhạc đỏ",
+    "note": "revolutionary music (L7: 'nhạc đỏ')",
+    "confidence": "high",
+    "source": "L7"
+   },
+   {
+    "genre": "nhạc Hoa",
+    "note": "thường 'nhạc Hoa lời Việt'",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "genre": "K-pop",
+    "note": "BTS và BLACKPINK nổi bật trên Spotify VN 2021 (L17)",
+    "confidence": "high",
+    "source": "L17"
+   },
+   {
+    "genre": "nhạc Âu Mỹ / nhạc quốc tế / US-UK",
+    "note": "cách gọi: 'nhạc Âu Mỹ', 'nhạc Tây', 'nhạc nước ngoài'",
+    "confidence": "medium",
+    "source": "K1"
+   },
+   {
+    "genre": "nhạc rock / rock Việt",
+    "note": "(L7: Ngũ Cung, Microwave, Ngọt, Cá Hồi Hoang, Chillies, Radio Band)",
+    "confidence": "high",
+    "source": "L7"
+   },
+   {
+    "genre": "nhạc indie",
+    "note": "Hoàng Dũng, Vũ. là các nghệ sĩ indie trong top Spotify 2021 (L17)",
+    "confidence": "high",
+    "source": "L17"
+   },
+   {
+    "genre": "dân ca / quan họ / ca trù / chèo / chầu văn",
+    "note": "(L7)",
+    "confidence": "high",
+    "source": "L7"
+   },
+   {
+    "genre": "cải lương / vọng cổ",
+    "note": "(L7)",
+    "confidence": "high",
+    "source": "L7"
+   },
+   {
+    "genre": "nhạc tiền chiến / tân nhạc",
+    "note": "tân nhạc Việt Nam 1940s-1980s (L24)",
+    "confidence": "high",
+    "source": "L24"
+   },
+   {
+    "genre": "lo-fi / chill",
+    "note": "cách gọi playlist",
+    "confidence": "low",
+    "source": "K1"
+   }
+  ],
+  "artists": [
+   {
+    "name": "Sơn Tùng M-TP",
+    "verified": true,
+    "source": "L7,L17,L18,L19"
+   },
+   {
+    "name": "Đen (Đen Vâu)",
+    "verified": true,
+    "source": "L7,L16,L17,L18"
+   },
+   {
+    "name": "Mỹ Tâm",
+    "verified": true,
+    "source": "L7,L19"
+   },
+   {
+    "name": "Hà Anh Tuấn",
+    "verified": true,
+    "source": "L19"
+   },
+   {
+    "name": "Noo Phước Thịnh",
+    "verified": true,
+    "source": "L19"
+   },
+   {
+    "name": "Đông Nhi",
+    "verified": true,
+    "source": "L19"
+   },
+   {
+    "name": "Hồ Ngọc Hà",
+    "verified": true,
+    "source": "L7,L19"
+   },
+   {
+    "name": "Hoàng Dũng",
+    "verified": true,
+    "source": "L17,L18,L19"
+   },
+   {
+    "name": "Hòa Minzy",
+    "verified": true,
+    "source": "L19"
+   },
+   {
+    "name": "Thùy Chi",
+    "verified": true,
+    "source": "L19"
+   },
+   {
+    "name": "Phan Mạnh Quỳnh",
+    "verified": true,
+    "source": "L19"
+   },
+   {
+    "name": "Hoàng Thùy Linh",
+    "verified": true,
+    "source": "L16,L19"
+   },
+   {
+    "name": "Đức Phúc",
+    "verified": true,
+    "source": "L18,L19"
+   },
+   {
+    "name": "Bích Phương",
+    "verified": true,
+    "source": "L19"
+   },
+   {
+    "name": "Hà Nhi",
+    "verified": true,
+    "source": "L19"
+   },
+   {
+    "name": "Văn Mai Hương",
+    "verified": true,
+    "source": "L7,L19"
+   },
+   {
+    "name": "Vũ.",
+    "verified": true,
+    "source": "L16,L17,L18"
+   },
+   {
+    "name": "Binz",
+    "verified": true,
+    "source": "L7"
+   },
+   {
+    "name": "AMEE",
+    "verified": true,
+    "source": "L17"
+   },
+   {
+    "name": "Hồ Quỳnh Hương",
+    "verified": true,
+    "source": "L7"
+   },
+   {
+    "name": "Lam Trường",
+    "verified": true,
+    "source": "L7"
+   },
+   {
+    "name": "Mỹ Linh",
+    "verified": true,
+    "source": "L7"
+   },
+   {
+    "name": "Tóc Tiên",
+    "verified": true,
+    "source": "L7"
+   },
+   {
+    "name": "Suboi",
+    "verified": true,
+    "source": "L7"
+   },
+   {
+    "name": "Karik",
+    "verified": true,
+    "source": "L7"
+   },
+   {
+    "name": "JustaTee",
+    "verified": true,
+    "source": "L16"
+   },
+   {
+    "name": "HIEUTHUHAI",
+    "verified": true,
+    "source": "L7,L20"
+   },
+   {
+    "name": "Jack",
+    "verified": true,
+    "source": "L7"
+   },
+   {
+    "name": "RPT MCK",
+    "verified": true,
+    "source": "L18"
+   },
+   {
+    "name": "Da LAB",
+    "verified": true,
+    "source": "L18"
+   },
+   {
+    "name": "Wren Evans",
+    "verified": true,
+    "source": "L20"
+   },
+   {
+    "name": "K-ICM",
+    "verified": true,
+    "source": "L16"
+   },
+   {
+    "name": "Khánh Ly",
+    "verified": true,
+    "source": "L7,L24"
+   },
+   {
+    "name": "Thái Thanh",
+    "verified": true,
+    "source": "L7"
+   },
+   {
+    "name": "Lệ Thu",
+    "verified": true,
+    "source": "L7"
+   },
+   {
+    "name": "T.R.I",
+    "verified": true,
+    "source": "L18"
+   },
+   {
+    "name": "GREY D",
+    "verified": true,
+    "source": "L18"
+   },
+   {
+    "name": "Vũ Cát Tường",
+    "verified": true,
+    "source": "L20"
+   },
+   {
+    "name": "Thịnh Suy",
+    "verified": true,
+    "source": "L16"
+   },
+   {
+    "name": "Phương Anh Đào",
+    "verified": true,
+    "source": "L16"
+   },
+   {
+    "name": "(nhạc sĩ) Trịnh Công Sơn",
+    "verified": true,
+    "source": "L7,L24"
+   },
+   {
+    "name": "(nhạc sĩ) Phạm Duy",
+    "verified": true,
+    "source": "L7,L24"
+   },
+   {
+    "name": "(nhạc sĩ) Văn Cao",
+    "verified": true,
+    "source": "L7,L24"
+   },
+   {
+    "name": "(nhạc sĩ) Lam Phương",
+    "verified": true,
+    "source": "L24"
+   },
+   {
+    "name": "Đàm Vĩnh Hưng",
+    "verified": false,
+    "source": "K1",
+    "note": "nghệ sĩ có thật, nhạc vàng/bolero/V-pop; không có nguồn đọc được trong phiên này"
+   },
+   {
+    "name": "Quang Lê",
+    "verified": false,
+    "source": "K1",
+    "note": "bolero; chưa xác minh bằng nguồn đọc được"
+   },
+   {
+    "name": "Lệ Quyên",
+    "verified": false,
+    "source": "K1",
+    "note": "trữ tình/bolero; chưa xác minh"
+   },
+   {
+    "name": "Như Quỳnh",
+    "verified": false,
+    "source": "K1",
+    "note": "nhạc vàng; chưa xác minh"
+   },
+   {
+    "name": "Chế Linh",
+    "verified": false,
+    "source": "K1",
+    "note": "nhạc vàng; chưa xác minh"
+   },
+   {
+    "name": "Elvis Phương",
+    "verified": false,
+    "source": "K1",
+    "note": "nhạc vàng; chưa xác minh"
+   },
+   {
+    "name": "Hương Lan",
+    "verified": false,
+    "source": "K1",
+    "note": "nhạc vàng/bolero; chưa xác minh"
+   },
+   {
+    "name": "Ngọc Sơn",
+    "verified": false,
+    "source": "K1",
+    "note": "bolero; chưa xác minh"
+   }
+  ],
+  "songs": [
+   {
+    "title": "Đừng làm trái tim anh đau",
+    "artist": "Sơn Tùng M-TP",
+    "verified": true,
+    "source": "L20"
+   },
+   {
+    "title": "Chúng ta của tương lai",
+    "artist": "Sơn Tùng M-TP",
+    "verified": true,
+    "source": "L20"
+   },
+   {
+    "title": "Chúng ta của hiện tại",
+    "artist": "Sơn Tùng M-TP",
+    "verified": true,
+    "source": "L16,L17"
+   },
+   {
+    "title": "Muộn rồi mà sao còn",
+    "artist": "Sơn Tùng M-TP",
+    "verified": true,
+    "source": "L16"
+   },
+   {
+    "title": "Em của ngày hôm qua",
+    "artist": "Sơn Tùng M-TP",
+    "verified": true,
+    "source": "L19"
+   },
+   {
+    "title": "Chắc ai đó sẽ về",
+    "artist": "Sơn Tùng M-TP",
+    "verified": true,
+    "source": "L19"
+   },
+   {
+    "title": "Mang tiền về cho mẹ",
+    "artist": "Đen, Nguyên Thảo",
+    "verified": true,
+    "source": "L16"
+   },
+   {
+    "title": "Đi về nhà",
+    "artist": "Đen, JustaTee",
+    "verified": true,
+    "source": "L16"
+   },
+   {
+    "title": "Lối nhỏ",
+    "artist": "Đen, Phương Anh Đào",
+    "verified": true,
+    "source": "L16"
+   },
+   {
+    "title": "Gieo quẻ",
+    "artist": "Hoàng Thùy Linh, Đen",
+    "verified": true,
+    "source": "L16"
+   },
+   {
+    "title": "Bước qua nhau",
+    "artist": "Vũ.",
+    "verified": true,
+    "source": "L16,L18"
+   },
+   {
+    "title": "Bước qua mùa cô đơn",
+    "artist": "Vũ.",
+    "verified": true,
+    "source": "L17"
+   },
+   {
+    "title": "Tinny Love",
+    "artist": "Thịnh Suy",
+    "verified": true,
+    "source": "L16"
+   },
+   {
+    "title": "Từng là",
+    "artist": "Vũ Cát Tường",
+    "verified": true,
+    "source": "L20"
+   },
+   {
+    "title": "Nàng thơ",
+    "artist": "Hoàng Dũng",
+    "verified": true,
+    "source": "L17,L19"
+   },
+   {
+    "title": "Yếu đuối",
+    "artist": "Hoàng Dũng",
+    "verified": true,
+    "source": "L19"
+   },
+   {
+    "title": "Chìm sâu",
+    "artist": "RPT MCK",
+    "verified": true,
+    "source": "L18"
+   },
+   {
+    "title": "Ngày đầu tiên",
+    "artist": "Đức Phúc",
+    "verified": true,
+    "source": "L18,L19"
+   },
+   {
+    "title": "Ánh nắng của anh",
+    "artist": "Đức Phúc",
+    "verified": true,
+    "source": "L19"
+   },
+   {
+    "title": "Ánh sao và bầu trời",
+    "artist": "T.R.I",
+    "verified": true,
+    "source": "L18"
+   },
+   {
+    "title": "Vaicaunoicokhiennguoithaydoi",
+    "artist": "GREY D",
+    "verified": true,
+    "source": "L18"
+   },
+   {
+    "title": "Người tình mùa đông",
+    "artist": "Hà Anh Tuấn",
+    "verified": true,
+    "source": "L19"
+   },
+   {
+    "title": "Tháng tư là lời nói dối của em",
+    "artist": "Hà Anh Tuấn",
+    "verified": true,
+    "source": "L19"
+   },
+   {
+    "title": "Họa mi tóc nâu",
+    "artist": "Mỹ Tâm",
+    "verified": true,
+    "source": "L19"
+   },
+   {
+    "title": "Chuyện như chưa bắt đầu",
+    "artist": "Mỹ Tâm",
+    "verified": true,
+    "source": "L19"
+   },
+   {
+    "title": "Cây đàn sinh viên",
+    "artist": "Mỹ Tâm",
+    "verified": true,
+    "source": "L19"
+   },
+   {
+    "title": "Mất em",
+    "artist": "Noo Phước Thịnh",
+    "verified": true,
+    "source": "L19"
+   },
+   {
+    "title": "Cho em một lần yêu",
+    "artist": "Đông Nhi",
+    "verified": true,
+    "source": "L19"
+   },
+   {
+    "title": "Cô đơn trên sofa",
+    "artist": "Hồ Ngọc Hà",
+    "verified": true,
+    "source": "L19"
+   },
+   {
+    "title": "Có chàng trai viết lên cây",
+    "artist": "Phan Mạnh Quỳnh",
+    "verified": true,
+    "source": "L19"
+   },
+   {
+    "title": "Vợ người ta",
+    "artist": "Phan Mạnh Quỳnh",
+    "verified": true,
+    "source": "L19"
+   },
+   {
+    "title": "Để Mị nói cho mà nghe",
+    "artist": "Hoàng Thùy Linh",
+    "verified": true,
+    "source": "L19"
+   },
+   {
+    "title": "Mình yêu nhau đi",
+    "artist": "Bích Phương",
+    "verified": true,
+    "source": "L19"
+   },
+   {
+    "title": "Rời bỏ",
+    "artist": "Hòa Minzy",
+    "verified": true,
+    "source": "L19"
+   },
+   {
+    "title": "Hơn em chỗ nào",
+    "artist": "Thùy Chi",
+    "verified": true,
+    "source": "L19"
+   },
+   {
+    "title": "Chưa quên người yêu cũ",
+    "artist": "Hà Nhi",
+    "verified": true,
+    "source": "L19"
+   },
+   {
+    "title": "Mưa tháng sáu",
+    "artist": "Văn Mai Hương",
+    "verified": true,
+    "source": "L19"
+   },
+   {
+    "title": "Lớn rồi",
+    "artist": "DSK",
+    "verified": true,
+    "source": "L7"
+   },
+   {
+    "title": "Tiến quân ca",
+    "artist": "Văn Cao (tác giả)",
+    "verified": true,
+    "source": "L24"
+   }
+  ],
+  "playlists": [
+   "nhạc chill cuối tuần",
+   "nhạc đi đường",
+   "nhạc lái xe",
+   "nhạc đi đường xa",
+   "nhạc buổi sáng",
+   "nhạc không lời thư giãn",
+   "nhạc trẻ hay nhất",
+   "nhạc bolero hay nhất",
+   "nhạc Trịnh Công Sơn",
+   "nhạc vàng trữ tình",
+   "nhạc thiếu nhi cho bé",
+   "nhạc EDM sôi động",
+   "rap Việt",
+   "nhạc Hoa lời Việt",
+   "nhạc Âu Mỹ",
+   "nhạc cách mạng",
+   "nhạc xuân Tết",
+   "top hit Việt Nam",
+   "nhạc lo-fi",
+   "nhạc tâm trạng",
+   "nhạc về quê"
+  ],
+  "playlists_note": "Tên playlist là ví dụ điển hình do K1 đề xuất, KHÔNG xác minh là tên playlist thực tế trên nền tảng nào; cần ghi nhận từ dữ liệu phát âm thực.",
+  "apps": [
+   "YouTube (77% người nghe theo khảo sát RMIT trích dẫn trong L15, năm không rõ)",
+   "Zing MP3 (52% - L15)",
+   "NhacCuaTui / Nhaccuatui (32% - L15)",
+   "Spotify (28% - L15; Spotify Wrapped Việt Nam: L17,L18)",
+   "YouTube Music (K1, chưa xác minh)",
+   "Apple Music (L15 nhắc tên, không số liệu)",
+   "Podcast / sách nói: Spotify, Apple Podcasts, Fonos, Voiz FM (K1, chưa xác minh)"
+  ]
+ },
+ "car_terms": [
+  {
+   "concept": "điều hòa / A/C",
+   "spoken": [
+    "bật điều hòa",
+    "bật máy lạnh (Nam)",
+    "mở máy lạnh",
+    "tăng/giảm nhiệt độ",
+    "chỉnh điều hòa",
+    "điều hòa tự động"
+   ],
+   "loanword": "A/C (đọc 'a-xê' hoặc 'ây-xi'), 'auto'",
+   "confidence": "medium",
+   "source": "L2,K1",
+   "note": "'máy lạnh' là từ Nam đã vào phổ thông (L2)"
+  },
+  {
+   "concept": "sấy kính / khử sương",
+   "spoken": [
+    "sấy kính",
+    "sấy kính trước",
+    "sấy kính sau",
+    "làm tan sương kính",
+    "khử sương"
+   ],
+   "loanword": "defog / defrost (ít nói)",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "gạt mưa",
+   "spoken": [
+    "gạt mưa",
+    "gạt nước",
+    "bật gạt mưa",
+    "cần gạt mưa",
+    "gạt nước mưa"
+   ],
+   "loanword": "wiper (hiếm)",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "đèn pha / đèn cos (cốt)",
+   "spoken": [
+    "đèn pha (chiếu xa)",
+    "đèn cos / đèn cốt (chiếu gần)",
+    "bật pha",
+    "bật cốt",
+    "đèn chiếu xa",
+    "đèn chiếu gần"
+   ],
+   "loanword": "'cốt' từ 'code' (Pháp) - cần xác nhận; 'pha' từ 'phare'",
+   "confidence": "medium",
+   "source": "K1",
+   "note": "Nhiều người nói 'pha' chung cho đèn trước; 'cos' viết thế nhưng đọc 'cốt'"
+  },
+  {
+   "concept": "đèn sương mù / đèn gầm",
+   "spoken": [
+    "đèn sương mù",
+    "đèn gầm"
+   ],
+   "loanword": "fog light (hiếm)",
+   "confidence": "low",
+   "source": "K1"
+  },
+  {
+   "concept": "xi nhan / đèn báo rẽ",
+   "spoken": [
+    "xi nhan",
+    "bật xi nhan",
+    "đèn xi nhan",
+    "đèn báo rẽ"
+   ],
+   "loanword": "signal (gốc), 'xi nhan' từ 'signal'",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "đèn khẩn cấp / hazard",
+   "spoken": [
+    "đèn khẩn cấp",
+    "đèn báo nguy hiểm",
+    "bật đèn hazard",
+    "đèn 4 bên",
+    "đèn cảnh báo"
+   ],
+   "loanword": "hazard ('hê-zớt')",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "cốp xe",
+   "spoken": [
+    "cốp",
+    "cốp sau",
+    "mở cốp",
+    "đóng cốp",
+    "cốp điện"
+   ],
+   "loanword": "'cốp' từ 'coffre' (Pháp); 'trunk' (hiếm)",
+   "confidence": "medium",
+   "source": "K1",
+   "note": "'thùng xe' (Nam) có thể chỉ cốp nhưng cũng chỉ thùng hàng - low"
+  },
+  {
+   "concept": "nắp ca-pô",
+   "spoken": [
+    "ca-pô",
+    "nắp ca-pô",
+    "mở ca-pô",
+    "nắp capo"
+   ],
+   "loanword": "'ca-pô' từ 'capot' (Pháp)",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "gương chiếu hậu",
+   "spoken": [
+    "gương chiếu hậu",
+    "gương",
+    "kiếng chiếu hậu (Nam)",
+    "gập gương",
+    "chỉnh gương",
+    "gương gập điện"
+   ],
+   "loanword": "",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "phanh tay / phanh đỗ",
+   "spoken": [
+    "phanh tay",
+    "thắng tay (Nam)",
+    "phanh tay điện tử",
+    "kéo phanh tay",
+    "nhả phanh tay"
+   ],
+   "loanword": "EPB ('ê-pê-bê' - ít nói), 'handbrake'",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "giữ phanh tự động",
+   "spoken": [
+    "giữ phanh tự động",
+    "auto hold",
+    "tự giữ phanh"
+   ],
+   "loanword": "Auto Hold ('ô-tô hôn' hoặc 'ao-tô hôn' - chưa xác nhận)",
+   "confidence": "low",
+   "source": "K1"
+  },
+  {
+   "concept": "camera 360",
+   "spoken": [
+    "camera 360",
+    "camera 360 độ",
+    "camera toàn cảnh",
+    "bật camera 360",
+    "xem camera lùi"
+   ],
+   "loanword": "camera (từ mượn, đọc 'ca-me-ra' / 'cam')",
+   "confidence": "high",
+   "source": "L22,L27"
+  },
+  {
+   "concept": "camera lùi / cảm biến lùi",
+   "spoken": [
+    "camera lùi",
+    "cảm biến lùi",
+    "cảm biến khoảng cách",
+    "cảm biến đỗ xe",
+    "tiếng bíp lùi"
+   ],
+   "loanword": "parking sensor / sensor ('sen-sơ')",
+   "confidence": "high",
+   "source": "L27,K1",
+   "note": "L27: 'cảm biến khoảng cách'"
+  },
+  {
+   "concept": "cảnh báo điểm mù",
+   "spoken": [
+    "cảnh báo điểm mù",
+    "điểm mù",
+    "cảm biến điểm mù",
+    "đèn điểm mù"
+   ],
+   "loanword": "BSM / BSD / BLIS (viết tắt, ít nói)",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "giữ làn đường / cảnh báo lệch làn",
+   "spoken": [
+    "hỗ trợ giữ làn",
+    "giữ làn đường",
+    "cảnh báo lệch làn",
+    "cảnh báo chệch làn",
+    "tự giữ làn"
+   ],
+   "loanword": "LKA / LKAS / LDW (viết tắt)",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "ga tự động / cruise control",
+   "spoken": [
+    "ga tự động",
+    "cruise control",
+    "cruise",
+    "bật cruise",
+    "đặt tốc độ",
+    "kiểm soát hành trình (văn bản)",
+    "cruise control thích ứng"
+   ],
+   "loanword": "cruise control ('cờ-ru-dơ con-trôn' hoặc 'cờ-ruýt'), ACC, 'adaptive cruise'",
+   "confidence": "medium",
+   "source": "K1",
+   "note": "'ga tự động' theo yêu cầu người dùng; mức phổ biến thực tế cần xác nhận"
+  },
+  {
+   "concept": "áp suất lốp / TPMS",
+   "spoken": [
+    "áp suất lốp",
+    "cảm biến áp suất lốp",
+    "cảnh báo áp suất lốp",
+    "lốp non hơi",
+    "lốp thiếu hơi",
+    "kiểm tra áp suất lốp",
+    "bơm lốp",
+    "bơm hơi"
+   ],
+   "loanword": "TPMS ('ti-pi-em-ét')",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "lốp dự phòng",
+   "spoken": [
+    "lốp dự phòng",
+    "bánh dự phòng",
+    "bánh sơ-cua",
+    "bánh xe dự phòng"
+   ],
+   "loanword": "'sơ-cua' từ 'secours' (Pháp)",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "bảo dưỡng định kỳ",
+   "spoken": [
+    "bảo dưỡng",
+    "bảo dưỡng định kỳ",
+    "đi bảo dưỡng",
+    "thay nhớt (Nam)",
+    "thay dầu",
+    "đặt lịch bảo dưỡng",
+    "đến hạn bảo dưỡng"
+   ],
+   "loanword": "service ('sơ-vít' - hiếm)",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "đèn báo động cơ / check engine",
+   "spoken": [
+    "đèn báo động cơ",
+    "đèn lỗi động cơ",
+    "đèn check engine",
+    "đèn vàng báo lỗi",
+    "đèn cảnh báo động cơ"
+   ],
+   "loanword": "check engine ('chéc in-zin' / 'chét en-zin')",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "ắc quy / bình điện 12V",
+   "spoken": [
+    "ắc quy",
+    "bình ắc quy",
+    "bình điện",
+    "yếu bình",
+    "hết bình",
+    "câu bình"
+   ],
+   "loanword": "",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "pin (xe điện)",
+   "spoken": [
+    "pin",
+    "mức pin",
+    "phần trăm pin",
+    "pin còn bao nhiêu phần trăm",
+    "tầm hoạt động",
+    "quãng đường còn lại",
+    "pin yếu"
+   ],
+   "loanword": "battery (hiếm); SOC (hiếm); 'range' ('rên')",
+   "confidence": "high",
+   "source": "L22,K1",
+   "note": "L22: 'pin','tiêu hao pin','thuê pin/mua pin'"
+  },
+  {
+   "concept": "sạc / cổng sạc / trạm sạc",
+   "spoken": [
+    "sạc",
+    "sạc xe",
+    "cổng sạc",
+    "nắp cổng sạc",
+    "trạm sạc",
+    "trụ sạc",
+    "cây sạc",
+    "sạc nhanh",
+    "sạc chậm",
+    "sạc tại nhà",
+    "tìm trạm sạc gần nhất"
+   ],
+   "loanword": "charge/charger; DC/AC; CCS (ít nói)",
+   "confidence": "high",
+   "source": "L22",
+   "note": "'trạm/trụ/cây sạc', 'sạc nhanh', 'cổng sạc' có trong L22"
+  },
+  {
+   "concept": "chế độ lái ECO / Normal / Sport",
+   "spoken": [
+    "chế độ Eco",
+    "chế độ tiết kiệm",
+    "chế độ Normal",
+    "chế độ thường",
+    "chế độ Sport",
+    "chế độ thể thao",
+    "đổi chế độ lái"
+   ],
+   "loanword": "Eco ('ê-cô' hoặc 'i-cô'), Normal ('no-mồ'), Sport ('sờ-pót')",
+   "confidence": "high",
+   "source": "L22,K1",
+   "note": "L22 xác nhận 'Eco/Sport' dùng nguyên văn; 'Normal' không có trong L22 (K1)"
+  },
+  {
+   "concept": "vô lăng / tay lái",
+   "spoken": [
+    "vô lăng",
+    "tay lái",
+    "chỉnh vô lăng",
+    "vô lăng sưởi"
+   ],
+   "loanword": "'vô lăng' từ 'volant' (Pháp)",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "số (hộp số)",
+   "spoken": [
+    "số sàn",
+    "số tự động",
+    "số D",
+    "số R / số lùi",
+    "số N / số trung gian",
+    "số P / số đỗ",
+    "cần số",
+    "về số",
+    "gài số"
+   ],
+   "loanword": "D/R/N/P (đọc tên chữ cái hoặc 'đê', 'rờ', 'en', 'pê')",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "ga / chân ga / chân phanh",
+   "spoken": [
+    "chân ga",
+    "đạp ga",
+    "nhả ga",
+    "đạp phanh",
+    "đạp thắng (Nam)"
+   ],
+   "loanword": "",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "túi khí / dây an toàn",
+   "spoken": [
+    "túi khí",
+    "dây an toàn",
+    "cài dây an toàn",
+    "thắt dây an toàn",
+    "nhắc cài dây"
+   ],
+   "loanword": "airbag ('e-bách' - hiếm)",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "hệ thống an toàn khác",
+   "spoken": [
+    "phanh ABS",
+    "cân bằng điện tử",
+    "hỗ trợ phanh khẩn cấp",
+    "phanh khẩn cấp tự động",
+    "cảnh báo va chạm phía trước",
+    "hỗ trợ khởi hành ngang dốc"
+   ],
+   "loanword": "ABS ('a-bê-ét'), ESC, AEB, FCW, HSA (đa phần đọc tên gốc hoặc dịch)",
+   "confidence": "low",
+   "source": "K1"
+  },
+  {
+   "concept": "màn hình / kết nối",
+   "spoken": [
+    "màn hình giải trí",
+    "màn hình trung tâm",
+    "màn hình cảm ứng",
+    "kết nối Bluetooth",
+    "kết nối điện thoại",
+    "Apple CarPlay",
+    "Android Auto",
+    "cổng USB",
+    "Type-C",
+    "phát nhạc",
+    "đài FM",
+    "radio"
+   ],
+   "loanword": "Bluetooth, USB Type-C, Apple CarPlay, Android Auto, Wi-Fi, FM (L22)",
+   "confidence": "high",
+   "source": "L22,L27"
+  },
+  {
+   "concept": "định vị / dẫn đường",
+   "spoken": [
+    "định vị",
+    "dẫn đường",
+    "chỉ đường",
+    "bản đồ",
+    "mở bản đồ",
+    "tìm đường",
+    "Google Maps (đọc 'gu-gồ mép')",
+    "Vietmap"
+   ],
+   "loanword": "GPS ('gi-pi-ét'), Google Maps",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "camera hành trình",
+   "spoken": [
+    "camera hành trình",
+    "cam hành trình",
+    "gắn camera hành trình",
+    "xem lại video"
+   ],
+   "loanword": "dashcam ('đát-cam' - hiếm)",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "thu phí không dừng",
+   "spoken": [
+    "thu phí không dừng",
+    "trạm thu phí",
+    "trạm BOT",
+    "qua trạm thu phí",
+    "nạp tiền thẻ giao thông"
+   ],
+   "loanword": "BOT ('bốt'); VETC, ePass (tên dịch vụ)",
+   "confidence": "low",
+   "source": "K1"
+  },
+  {
+   "concept": "nhiên liệu / đổ xăng",
+   "spoken": [
+    "đổ xăng",
+    "đầy bình",
+    "cây xăng",
+    "trạm xăng",
+    "hết xăng",
+    "đèn báo xăng",
+    "tiêu hao nhiên liệu",
+    "ăn xăng (khẩu ngữ)",
+    "lít trên trăm cây"
+   ],
+   "loanword": "(đa số nói thuần Việt)",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "cửa sổ trời / cửa sổ / kính",
+   "spoken": [
+    "cửa sổ trời",
+    "hạ kính",
+    "nâng kính",
+    "kéo kiếng lên/xuống (Nam)",
+    "mở cửa sổ",
+    "đóng cửa sổ"
+   ],
+   "loanword": "sunroof ('săn-ru' - hiếm)",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "chìa khóa / khởi động",
+   "spoken": [
+    "chìa khóa",
+    "chìa khóa thông minh",
+    "khóa cửa",
+    "mở khóa",
+    "nút khởi động",
+    "nổ máy",
+    "tắt máy",
+    "khởi động từ xa"
+   ],
+   "loanword": "smart key ('smát-ki'), start-stop",
+   "confidence": "medium",
+   "source": "K1"
+  },
+  {
+   "concept": "đồng hồ / odo",
+   "spoken": [
+    "đồng hồ",
+    "đồng hồ táp-lô",
+    "táp lô",
+    "ODO",
+    "tổng số km đã đi",
+    "trip",
+    "số km hôm nay"
+   ],
+   "loanword": "ODO ('ô-đô'), trip ('chíp')",
+   "confidence": "medium",
+   "source": "K1",
+   "note": "'táp lô' từ 'tableau' (Pháp); 'ô-đô' chưa kiểm chứng cách đọc"
+  },
+  {
+   "concept": "ghế sưởi / ghế làm mát",
+   "spoken": [
+    "ghế sưởi",
+    "làm mát ghế",
+    "chỉnh ghế",
+    "ghế chỉnh điện",
+    "ghế nhớ vị trí"
+   ],
+   "loanword": "",
+   "confidence": "low",
+   "source": "K1"
+  },
+  {
+   "concept": "tốc độ / giới hạn",
+   "spoken": [
+    "giới hạn tốc độ",
+    "cảnh báo tốc độ",
+    "tốc độ tối đa",
+    "ki-lô-mét trên giờ",
+    "cây số một giờ",
+    "camera phạt nguội"
+   ],
+   "loanword": "km/h; 'phạt nguội'",
+   "confidence": "medium",
+   "source": "K1"
+  }
+ ],
+ "notes": "=== Phạm vi và độ tin cậy ===\nMức 'high' = có nguồn đọc được trong phiên này xác nhận trực tiếp (hoặc nhiều nguồn khớp). 'medium' = kiến thức nền phổ biến (K1) hoặc nguồn khớp một phần, chưa kiểm chứng chéo. 'low' = không chắc/ít bằng chứng. Mọi mục có source 'K1' chưa được xác minh bằng nguồn nào đọc được.\n\n=== Nguồn đọc được / không đọc được ===\nĐọc được: Yale Jewell 2022 (chỉ phần thanh điệu & quả/trái; không có từ vựng Huế/Nghệ Tĩnh; không có người nói miền Trung), vi.wikipedia Phương ngữ tiếng Việt, en.wikipedia (Vietnamese phonology/name/numerals/pronouns/language/Music of Vietnam/Vietnamese pop/Billboard Vietnam), Mytour tiếng Huế, HF ViDia2Std (preview), luatminhkhue (họ), Migaku/Kaiwa/Thaonco blogs, các báo (Spotify Wrapped, Billboard VN), VNReview (xe điện).\nKhông đọc được: các trang vi.wikipedia khác (Họ người Việt, Từ vựng theo vùng, Nhạc vàng, Tiếng Huế, Giọng Nghệ Tĩnh, Phương ngữ Nam Bộ), en.wikipedia Huế dialect / Vietnamese particles / Bolero page, VNU PDF (robots), plo.vn (robots); curl bị proxy chặn. Alves 2007, Viện Ngôn ngữ học, từ điển Huế/Nghệ Tĩnh chuyên sâu KHÔNG được truy cập.\n\n=== Mâu thuẫn / nghi ngờ trong nguồn ===\n- L8 (Thaonco) ghi 'nha' Nam và 'nhé' là tương đương Nam - nghi ngờ; L25 bảng lệch cột (Muỗng/Muỗm ở cột Bắc) - không dùng phần đó; L26 PDF lỗi dấu.\n- L2 liệt kê cặp từ theo yếu tố trong từ ghép (vd 'tìm kiếm' -> Nam 'kiếm') chứ không phải lựa chọn từ trong lời nói hàng ngày; cẩn thận khi ngoại suy cho lệnh thoại.\n- L2 viết 'mồ nào', L10/L11 viết 'mô'; hai chính tả ghi chung vì ASR.\n- 'nờ?' (người yêu cầu nêu) không được xác minh; 'chi' (Trung = gì) chỉ L10,L11; trong L2 'chỉ' (Nam = chị ấy) là từ khác, dễ nhầm với 'chỉ' (only).\n- Nghệ Tĩnh vs Huế: nhiều từ trong L10,L11 không có nhãn vùng nhỏ. Các mục trung_sub trống nghĩa là chưa biết.\n\n=== Cần người bản ngữ duyệt (ưu tiên) ===\n1. Miền Trung: ngăn Huế / Quảng Nam-Đà Nẵng / Bắc Trung Bộ (Thanh-Nghệ-Tĩnh-Bình Trị Thiên) - gán vùng nhỏ cho mô/tê/chi/rứa/răng/nớ/ni/ri/nỏ/mần/chộ/chừ/nác/miềng/choa/hè/hẹ/hầy; từ 'nờ?' và 'tê/tề'; cách đọc 'mệ/mạ/o/eng'.\n2. Từ vựng xe: kính/kiếng, phanh/thắng, vô lăng/tay lái, nhớt/dầu, vỏ/lốp, đậu/đỗ - đặc biệt ở Trung.\n3. Quy tắc đọc số: số điện thoại, biển số (tên chữ cái), 'chấm/phẩy', MHz, psi/bar, năm, giờ - đa số là K1 (không nguồn).\n4. Cách đọc viết tắt (VOV, FM, GPS, Wi-Fi, USB, Bluetooth, AC, ECO, OK) - phát âm thực tế đa biến thể, cần ghi âm.\n5. Tên người/tên bài hát: danh sách tên gọi, tên đệm nữ chỉ là K1; ca sĩ bolero có verified=false.\n6. Tên playlist và podcast app: K1, chưa xác minh.\n\n=== Dạng nhãn K1 ===\nK1 = kiến thức nền của mô hình, không xác minh bằng nguồn đọc được. Cần duyệt trước khi dùng huấn luyện.\n"
+}

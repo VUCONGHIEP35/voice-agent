@@ -1,0 +1,325 @@
+## CS01 | dan_duong_den_dia_diem
+Dẫn đường đến {dia_diem}|L|t|N1
+Chỉ đường đến {dia_diem}|L|t|N7
+Chỉ đường tới {dia_diem}|L|t|N13
+Làm cách nào để đến {dia_diem}?|Q|t|N11
+Cho tôi đường đến {dia_diem}|L|t
+Đưa tôi đến {dia_diem} nhé|L|m
+Tôi muốn đi {dia_diem}|L|t
+Đi {dia_diem}|C|t
+{dia_diem}, dẫn đường|C|t
+Giúp tôi tìm đường đến {dia_diem}|L|l
+Dẫn đường đến số {so_nha} {ten_duong}, {quan_huyen}|L|t
+Mở bản đồ chỉ đường đến {dia_diem} đi|L|m
+Đường nào đến {dia_diem} nhanh nhất?|Q|t
+## CS01 | ve_nha_co_quan
+Chỉ đường về nhà|L|t|N7
+Dẫn đường về nhà|L|t
+Dẫn đường đến cơ quan|L|t
+Đưa tôi về nhà đi|L|m
+Về nhà|C|t
+Đi làm|C|t
+Tôi muốn về nhà|L|t
+Đường về nhà đi hướng nào?|Q|t
+Chỉ đường về quê|L|t
+Dẫn tôi đến chỗ làm nhé|L|m
+Đưa tôi về {dia_chi_luu} giúp tôi|L|l
+## CS01 | hoi_con_bao_xa
+Từ đây đến {dia_diem} bao xa?|Q|t|N11
+Còn bao xa nữa?|Q|t
+Còn bao nhiêu cây số nữa thì tới?|Q|t
+Cách {dia_diem} bao xa?|Q|t
+Đến nơi còn xa không?|Q|t
+Còn bao nhiêu ki-lô-mét nữa?|Q|t
+Khoảng cách tới điểm đến là bao nhiêu?|Q|l
+Bao xa nữa tới nơi?|Q|m
+Còn xa không|C|m
+Tới {dia_diem} còn bao nhiêu cây?|Q|m
+## CS01 | hoi_thoi_gian_den
+Mất bao lâu để đến đó bằng ô tô?|Q|t|N11
+Mấy giờ thì tới?|Q|t
+Bao giờ đến nơi?|Q|t
+Còn bao lâu nữa thì đến?|Q|t
+Đến {dia_diem} mất bao lâu?|Q|t
+Giờ đến dự kiến là mấy giờ?|Q|l
+Khi nào mình tới nơi?|Q|m
+Còn mấy phút nữa?|Q|m
+Đi từ đây đến {dia_diem} hết bao nhiêu phút?|Q|t
+Tôi sẽ tới lúc mấy giờ?|Q|t
+Còn bao lâu|C|m
+## CS01 | tranh_ket_xe_cong_trinh
+Tìm đường khác tránh kẹt xe|L|t
+Có đường nào tránh tắc không?|Q|t
+Đổi đường khác đi, chỗ này kẹt quá|L|m
+Tránh công trình phía trước|L|t
+Chọn đường ít kẹt hơn|L|t
+Tìm lộ trình khác giúp tôi|L|l
+Có đường vòng nào không?|Q|t
+Đi đường khác|C|t
+Né chỗ tắc đường đi|L|m
+Tránh khu vực đang thi công|L|t
+Đường này kẹt, có lối nào khác không?|Q|t
+## CS01 | chon_lo_trinh
+Chọn đường nhanh nhất|L|t
+Đi đường ngắn nhất|L|t
+Tránh cao tốc|L|t
+Không đi đường cao tốc|L|t
+Tránh đường thu phí|L|t
+Tránh trạm thu phí BOT|L|t
+Đổi sang lộ trình ngắn nhất|L|t
+Cho tôi xem các tuyến đường khác|L|t
+Ưu tiên đường nhanh nhất, đừng qua trạm thu phí|L|t
+Tôi muốn đi đường quốc lộ thôi|L|t
+Bật tránh cao tốc nhé|L|m
+Có lộ trình nào không phải trả phí không?|Q|t
+## CS01 | them_diem_dung
+Thêm điểm dừng {dia_diem}|L|t
+Ghé {dia_diem} trước rồi mới đến {dia_diem_2}|L|t
+Thêm điểm dừng ở trạm xăng gần nhất|L|t
+Dừng ở {dia_diem} một chút|L|t
+Thêm một điểm dừng trên đường|L|t
+Ghé qua {dia_diem} đã|L|m
+Cho tôi ghé cây xăng trên đường đi|L|l
+Thêm {dia_diem} vào lộ trình|L|t
+Bỏ điểm dừng vừa thêm|L|t
+Xóa điểm dừng cuối|L|t
+## CS01 | huy_dan_duong
+Thoát chế độ dẫn đường|L|t|N1
+Hủy dẫn đường|L|t
+Dừng dẫn đường|L|t
+Tắt dẫn đường đi|L|m
+Thôi không đi nữa|L|m
+Hủy chuyến đi|L|t
+Kết thúc dẫn đường|L|t
+Không cần chỉ đường nữa|L|t
+Hủy lộ trình|L|t
+Thoát dẫn đường nhé|L|m
+## CS01 | tim_dia_diem_gan_day
+Tìm {loai_dia_diem} quanh đây|L|t|N1
+Tìm {loai_dia_diem} gần đây|L|t|N10
+Tìm {loai_dia_diem} quanh {dia_diem}|L|t|N1
+Chỉ đường tới {loai_dia_diem} gần nhất|L|t|N13
+Gần đây có {loai_dia_diem} nào không?|Q|t
+Bãi đỗ xe nào gần nhất?|Q|t
+Tìm cây xăng gần nhất|L|t
+Tôi cần đổ xăng|L|t
+Tôi đói|C|t|N6
+Quanh đây có quán ăn nào ngon không?|Q|t
+Có quán cà phê nào đang mở cửa gần đây không?|Q|t
+Cho tôi biết chỗ đậu xe gần đây|L|l
+Tìm nhà hàng gần đây nhé|L|m
+## CS01 | nhac_lai_chi_dan
+Nhắc lại chỉ dẫn|L|t
+Lặp lại hướng dẫn vừa rồi|L|t
+Rẽ chỗ nào?|Q|t
+Nói lại đoạn đường vừa nãy|L|t
+Tiếp theo đi hướng nào?|Q|t
+Sắp tới rẽ ở đâu?|Q|t
+Đoạn tiếp theo rẽ trái hay phải?|Q|t
+Cho nghe lại hướng dẫn|L|t
+Nhắc lại đi|C|m
+Chỉ đường lại một lần nữa|L|t
+## CS01 | tat_bat_tieng_dan_duong
+Tắt tiếng dẫn đường|L|t
+Bật tiếng dẫn đường|L|t
+Tắt giọng chỉ đường|L|t
+Bật lại giọng hướng dẫn|L|t
+Chỉ đọc cảnh báo thôi, đừng đọc hướng dẫn|L|t
+Giảm âm lượng dẫn đường|L|t
+Tăng âm lượng giọng chỉ đường|L|t
+Tắt tiếng hướng dẫn nhé|L|m
+Đừng đọc đường nữa|L|m
+Tắt tiếng bản đồ|L|t
+## CS03 | dieu_hoa_bat_tat_nhiet_do
+Bật điều hòa {nhiet_do} độ|L|t|N1
+Bật {nhiet_do} độ|C|t|N1
+Tăng điều hòa lên {nhiet_do} độ|L|t|N1
+Giảm điều hòa về {nhiet_do} độ|L|t|N1
+Tăng điều hòa lên {delta} độ C|L|t|N4
+Tăng nhiệt độ điều hòa|L|t|N6
+Giảm nhiệt độ điều hòa xuống một chút|L|t
+Bật điều hòa lên|L|t
+Tắt điều hòa đi|L|m
+Chỉnh điều hòa xuống {nhiet_do} độ giúp tôi|L|l
+Điều hòa lạnh thêm chút nữa|L|m
+Điều hòa bên lái {nhiet_do} độ, bên phụ {nhiet_do_2} độ|L|t
+## CS03 | dieu_hoa_noi_nong_lanh
+Tôi nóng|C|t|N1
+Tôi hơi nóng|C|t|N1
+Tôi nóng quá|C|m|N1
+Tôi lạnh|C|t|N1
+Tôi hơi lạnh|C|t|N1
+Tôi lạnh quá|C|m|N1
+Tôi thấy lạnh|C|t|N6
+Nóng quá|C|m
+Trong xe nóng quá|C|m
+Lạnh quá, chỉnh lại giúp tôi|L|l
+Oi quá, bật điều hòa lên|L|m
+## CS03 | dieu_hoa_quat_gio
+Đặt quạt gió mức {muc_quat}|L|t|N1
+Tăng quạt gió lên mức {muc_quat}|L|t|N1
+Giảm quạt gió đi {so} mức|L|t|N1
+Tăng quạt lên|L|t
+Giảm gió xuống|L|t
+Quạt số {muc_quat}|C|t
+Quạt mạnh nhất|C|t
+Thổi nhẹ thôi|C|m
+Bật quạt gió|L|t
+Giảm quạt xuống chút nhé|L|m
+## CS03 | dieu_hoa_huong_gio
+Đặt quạt gió hướng {huong_gio}|L|t|N1
+Chỉnh quạt gió hướng {huong_gio}|L|t|N1
+Thổi gió vào mặt|L|t
+Gió xuống chân|C|t
+Thổi vào kính trước|L|t
+Chỉnh hướng gió xuống chân giúp tôi|L|l
+Đừng thổi thẳng vào mặt|L|m
+Hướng gió lên mặt và chân|L|t
+Cho gió thổi lên kính|L|t
+## CS03 | dieu_hoa_lay_gio
+Lấy gió trong|L|t|N1
+Lấy gió ngoài|L|t|N1
+Bật lấy gió trong|L|t
+Chuyển sang gió ngoài|L|t
+Đóng gió ngoài lại, bên ngoài nhiều bụi|L|t
+Xe có mùi, lấy gió ngoài đi|L|m
+Tắt lấy gió trong|L|t
+Cho điều hòa lấy gió ngoài nhé|L|m
+Bật chế độ tuần hoàn khí trong xe|L|t
+## CS03 | say_kinh
+Bật sấy kính|L|t|N1
+Tắt sấy kính|L|t|N1
+Bật sấy kính trước|L|t|N1
+Sấy kính trước|C|t|N1
+Dừng sấy kính trước|L|t|N1
+Sấy kính sau|C|t
+Kính mờ quá, sấy kính đi|L|m
+Bật chống mờ kính|L|t
+Tắt sấy kính sau|L|t
+Kính bị đọng sương, làm khô giúp tôi|L|l
+## CS03 | dieu_hoa_che_do
+Bật chế độ làm mát|L|t|N1
+Tắt chế độ làm mát|L|t|N1
+Bật chế độ auto|L|t
+Điều hòa để tự động|L|t
+Chuyển điều hòa sang chế độ tự động|L|t
+Tắt chế độ auto|L|t
+Bật A/C|L|t
+Cho điều hòa chạy auto đi|L|m
+Làm mát nhanh|C|t
+## CS03 | ghe_suoi_lam_mat_massage
+Bật sưởi ghế lái|L|t
+Tắt sưởi ghế|L|t
+Bật làm mát ghế|L|t
+Bật massage ghế|L|t
+Sưởi ghế mức {muc}|L|t
+Làm mát ghế phụ|L|t
+Giảm sưởi ghế xuống|L|t
+Ghế lạnh quá, bật sưởi lên|L|m
+Tắt massage đi|L|m
+Bật thông gió ghế lái giúp tôi|L|l
+## CS03 | ghe_nho_vi_tri
+Nhớ vị trí ghế này|L|t
+Lưu vị trí ghế vào bộ nhớ {so}|L|t
+Gọi lại vị trí ghế {ten_lien_he}|L|t
+Đưa ghế về vị trí đã lưu|L|t
+Chỉnh ghế về vị trí của tôi|L|t
+Ghế lùi ra sau chút|L|t
+Nâng ghế lên|L|t
+Ghế tiến lên một chút nhé|L|m
+Dùng vị trí ghế số {so}|L|t
+## CS03 | cua_kinh
+Mở cửa kính bên lái|L|t
+Hạ kính xuống|L|t
+Đóng hết cửa kính|L|t
+Kéo kính lên|L|t
+Mở cửa kính sau bên phải|L|t
+Hạ kính xuống một nửa|L|t
+Mở hé kính|L|t
+Đóng kính lại đi|L|m
+Hạ kính phụ xuống giúp tôi|L|l
+Mở tất cả các cửa kính|L|t
+## CS03 | cua_so_troi
+Mở cửa sổ trời|L|t
+Đóng cửa sổ trời|L|t
+Mở hé cửa sổ trời|L|t
+Mở rèm che nắng cửa sổ trời|L|t
+Đóng rèm lại|L|t
+Mở cửa sổ trời một nửa|L|t
+Đóng cửa sổ trời lại đi, trời mưa rồi|L|m
+Kéo rèm cửa sổ trời|L|t
+Cho tôi mở cửa sổ trời|L|l
+## CS03 | den_noi_that
+Bật đèn nội thất|L|t
+Tắt đèn trong xe|L|t
+Bật đèn đọc sách|L|t
+Đổi màu đèn nội thất sang màu xanh|L|t
+Giảm độ sáng đèn trong xe|L|t
+Bật đèn trần|L|t
+Tối quá, bật đèn lên|L|m
+Tắt đèn nền đi|L|m
+Đèn nội thất sáng hơn chút|L|t
+## CS03 | khoa_mo_cua
+Khóa cửa|L|t
+Mở khóa cửa|L|t
+Khóa xe lại|L|t
+Mở khóa xe|L|t
+Mở cửa xe|L|t
+Khóa hết các cửa|L|t
+Cửa đã khóa chưa?|Q|t
+Bật khóa trẻ em|L|t
+Mở khóa cửa phía sau|L|t
+Khóa cửa giúp tôi|L|l
+## CS03 | guong
+Gập gương lại|L|t
+Mở gương ra|L|t
+Chỉnh gương chiếu hậu bên phải xuống|L|t
+Gập gương chiếu hậu|L|t
+Bật sấy gương|L|t
+Chỉnh gương bên trái ra ngoài một chút|L|t
+Tự gập gương khi khóa xe|L|t
+Hạ gương phụ xuống khi lùi|L|t
+Gương phải nghiêng xuống chút nhé|L|m
+## CS03 | cop_xe
+Mở cốp|L|t|N1
+Đóng cốp|L|t|N1
+Mở cốp xe|L|t|N1
+Đóng cốp xe|L|t|N1
+Mở nắp xe sau|L|t|N1
+Đóng nắp xe sau|L|t|N1
+Mở cốp sau giúp tôi|L|l
+Đóng cốp lại đi|L|m
+Mở cốp trước|L|t
+Cốp mở ra|C|t
+## CS03 | gat_mua
+Bật gạt mưa|L|t
+Tắt cần gạt mưa|L|t
+Gạt mưa nhanh lên|L|t
+Gạt mưa chậm lại|L|t
+Bật gạt mưa tự động|L|t
+Gạt nước một lần|L|t
+Mưa to quá, tăng gạt mưa lên|L|m
+Bật gạt mưa phía sau|L|t
+Phun nước rửa kính|L|t
+Bật gạt mưa giúp tôi|L|l
+## CS03 | che_do_lai
+Chuyển sang chế độ lái thể thao|L|t
+Chế độ lái tiết kiệm|C|t
+Chuyển chế độ Eco|L|t
+Bật chế độ Sport|L|t
+Chuyển sang chế độ lái thường|L|t
+Đổi chế độ lái|L|t
+Bật chế độ lái êm|L|t
+Tắt chế độ thể thao đi|L|m
+Chọn chế độ lái Normal|L|t
+Cho xe chạy chế độ tiết kiệm nhé|L|m
+## CS03 | wifi_camera
+Bật wifi|L|t|N1
+Tắt wifi|L|t|N1
+Bật wifi trên xe|L|t
+Mở camera trước|L|t
+Mở camera sau|L|t
+Bật camera 360|L|t
+Tắt camera đi|L|m
+Bật camera lùi|L|t
+Mở camera hành trình|L|t
