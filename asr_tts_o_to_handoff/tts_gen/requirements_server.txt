@@ -1,0 +1,20 @@
+# venv_tts trên cụm A100 HUST (Linux x86_64, Python 3.13). Ghim theo .venv laptop đã chạy pilot100 / phần A.
+# torch 2.8.0 trên PyPI cho Linux là bản CUDA 12.8 và kéo theo nvidia-cublas-cu12, nvidia-cudnn-cu12 (CT2 dùng chung qua
+# LD_LIBRARY_PATH, chỉ trong lệnh CT2). Driver dgx01/02: 575.57.08, chạy được CUDA 12.8.
+torch==2.8.0
+torchaudio==2.8.0
+vieneu==3.8.3
+transformers==4.57.6
+tokenizers==0.22.2
+huggingface_hub==0.36.2
+safetensors==0.8.0
+ctranslate2==4.8.3
+faster-whisper==1.2.1
+sea-g2p==0.10.0
+onnxruntime==1.31.0
+numpy==2.5.4
+soundfile==0.14.0
+soxr==1.1.0
+librosa==1.0.0
+psutil==7.2.2
+py-cpuinfo==9.0.0

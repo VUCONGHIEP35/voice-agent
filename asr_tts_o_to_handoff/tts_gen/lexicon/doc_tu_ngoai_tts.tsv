@@ -1,0 +1,24 @@
+dang_trong_text_spoken	Bắc	Trung	Nam	nguon	ghi_chu_sua	de_xuat_khac	so_cau_Bac	so_cau_Trung	so_cau_Nam	vi_du_text_spoken
+Vietmap	việt mép	việt mép	việt mép	K1, người dùng duyệt 20/10/2026		việt map	2	1	2	Trợ lý ơi, cho tôi đọc thông báo từ Vietmap.
+Google Maps	gu gồ mép	gu gồ mép	gu gồ mép	K1, người dùng duyệt 20/10/2026		gu gồ map | gu gồ bản đồ	1	2	2	Tắt Google Maps đi.
+YouTube	diu túp	diu túp	diu túp	K1, người dùng duyệt 20/10/2026		yu tiub (đọc Anh)	3	0	1	Cho màn hình sau mở YouTube hộ tôi.
+Zing	ding	ding	ding	K1, người dùng duyệt 20/10/2026; người dùng sửa 27/10/2026: người Việt hay đọc "ding" (bản "díng" bị VieNeu đọc thành "đinh", phiếu nghe full10k câu 38)	"khóa sửa: text_spoken là ""Zing em pê ba""; chỉ đổi phần Zing"	díng (VieNeu đọc thành "đinh")	2	0	2	Giúp tôi mở Zing em pê ba ở nửa màn hình nhé.
+ePass	i pát	i pát	i pát	K1, người dùng duyệt 20/10/2026		ê pát	1	1	2	Này trợ lý, nạp năm triệu rưỡi vào ePass với.
+Zalo	da lô	da lô	da lô	K1, người dùng duyệt 20/10/2026	"đổi từ ""za lô"": za không phải âm tiết tiếng Việt; lấy de_xuat_khac"	da lô	0	1	3	Nhắn Zalo cho anh Quân rằng mua dùm tui chai nước.
+Messenger	mét sen giơ	mét sen giơ	mét sen giơ	K1, người dùng duyệt 20/10/2026		mê sen giơ	0	2	1	Làm ơn bỏ qua tin Messenger này dùm.
+Mall	mô	mô	mô	K1, người dùng duyệt 20/10/2026			0	1	2	Bãi đậu xe gần Vạn Hạnh Mall ở thành phố Hồ Chí Minh còn chỗ không?
+playlist	pờ lây lít	pờ lây lít	pờ lây lít	K1, người dùng duyệt 20/10/2026	"đổi từ ""plây lít"": cụm phụ âm pl; lấy de_xuat_khac"	pờ lây lít	1	1	0	Thêm vào playlist Top nhạc tuần này.
+VETC	vê ê tê xê	vê ê tê xê	vê ê tê xê	K1, người dùng duyệt 20/10/2026		vét xê	1	0	1	Vào VETC đi.
+Waze	quây	quây	quây	K1, người dùng duyệt 20/10/2026	"người dùng duyệt 20/10: ""quây"" (tiếng Việt không có vần ""oây"")"	quây	1	1	0	Trợ lý ơi, Waze bảo còn bao xa?
+wifi	oai phai	oai phai	oai phai	K1, người dùng duyệt 20/10/2026	"khóa sửa: text_spoken viết ""wifi"""	quai phai | guai phai	1	1	0	Bật wifi trên xe đi.
+Vinhomes	vin hôm	vin hôm	vin hôm	K1, người dùng duyệt 20/10/2026		vin hôm xờ	1	0	1	Pin có đủ đi tới Vinhomes Ocean Park không?
+Spotify	sờ pót ti phai	sờ pót ti phai	sờ pót ti phai	K1, người dùng duyệt 20/10/2026	"đổi từ ""xpót ti phai"": cụm xp; lấy de_xuat_khac"	sờ pót ti phai	1	1	0	Này, vào Spotify cho tôi giúp tôi.
+Viber	vai bơ	vai bơ	vai bơ	K1, người dùng duyệt 20/10/2026		vi bơ	1	1	0	Đổi qua Viber.
+Aeon	ê ôn	ê ôn	ê ôn	K1, người dùng duyệt 20/10/2026		i on	0	1	1	Đường đến Aeon Mall Tân Phú ở thành phố Hồ Chí Minh có bị ngập không?
+Gmail	gờ meo	gờ meo	gờ meo	K1, người dùng duyệt 20/10/2026		di meo | gi meo	0	1	1	Đưa Gmail ra màn hình chính giùm.
+Sport	sờ pót	sờ pót	sờ pót	K1, người dùng duyệt 20/10/2026	"đổi từ ""xpót"": cụm xp; de_xuat_khac trống, Claude đề xuất theo Spotify"		1	0	0	Bật chế độ Sport.
+Takashimaya	ta ca si ma da	ta ca si ma da	ta ca si ma da	K1, người dùng duyệt 20/10/2026	"người dùng duyệt 20/10: ""ta ca si ma da"""		0	1	0	Đậu xe ở Takashimaya mất bao nhiêu tiền?
+Facebook	phây búc	phây búc	phây búc	K1, người dùng duyệt 20/10/2026		fây búc	0	1	0	Trợ lý ơi, giúp tôi đọc thông báo từ Facebook.
+Eco	ít cô	ít cô	ít cô	K1, người dùng duyệt 20/10/2026			0	1	0	Chuyển chế độ Eco hí.
+podcast	pót cát	pót cát	pót cát	K1, người dùng duyệt 20/10/2026		pod cát	0	0	1	Mở podcast về bất động sản nha.
+Telegram	tê lê gờ ram	tê lê gờ ram	tê lê gờ ram	K1, người dùng duyệt 20/10/2026	"đổi từ ""te lê gram"": cụm gr; lấy de_xuat_khac"	tê lê gờ ram	0	0	1	Nhắn Telegram cho anh Duy bên bảo hiểm: tui đang lái xe, lát nữa gọi lại.
