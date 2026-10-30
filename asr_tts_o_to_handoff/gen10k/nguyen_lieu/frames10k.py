@@ -9,7 +9,7 @@ Cú pháp: {khe}, {khe#2} (giá trị thứ hai cùng loại), (a|b|) lựa ch�
 '!' đầu khung = giữ nguyên, không trang trí.
 """
 import re
-import pools10k as P
+from nguyen_lieu import pools10k as P
 
 INTENT_LABELS = {
     # CS01
@@ -558,14 +558,14 @@ def load_frames():
     frames = _load_src_frames() + [dict(f, register=None) for f in MY]
     n_old = len(frames)
     try:
-        import frames_llm10k as FL
+        from nguyen_lieu import frames_llm10k as FL
         frames += [dict(f, register=None) for f in FL.NEW]
         INTENT_LABELS.update(FL.LABELS)
     except ImportError:
         pass
     n_v2 = len(frames)
     try:
-        import frames_app10k as FA
+        from nguyen_lieu import frames_app10k as FA
         frames += [dict(f, register=None) for f in FA.NEW]
         INTENT_LABELS.update(FA.LABELS)
     except ImportError:

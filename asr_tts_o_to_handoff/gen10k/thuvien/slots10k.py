@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 """Bộ sinh giá trị khe. Mỗi bộ sinh nhận Ctx và trả SV(raw, spoken, feats, flags, marks, meta)."""
 import re
-import pools10k as P
-import loanwords10k as LW
-from vnnum import read_int, read_digits, read_decimal, fmt_dec, fmt_money, DIG
-from lexicon10k import Mark, rewrite
+from nguyen_lieu import pools10k as P
+from nguyen_lieu import loanwords10k as LW
+from thuvien.vnnum import read_int, read_digits, read_decimal, fmt_dec, fmt_money, DIG
+from nguyen_lieu.lexicon10k import Mark, rewrite
 
 
 RESIDENCE_PLACE = {"Hà Nội": "Bắc", "TP.HCM": "Nam"}
@@ -677,7 +677,7 @@ def g_short_cmd(c):
 
 
 def g_wake(c):
-    v = pick(c, ["trợ lý", "trợ lý ơi"])
+    v = ""   # 25/10/2026: khe {wake} để trống (từ đánh thức thêm bằng ghép âm thanh); cũ: "trợ lý" / "trợ lý ơi"
     return SV(v, v, ())
 
 

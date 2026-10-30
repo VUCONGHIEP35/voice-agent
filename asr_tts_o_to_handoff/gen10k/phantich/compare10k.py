@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """So hai bộ đã sinh theo text_raw (sample_id đánh theo vị trí nên không so được). Chỉ đọc bộ cũ.
 
-Chạy: py -3.13 compare10k.py ../data/m1m2_10k_v2 ../data/m1m2_10k_v3
+Chạy: py -3.13 -m phantich.compare10k ../data/m1m2_10k_v2 ../data/m1m2_10k_v3
 Ghi <bộ mới>/so_voi_v2.tsv: câu của bộ cũ không còn trong bộ mới, và câu mới của bộ mới.
 In bảng theo case và các số đếm dùng cho báo cáo.
 """

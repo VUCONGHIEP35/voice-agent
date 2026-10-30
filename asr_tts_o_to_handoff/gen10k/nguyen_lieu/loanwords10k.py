@@ -15,8 +15,8 @@ Cột vùng ghi '0' (vùng không dùng cách nào): giữ cách đọc hiện t
 """
 import csv, hashlib, os, re
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-ROOT = os.path.dirname(HERE)
+from cauhinh.duong_dan import ROOT
+
 CSV_PATH = os.environ.get("BANG_TU_NGOAI", os.path.join(os.path.dirname(ROOT), "review", "BANG_tu_ngoai_lai.csv"))
 REGION_COL = {"Bắc": "nguoi_Bac_noi", "Trung": "nguoi_Trung_noi", "Nam": "nguoi_Nam_noi"}
 VIET_HOA_IDS = {"L58"}                       # camera / video / radio: từ vay đã Việt hóa

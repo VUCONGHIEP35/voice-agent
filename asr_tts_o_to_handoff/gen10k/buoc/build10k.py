@@ -1,24 +1,22 @@
 # -*- coding: utf-8 -*-
 """Sinh khoảng 10.000 câu M1 + M2 theo mẫu câu × khe.
 
-Chạy (từ thư mục gen10k/):  py -3.13 build10k.py [--seed 20261013] [--out ../data/m1m2_10k]
+Chạy (từ thư mục gen10k/):  py -3.13 -m buoc.build10k [--seed 20261013] [--out ../data/m1m2_10k]
 Ghi: 9 file JSONL theo nhóm chủ đề, manifest.json, README_nguon.md (sinh tự động phần số liệu).
 """
-import argparse, collections, hashlib, json, math, os, random, re, sys, time
+import argparse, collections, hashlib, json, math, os, random, re, time
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, HERE)
-from vnnum import normalize, has_digit, REGIONS
-from lexicon10k import rewrite, decorate, forbidden_hits, PARTICLE_INFO, REGIONAL_PARTICLES, LOW_WORDS
-from slots10k import Ctx, SV, SLOTS
-import frames10k as FR
-import frames_app10k as FA
-import pools10k as P
-import diversity10k as DV
-import loanwords10k as LW
+from thuvien.vnnum import normalize, has_digit, REGIONS
+from nguyen_lieu.lexicon10k import rewrite, decorate, forbidden_hits, PARTICLE_INFO, REGIONAL_PARTICLES, LOW_WORDS
+from thuvien.slots10k import Ctx, SV, SLOTS
+from nguyen_lieu import frames10k as FR
+from nguyen_lieu import frames_app10k as FA
+from nguyen_lieu import pools10k as P
+from thuvien import diversity10k as DV
+from nguyen_lieu import loanwords10k as LW
+from cauhinh.duong_dan import ROOT
 
 VERSION = "gen10k-3.0"
-ROOT = os.path.dirname(HERE)
 XLSX = os.path.join(ROOT, "data", "du_lieu_asr_tts_o_to_v0.3.xlsx")
 
 FALLBACK_QUOTA = {"CS01": 1500, "CS02": 300, "CS03": 1400, "CS04": 1200, "CS05": 1200, "CS06": 500, "CS07": 600, "CS08": 700,
@@ -178,7 +176,7 @@ def render(frame, region, rng, prof=None):
     if not nodeco:
         ends_free = (bool(slots) and slots[-1][0] in FREE_TEXT_SLOTS and skel.rstrip().endswith(ph(len(slots) - 1))) \
             or frame["intent"] in ("sua_lenh", "keu_cuu")
-        wake_p = 0.0 if any(name == "wake" for name, _ in slots) else 0.05
+        wake_p = 0.0   # 25/10/2026 (người dùng): không đưa từ đánh thức vào văn bản; thêm bằng ghép âm thanh ở bước TTS
         skel, added, has_wake = decorate(skel, frame["act"], profile, rng, allow_prefix=not noprefix, allow_suffix=not ends_free,
                                          wake_p=wake_p)
         if profile in ("Nam", "Trung-Huế", "Trung-HCM") and c.lexmemo.get("tôi") == "tôi":

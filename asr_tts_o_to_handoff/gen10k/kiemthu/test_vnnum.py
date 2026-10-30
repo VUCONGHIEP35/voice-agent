@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-"""Test bộ đọc số. Chạy: py -3.13 test_vnnum.py"""
+"""Test bộ đọc số. Chạy: py -3.13 -m unittest kiemthu.test_vnnum"""
 import unittest
-from vnnum import read_int, read_digits, read_decimal, normalize
+from thuvien.vnnum import read_int, read_digits, read_decimal, normalize
 
 
 class TestReadInt(unittest.TestCase):

@@ -2,15 +2,16 @@
 """Góp ý v1 mục 4: chuẩn bị danh sách khung để người bản ngữ Trung Bộ viết lại theo tiểu vùng.
 Không sinh câu, không tự điền từ Trung.
 
-Chạy: py -3.13 make_trung_list.py [../data/m1m2_10k_v2]
+Chạy: py -3.13 -m phantich.make_trung_list [../data/m1m2_10k_v2]
 Ghi vào <thư mục dữ liệu>/cho_nguoi_ban_ngu/:
   khung_mien_Trung_can_viet_lai.tsv  — mọi khung đã dùng, xếp theo ưu tiên; cột trống cho Huế / Nghệ Tĩnh / Quảng Nam – Đà Nẵng / Nam Trung Bộ
   bang_tu_xe_theo_tieu_vung.tsv      — bảng mục 5 của phụ lục, để điền
 """
 import collections, csv, glob, json, os, re, sys
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-D = sys.argv[1] if len(sys.argv) > 1 else os.path.join(os.path.dirname(HERE), "data", "m1m2_10k_v2")
+from cauhinh.duong_dan import ROOT
+
+D = sys.argv[1] if len(sys.argv) > 1 else os.path.join(ROOT, "data", "m1m2_10k_v2")
 OUT = os.path.join(D, "cho_nguoi_ban_ngu")
 SUBS = ["Huế", "Nghệ Tĩnh", "Quảng Nam – Đà Nẵng", "Nam Trung Bộ"]
 # từ chức năng mà tiếng Trung khác toàn dân (phụ lục mục 2): khung có các từ này được ưu tiên

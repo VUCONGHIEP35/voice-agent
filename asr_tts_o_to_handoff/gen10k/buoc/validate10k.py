@@ -1,13 +1,14 @@
 # -*- coding: utf-8 -*-
 """Kiểm độc lập bộ dữ liệu đã sinh (chỉ đọc thư mục đầu ra).
 
-Chạy: py -3.13 validate10k.py [../data/m1m2_10k]
+Chạy: py -3.13 -m buoc.validate10k [../data/m1m2_10k]
 Ghi qa_report.json vào thư mục dữ liệu; mã thoát 1 nếu có lỗi.
 """
 import collections, glob, json, os, re, sys
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-D = sys.argv[1] if len(sys.argv) > 1 else os.path.join(os.path.dirname(HERE), "data", "m1m2_10k")
+from cauhinh.duong_dan import ROOT
+
+D = sys.argv[1] if len(sys.argv) > 1 else os.path.join(ROOT, "data", "m1m2_10k")
 
 REQUIRED = {"sample_id": str, "purpose": str, "case_id": str, "intent": str, "intent_id": str, "speech_act": str, "text_raw": str,
             "text_spoken": str, "language_mix": str, "norm_features": list, "lexicon_variant": str, "speaker_region": str,
@@ -21,7 +22,7 @@ APP_SRC = "K1 app"
 APP_G14_MAX_SHARE = 0.35        # G1–G4 tối đa 35% hạn ngạch CS04 khi chưa có quyết định tăng (CHANGES_v3 mục 6, 9)
 CORE_DROP_MAX = 0.02            # câu không thuộc G: tỷ lệ lõi/câu (carrier) mỗi case không giảm quá 0,02 so với v2 (người dùng 2026-10-15)
 MIN_APP_CORE_RATIO = 0.5        # câu G: tỷ lệ lõi/câu theo carrier_cap >= 0,5
-BASELINE_V2 = os.path.join(os.path.dirname(HERE), "data", "m1m2_10k_v2", "diversity_report.json")   # chỉ đọc
+BASELINE_V2 = os.path.join(ROOT, "data", "m1m2_10k_v2", "diversity_report.json")   # chỉ đọc
 STEP1 = ["S23", "S51", "S52", "S53", "S54", "S55", "D01", "D03", "E02", "E03", "E04", "E05", "E06", "E07", "E08"]
 STEP1_SECONDARY = ["S33", "S34"]
 MIN_PER_FACTOR = 50
@@ -185,8 +186,7 @@ def main():
     #     trần câu/lõi kiểm theo carrier_cap (v3: giữ tên app, bản đồ, thu phí), lỗi khi một lõi vượt trần của bộ sinh
     core_ratio, core_max = {}, 0
     try:
-        sys.path.insert(0, HERE)
-        import diversity10k as DV
+        from thuvien import diversity10k as DV
         masks = DV.build_masks()
         cores = [DV.carrier(r["text_raw"], masks)[1] for r in rows]
         cc_all = collections.Counter(cores)
@@ -227,7 +227,7 @@ def main():
             errors.append(f"{r['sample_id']}: câu khung app có evidence {r['evidence']}")
     app_groups, app_core_ratio, core_ratio_nonapp, core_drop = {}, {}, {}, {}
     try:
-        import frames_app10k as FA
+        from nguyen_lieu import frames_app10k as FA
         gcount = collections.Counter(r["app_group"] for r in rows if r.get("app_group"))
         for g, t in sorted(FA.GROUP_TARGET.items()):
             app_groups[g] = dict(target=t, n=gcount[g])
@@ -261,7 +261,7 @@ def main():
         warns.append(f"không kiểm được nhóm app: {e}")
     loan_must = loan_should = 0
     try:
-        import loanwords10k as LW
+        from nguyen_lieu import loanwords10k as LW
         for r in rows:
             reasons = set(r["review_reasons"])
             taken = []

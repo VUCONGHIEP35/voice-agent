@@ -4,8 +4,8 @@ K1 = kiến thức nền của mô hình (phiên trước hoặc phiên này), c
 """
 import json, os
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-ROOT = os.path.dirname(HERE)
+from cauhinh.duong_dan import ROOT
+
 SRC_DIR = os.path.join(ROOT, "sources")
 
 POOL_SOURCES = {}

@@ -155,7 +155,7 @@ _QUE_COMMON = {
 }
 QUE = {
     "Trung-Huế": dict(_QUE_COMMON, **{"tôi": [("tui", .55), ("tôi", .45)], "giúp tôi": [("giúp tui", 1)], "mẹ": [("mạ", .8), ("mẹ", .2)],
-                                     "nhé": [("hí", .5), ("nở", .5)], "nhỉ": [("hí", 1)], "xem": [("coai", .25), ("xem", .75)]}),
+                                     "nhé": [("nghe", 1)], "nhỉ": [("", 1)], "xem": [("coai", .25), ("xem", .75)]}),
     "Trung-Nghệ": dict(_QUE_COMMON, **{"bây giờ": [("dừ", .5), ("bây giờ", .5)]}),
     "Trung-Quảng": dict(_QUE_COMMON),
 }
@@ -163,7 +163,8 @@ HN_OVERRIDE = {"nhỉ": [("", 1)]}
 HCM_OVERRIDE = {"tôi": [("tôi", .6), ("tui", .4)], "giúp tôi": [("giúp tôi", .5), ("giúp tui", .5)], "nhé": [("nha", 1)],
                 "thế cuối câu": [("vậy", 1)], "nhỉ": [("", 1)], "vâng": [("dạ", 1)]}
 # từ mới có nguồn ở phụ lục (PL: Đặng Diễm Đông 2024 cho Huế; VOH cho Nghệ Tĩnh)
-_EXTRA_INFO = {"nhé": {"hí": ("S52", True, True), "nở": ("S52", True, True)}, "nhỉ": {"hí": ("S52", True, True)},
+# 25/10/2026 (người dùng): bỏ hí/nở/hớ; "nghe" có nguồn Huế (Đặng Diễm Đông 2024 tr. 103), xem docs/kiem_tra_nguon_tieu_tu_Hue.md
+_EXTRA_INFO = {"nhé": {"nghe": ("S52", True, True)},
                "bây giờ": {"dừ": ("S51", True, True)}, "xem": {"coai": ("S51", True, True)}}
 for _r in RULES:
     _r[3].update(_EXTRA_INFO.get(_r[0], {}))
@@ -232,9 +233,11 @@ def rewrite(text, profile, rng, skip=(), memo=None):
 # ------------------------------------------------------------------ trang trí theo vùng (src_lang particles)
 PREFIX = {
     # 'làm ơn' giảm từ 8–10% xuống 2% (góp ý v1 mục 3: 'Làm ơn' chiếm 5,3% câu, mục tiêu khoảng 1%)
-    "Bắc": [("", .70), ("làm ơn ", .02), ("bạn ơi, ", .08), ("cho tôi ", .06), ("giúp tôi ", .08), ("này, ", .03), ("ờ, ", .03)],
-    "Trung": [("", .74), ("làm ơn ", .02), ("cho tui ", .08), ("giúp tui ", .1), ("ờ, ", .03), ("nì, ", .03)],
-    "Nam": [("", .66), ("làm ơn ", .02), ("bạn ơi, ", .08), ("cho tui ", .08), ("giúp tui ", .08), ("ê, ", .03), ("ờ, ", .03), ("nè, ", .02)],
+    # 25/10/2026 (người dùng): bỏ hẳn từ đệm/tiếng gọi đầu câu (ờ, ê, nè, nì, này, bạn ơi) — 0/127 lệnh 'seen' có;
+    # phần tỷ lệ đó dồn vào "" (không tiền tố).
+    "Bắc": [("", .84), ("làm ơn ", .02), ("cho tôi ", .06), ("giúp tôi ", .08)],
+    "Trung": [("", .80), ("làm ơn ", .02), ("cho tui ", .08), ("giúp tui ", .1)],
+    "Nam": [("", .82), ("làm ơn ", .02), ("cho tui ", .08), ("giúp tui ", .08)],
 }
 SUFFIX_CMD = {
     "Bắc": [("", .52), (" nhé", .2), (" đi", .1), (" với", .06), (" hộ tôi", .04), (" giúp tôi", .04), (" luôn", .02), (" ngay", .02)],
@@ -252,30 +255,30 @@ SUFFIX_ANS = {
     "Nam": [("", .7), (" nha", .2), (" ạ", .1)],
 }
 # v2: bảng theo hồ sơ người nói. 'Trung' cũ (nghe, giùm, hè, nì) không dùng nữa (phụ lục 6.2).
-_TQ_PREFIX = [("", .76), ("làm ơn ", .02), ("cho tôi ", .08), ("giúp tôi ", .08), ("ờ, ", .06)]
+_TQ_PREFIX = [("", .82), ("làm ơn ", .02), ("cho tôi ", .08), ("giúp tôi ", .08)]
 PREFIX.update({
-    "Trung-Huế": [("", .76), ("làm ơn ", .02), ("cho tui ", .08), ("giúp tui ", .08), ("ờ, ", .06)],
+    "Trung-Huế": [("", .82), ("làm ơn ", .02), ("cho tui ", .08), ("giúp tui ", .08)],
     "Trung-Nghệ": _TQ_PREFIX, "Trung-Quảng": _TQ_PREFIX,
-    "Trung-HN": [("", .72), ("làm ơn ", .02), ("bạn ơi, ", .06), ("cho tôi ", .08), ("giúp tôi ", .08), ("ờ, ", .04)],
-    "Trung-HCM": [("", .70), ("làm ơn ", .02), ("bạn ơi, ", .06), ("cho tui ", .08), ("giúp tui ", .06), ("cho tôi ", .04), ("ờ, ", .04)],
+    "Trung-HN": [("", .82), ("làm ơn ", .02), ("cho tôi ", .08), ("giúp tôi ", .08)],
+    "Trung-HCM": [("", .80), ("làm ơn ", .02), ("cho tui ", .08), ("giúp tui ", .06), ("cho tôi ", .04)],
 })
 _TQ_CMD = [("", .68), (" đi", .16), (" với", .1), (" luôn", .06)]
 SUFFIX_CMD.update({
-    "Trung-Huế": [("", .6), (" hí", .12), (" nở", .1), (" đi", .1), (" với", .05), (" luôn", .03)],
+    "Trung-Huế": [("", .6), (" nghe", .22), (" đi", .1), (" với", .05), (" luôn", .03)],
     "Trung-Nghệ": _TQ_CMD, "Trung-Quảng": _TQ_CMD,
     "Trung-HN": [("", .6), (" nhé", .12), (" đi", .14), (" với", .08), (" luôn", .03), (" giúp tôi", .03)],
     "Trung-HCM": [("", .58), (" nha", .16), (" đi", .12), (" với", .08), (" luôn", .06)],
 })
 _TQ_Q = [("", .7), (" rứa", .15), (" ạ", .15)]
 SUFFIX_Q.update({
-    "Trung-Huế": [("", .62), (" rứa", .12), (" hí", .1), (" hớ", .06), (" ạ", .1)],
+    "Trung-Huế": [("", .7), (" rứa", .2), (" ạ", .1)],
     "Trung-Nghệ": _TQ_Q, "Trung-Quảng": _TQ_Q,
     "Trung-HN": [("", .7), (" ạ", .15), (" à", .1), (" thế", .05)],
     "Trung-HCM": [("", .68), (" vậy", .16), (" ạ", .16)],
 })
 for _p in ("Trung-Huế", "Trung-Nghệ", "Trung-Quảng", "Trung-HN", "Trung-HCM"):
     SUFFIX_ANS[_p] = [("", .8), (" ạ", .2)]
-WAKE = ["trợ lý ơi, ", "này trợ lý, "]
+WAKE = ["trợ lý ơi, ", "này trợ lý, "]   # 25/10/2026: không còn dùng (wake_p = 0 trong build10k); từ đánh thức thêm bằng ghép âm thanh
 
 # từ cuối câu đã là tiểu từ -> không thêm nữa
 PARTICLES_END = {"nhé", "nha", "nghen", "nghe", "đi", "với", "giùm", "dùm", "luôn", "ngay", "nhỉ", "thế", "vậy", "rứa", "hè", "ta",
@@ -285,7 +288,7 @@ PARTICLES_END = {"nhé", "nha", "nghen", "nghe", "đi", "với", "giùm", "dùm"
 # tiểu từ/xưng hô theo vùng (để nhận S52 trong câu đã trang trí) và mức xác minh
 # True = có nguồn đọc được (L*); "medium" = chỉ K1 mức trung bình; "low" = K1 mức thấp hoặc do bộ sinh suy ra
 PARTICLE_INFO = {
-    "nhé": "medium", "nha": True, "nghen": "medium", "nghe": "low", "hộ": "medium", "giùm": "medium", "dùm": "medium", "hen": "medium",
+    "nhé": "medium", "nha": True, "nghen": "medium", "nghe": True, "hộ": "medium", "giùm": "medium", "dùm": "medium", "hen": "medium",
     "hè": True, "rứa": True, "ta": "low", "ạ": True, "nhỉ": "medium", "thế": True, "vậy": True, "hả": "medium", "dạ": True,
     "vâng": True, "ê": "low", "nè": True, "nì": "low", "tui": True, "hông": "medium",
     # tiểu từ chung toàn quốc, không coi là từ vùng
@@ -297,7 +300,7 @@ PARTICLE_INFO = {
 LOW_WORDS = {"nghe", "dượng", "thím Ba", "u", "thầy u", "vỏ xe"}
 REGIONAL_PARTICLES = {"Bắc": {"nhé", "nhỉ", "hộ", "vâng", "thế"}, "Nam": {"nha", "nghen", "giùm", "dùm", "hen", "ta", "nè", "tui", "dạ"},
                       "Trung": {"nghe", "rứa", "hè", "giùm", "tui", "nì", "dạ"},
-                      "Trung-Huế": {"hí", "nở", "hớ", "rứa", "tui", "dạ"}, "Trung-Nghệ": {"rứa", "dạ"}, "Trung-Quảng": {"rứa", "dạ"},
+                      "Trung-Huế": {"nghe", "rứa", "tui", "dạ"}, "Trung-Nghệ": {"rứa", "dạ"}, "Trung-Quảng": {"rứa", "dạ"},
                       "Trung-HN": {"nhé", "thế"}, "Trung-HCM": {"nha", "tui"}}
 
 
