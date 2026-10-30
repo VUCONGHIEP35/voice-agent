@@ -1,0 +1,102 @@
+flowchart TD
+    %% Hình 1 - Sơ đồ kiến trúc tổng thể (đề cương v0.2)
+    %% Nét liền: luồng xử lý chính. Nét đứt: đọc/ghi kho dữ liệu dùng chung.
+    U(("Giọng nói<br/>người dùng"))
+
+    subgraph T1["T1 · TẦNG NHẬN THỨC"]
+        KWS["0. Phát hiện từ đánh thức<br/>Trợ lý ơi / Hây trợ lý<br/>hoặc nút bấm nói"]
+        VAD["1. Phát hiện giọng nói VAD<br/>+ xác định dứt câu"]
+        ASR["2. ASR: PhoWhisper-small + LoRA<br/>→ văn bản + conf_ASR"]
+    end
+
+    subgraph ORCH["LỚP NGANG B · ĐIỀU PHỐI"]
+        PEND{"11. Quản lý hội thoại:<br/>đang có hành động chờ?"}
+        CF{"Đồng ý<br/>trong thời hạn?"}
+        NET{"12. Giám sát kết nối:<br/>có mạng?"}
+        FB["Chính sách suy giảm - mục 3.11<br/>hỏi lại hẹp một lần / từ chối an toàn<br/>/ thông báo lưu sẵn"]
+    end
+
+    subgraph T2A["T2a · TẦNG ĐỊNH TUYẾN"]
+        CA{"conf_ASR ≥ θ_ASR?"}
+        R{"3. Bộ định tuyến Qwen2.5-1.5B<br/>nhãn 1 token A/B/C/D<br/>+ conf_SLM đã hiệu chuẩn"}
+    end
+
+    subgraph T2B["T2b · SUY LUẬN & SINH LỆNH"]
+        INJ["Tiêm ảnh chụp<br/>trạng thái xe vào prompt"]
+        THINK["6a. [THINK] ≤ 30-40 token<br/>giới hạn bằng ngữ pháp"]
+        GEN["6b. [ACT] sinh JSON theo schema<br/>ràng buộc GBNF"]
+    end
+
+    subgraph CLD["ĐÁM MÂY"]
+        CC["9. Máy khách Cloud<br/>gói ngữ cảnh tối thiểu"]
+        LLM["LLM API bên ngoài"]
+    end
+
+    subgraph T34["T3-T4 · KIỂM SOÁT & THỰC THI"]
+        PRO["14. Bộ đề xuất chủ động"]
+        GATE{"7. Cổng an toàn tất định<br/>schema · phạm vi giá trị<br/>luật theo trạng thái · bậc L0-L3"}
+        EXE["8. Bộ thực thi<br/>CAN Bus mô phỏng"]
+    end
+
+    subgraph T5["T5 · PHẢN HỒI"]
+        TTS["10. TTS cục bộ<br/>+ câu lưu sẵn"]
+    end
+
+    subgraph CTX["LỚP NGANG A · NGỮ CẢNH & CHÍNH SÁCH"]
+        MEM[("4. Bộ nhớ 3-5 lượt<br/>+ Device State Store")]
+        SIM[("5. Bộ giả lập<br/>trạng thái xe")]
+        RULES[("13. Bảng luật / chính sách<br/>file cấu hình")]
+        PQ[("11. Hành động đang chờ<br/>có thời hạn")]
+    end
+
+    %% Luồng chính
+    U --> KWS --> VAD --> ASR --> PEND
+    PEND -->|"Có"| CF
+    PEND -->|"Không"| CA
+    CF -->|"Đồng ý: kiểm tra lại"| GATE
+    CF -->|"Từ chối / quá hạn: hủy"| TTS
+    CA -->|"Thấp: hỏi lại, không gửi Cloud"| TTS
+    CA -->|"Đạt"| R
+    R -->|"A · EDGE_DIRECT"| GEN
+    R -->|"B · EDGE_GROUNDED"| INJ --> THINK --> GEN
+    R -->|"C · CLOUD hoặc conf_SLM thấp"| NET
+    R -->|"D · REJECT: hỏi lại / từ chối"| TTS
+    NET -->|"Có mạng"| CC
+    NET -->|"Mất mạng"| FB
+    CC <--> LLM
+    CC -->|"Lệnh JSON"| GATE
+    CC -->|"Kết quả chữ"| TTS
+    CC -.->|"Quá thời gian chờ"| FB
+    FB --> TTS
+    GEN -->|"Lệnh JSON"| GATE
+    PRO -->|"Lệnh đề xuất"| GATE
+    GATE -->|"L0, L1"| EXE
+    GATE -->|"L2: lưu chờ"| PQ
+    GATE -->|"L2: hỏi xác nhận<br/>L3: chặn + giải thích"| TTS
+    EXE -->|"Trạng thái hoàn thành"| TTS
+
+    %% Kho dữ liệu dùng chung
+    MEM -.->|"Ngữ cảnh hội thoại"| R
+    MEM -.->|"Lịch sử"| GEN
+    MEM -.->|"Ngữ cảnh tối thiểu"| CC
+    SIM -.->|"Trạng thái xe"| INJ
+    SIM -.->|"Trạng thái hiện tại"| GATE
+    SIM -.->|"Sự kiện, ví dụ CO2 cao"| PRO
+    RULES -.->|"Luật"| GATE
+    RULES -.->|"Điều kiện đề xuất"| PRO
+    PQ -.-> PEND
+    EXE -.->|"Ghi lượt thành công"| MEM
+    EXE -.->|"Cập nhật thiết bị"| SIM
+
+    classDef sense fill:#fdf0ff,stroke:#b03fc4,color:#222
+    classDef route fill:#e3f2fd,stroke:#1f6fa8,color:#222
+    classDef gate fill:#fff3e0,stroke:#e65100,color:#222
+    classDef cloud fill:#ede7f6,stroke:#5e35b1,color:#222
+    classDef store fill:#eef1f6,stroke:#455a64,color:#222
+    classDef orch fill:#f1f8e9,stroke:#558b2f,color:#222
+    class KWS,VAD,ASR sense
+    class CA,R,INJ,THINK,GEN route
+    class PRO,GATE,EXE,TTS gate
+    class CC,LLM cloud
+    class MEM,SIM,RULES,PQ store
+    class PEND,CF,NET,FB orch

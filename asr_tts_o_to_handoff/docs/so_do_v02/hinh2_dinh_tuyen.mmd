@@ -1,0 +1,47 @@
+flowchart TD
+    %% Hình 2 - Kiến trúc tầng định tuyến (đề cương v0.2)
+    IN(["Đầu vào: văn bản + conf_ASR từ T1<br/>+ ngữ cảnh 3-5 lượt"])
+    PEND{"Đang có hành động chờ?<br/>mục 3.6"}
+    DM(["Chuyển cho Quản lý hội thoại<br/>đồng ý / từ chối"])
+    CA{"conf_ASR ≥ θ_ASR?"}
+    ASK(["Hỏi lại một lần<br/>không gửi Cloud"])
+    R{"3. BỘ ĐỊNH TUYẾN<br/>Qwen2.5-1.5B<br/>xác suất 1 token nhãn<br/>→ temperature scaling"}
+    CS{"conf_SLM ≥ θ_SLM?<br/>θ_SLM quét 0.5-0.95"}
+    LBL{"Nhãn"}
+    NET{"Có mạng?"}
+
+    A["A · EDGE_DIRECT<br/>Lệnh xe rõ ràng"]
+    B["B · EDGE_GROUNDED<br/>Lệnh mập mờ / cần ngữ cảnh"]
+    C["C · CLOUD<br/>Câu hỏi tri thức / tác vụ phức tạp"]
+    D["D · REJECT<br/>Ngoài miền / không xử lý được"]
+
+    A2(["Đi thẳng tới 6b<br/>sinh JSON có ràng buộc<br/>bỏ qua [THINK]"])
+    B2(["Tiêm trạng thái xe → 6a [THINK]<br/>→ 6b sinh JSON có ràng buộc"])
+    C2(["Máy khách Cloud<br/>System 2"])
+    D2(["Từ chối an toàn<br/>hoặc hỏi lại"])
+    FB(["Chính sách suy giảm - mục 3.11"])
+
+    IN --> PEND
+    PEND -->|"Có"| DM
+    PEND -->|"Không"| CA
+    CA -->|"Thấp"| ASK
+    CA -->|"Đạt"| R --> CS
+    CS -->|"Đạt"| LBL
+    CS -->|"Thấp"| NET
+    LBL --> A --> A2
+    LBL --> B --> B2
+    LBL --> C --> NET
+    LBL --> D --> D2
+    NET -->|"Có"| C2
+    NET -->|"Mất mạng / quá thời gian chờ"| FB
+
+    classDef edge1 fill:#e8f5e9,stroke:#2e7d32,color:#222
+    classDef edge2 fill:#fff59d,stroke:#8d6e00,color:#222
+    classDef cloud fill:#ede7f6,stroke:#5e35b1,color:#222
+    classDef rej fill:#ffebee,stroke:#c62828,color:#222
+    classDef route fill:#e3f2fd,stroke:#1f6fa8,color:#222
+    class A,A2 edge1
+    class B,B2 edge2
+    class C,C2 cloud
+    class D,D2,ASK rej
+    class R,CS,CA,LBL,PEND route

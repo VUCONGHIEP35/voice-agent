@@ -1,0 +1,63 @@
+flowchart TD
+    %% Hình 3 - Sơ đồ tầng hành động (đề cương v0.2)
+    SRC1(["Lệnh JSON từ Edge<br/>đã ràng buộc GBNF"])
+    SRC2(["Lệnh JSON từ Cloud<br/>chưa chắc được ràng buộc"])
+    SRC3(["Lệnh đề xuất chủ động<br/>sự kiện từ bộ giả lập + bảng luật"])
+    SV{"Đúng schema?<br/>Phụ lục A"}
+    BAD(["Loại lệnh<br/>+ báo lỗi qua TTS"])
+    ST[("Trạng thái xe hiện tại<br/>tốc độ · cửa · môi trường")]
+    RULES[("Bảng luật / chính sách<br/>file cấu hình")]
+    G{"CỔNG AN TOÀN<br/>phạm vi giá trị<br/>luật theo trạng thái xe<br/>→ phân bậc rủi ro"}
+    LIMIT["Giới hạn: không phát hiện được<br/>lệnh an toàn nhưng sai ý định<br/>→ đo riêng ở mục 5.5"]
+    PROC{"Nguồn = đề xuất chủ động<br/>và bậc ≥ L2?"}
+    SUG(["Chỉ phát lời đề xuất qua TTS"])
+    TIER{"Bậc rủi ro"}
+
+    L0["L0 · Chỉ đọc thông tin<br/>VD: hỏi nhiệt độ cabin"]
+    L1["L1 · Tiện nghi, rủi ro thấp<br/>VD: chỉnh điều hòa"]
+    L2["L2 · Có ảnh hưởng nhất định<br/>VD: hạ kính khi xe chạy chậm"]
+    L3["L3 · Nguy hiểm theo trạng thái xe<br/>VD: hạ kính ở tốc độ cao"]
+
+    EXE0(["Tự thực hiện<br/>qua CAN Bus mô phỏng"])
+    EXE1(["Tự thực hiện<br/>& TTS báo lại"])
+    PQ[("Hành động đang chờ<br/>có thời hạn - mục 3.6")]
+    ASKC(["TTS hỏi xác nhận"])
+    CF{"Người dùng đồng ý<br/>trong thời hạn?"}
+    RG{"Kiểm tra lại cổng<br/>với trạng thái xe lúc này"}
+    CANCEL(["Hủy, báo lại ngắn gọn<br/>không ghi bộ nhớ"])
+    BLOCK(["Chặn lệnh<br/>& TTS giải thích"])
+    EXE2(["Thực hiện<br/>& TTS báo lại"])
+
+    SRC1 --> SV
+    SRC2 --> SV
+    SRC3 --> SV
+    SV -->|"Sai"| BAD
+    SV -->|"Đúng"| G
+    ST -.->|"Tham chiếu"| G
+    RULES -.->|"Luật"| G
+    G -.- LIMIT
+    G --> PROC
+    PROC -->|"Có"| SUG
+    PROC -->|"Không"| TIER
+    TIER --> L0 --> EXE0
+    TIER --> L1 --> EXE1
+    TIER --> L2 --> PQ --> ASKC --> CF
+    TIER --> L3 --> BLOCK
+    CF -->|"Đồng ý"| RG
+    CF -->|"Từ chối / quá hạn"| CANCEL
+    ST -.->|"Trạng thái mới"| RG
+    RG -->|"Vẫn ≤ L2"| EXE2
+    RG -->|"Nay là L3"| BLOCK
+
+    classDef l0 fill:#e8f5e9,stroke:#2e7d32,color:#222
+    classDef l2 fill:#fff59d,stroke:#8d6e00,color:#222
+    classDef l3 fill:#ffcdd2,stroke:#c62828,color:#222
+    classDef gate fill:#ffebee,stroke:#c62828,color:#222
+    classDef store fill:#eef1f6,stroke:#455a64,color:#222
+    classDef lim fill:#fafafa,stroke:#9e9e9e,stroke-dasharray:4 3,color:#444
+    class L0,L1 l0
+    class L2 l2
+    class L3 l3
+    class G,SV,RG gate
+    class ST,RULES,PQ store
+    class LIMIT lim
