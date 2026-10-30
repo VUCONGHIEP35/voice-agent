@@ -121,3 +121,42 @@ audio48/
 audio16/
 snr_probe_result.csv
 hw_report.json
+
+# Đầu ra sinh TTS (câu chọn từ v3, âm thanh, manifest): dữ liệu, không đẩy
+asr_tts_o_to_handoff/tts_gen/pilot/
+asr_tts_o_to_handoff/tts_gen/runs/
+
+# Gói zip cho Colab (sinh lại bằng tts_gen/pack_colab.py)
+asr_tts_o_to_handoff/tts_gen/dist/
+
+# Zipformer: venv riêng; giọng thật của người dùng (dữ liệu sinh trắc, không bao giờ đẩy)
+.venv_*/
+asr_tts_o_to_handoff/tts_gen/giong_that/
+
+# ===== Dữ liệu nhạy cảm: không bao giờ đẩy =====
+# Bộ câu chọn từ dữ liệu 10k / eval1000 (kể cả bản đã áp từ điển đọc cho TTS)
+asr_tts_o_to_handoff/tts_gen/full10k/
+asr_tts_o_to_handoff/tts_gen/eval1000/
+asr_tts_o_to_handoff/tts_gen/eval1000_tts/
+# Danh sách ứng viên giọng thật (URL, email xin phép); chỉ giữ mẫu trống
+asr_tts_o_to_handoff/tts_gen/voice_clone/*.csv
+!asr_tts_o_to_handoff/tts_gen/voice_clone/candidates_template.csv
+# Ghi chú bàn giao giữa các phiên Claude (cùng loại với bản ghi hội thoại)
+asr_tts_o_to_handoff/docs/ban_giao_tu_claude_app.md
+# Khóa, chứng chỉ, bộ kết nối máy chủ
+KET_NOI_USER04/
+00_SSH_KEYS/
+id_rsa*
+id_ed25519*
+*.pem
+*.ppk
+*.key
+# Tài liệu bên thứ ba dung lượng lớn
+asr_tts_o_to_handoff/docs/environments-05-00044.pdf
+
+# ===== Đánh giá / kết quả chạy: không đẩy =====
+asr_tts_o_to_handoff/tts_gen/reports/
+asr_tts_o_to_handoff/docs/danh_gia_*
+asr_tts_o_to_handoff/docs/đánh giá*
+asr_tts_o_to_handoff/docs/ket_qua_*
+asr_tts_o_to_handoff/docs/kiem_tra_*
