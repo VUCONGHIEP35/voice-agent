@@ -1,9 +1,9 @@
 ﻿id,dang_viet(text_raw),nhom,so_cau_hien_co,cach_doc_hien_tai_trong_bo,cach_doc_de_xuat_1,cach_doc_de_xuat_2,cach_doc_de_xuat_3,muc_bang_chung,ghi_chu,nguoi_Bac_noi,nguoi_Trung_noi,nguoi_Nam_noi,trang_thai
-L01,YouTube,app/thương hiệu,7,giữ nguyên,diu túp,du túp,yu-tiub (đọc Anh),"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",Cùng nhãn text_raw=YouTube cho cả 3 cách đọc. Nguồn xác nhận người dùng nói 'mở YouTube' với Kiki; không có nguồn về cách đọc.,,,,chưa duyệt
-L02,YouTube Music,app/thương hiệu,4,giữ nguyên,diu túp miu-zích,du túp miu-zích,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
+L01,YouTube,app/thương hiệu,7,giữ nguyên,diu túp,diu túp,yu-tiub (đọc Anh),"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",Cùng nhãn text_raw=YouTube cho cả 3 cách đọc. Nguồn xác nhận người dùng nói 'mở YouTube' với Kiki; không có nguồn về cách đọc.,,,,chưa duyệt
+L02,YouTube Music,app/thương hiệu,4,giữ nguyên,diu túp miu-zích,diu túp miu-zích,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
 L03,Spotify,app/thương hiệu,5,giữ nguyên,xpót-ti-phai,sờ-pót-ti-phai,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
 L04,Apple Music,app/thương hiệu,1,giữ nguyên,áp-pồ miu-zích,ép-pồ miu-zích,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
-L05,Zing MP3,app/thương hiệu,6,Zing em pê ba,díng em pê ba,zing em pê ba,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt","Phần 'Zing' đang giữ Latin, phần MP3 đã đổi chữ.",,,,chưa duyệt
+L05,Zing MP3,app/thương hiệu,6,Zing em pê ba,ding em pê ba,ding em pê ba,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt","Phần 'Zing' đang giữ Latin, phần MP3 đã đổi chữ.",,,,chưa duyệt
 L06,Zalo,app/thương hiệu,129,giữ nguyên,za lô,da lô,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",Nhiều nhất trong bộ (129 câu); ưu tiên duyệt theo vùng.,,,,chưa duyệt
 L07,Messenger,app/thương hiệu,11,giữ nguyên,mét-sen-giơ,mê-sen-giơ,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
 L08,Facebook,app/thương hiệu,1,giữ nguyên,phây-búc,fây-búc,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",Chỉ 1 câu trong bộ.,,,,chưa duyệt
@@ -53,7 +53,7 @@ L51,Aeon,địa danh thương mại,15,giữ nguyên,ê-ôn,i-on,,"K1: suy luậ
 L52,Lotte,địa danh thương mại,15,giữ nguyên,lốt-te,lốt-tê,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
 L53,Vinhomes,địa danh thương mại,14,giữ nguyên,vin-hôm,vin-hôm-xờ,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
 L54,Takashimaya,địa danh thương mại,7,giữ nguyên,ta-ka-si-ma-ya,,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
-L55,Mall,địa danh thương mại,32,giữ nguyên,mô,mồ,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",Trong bộ có 'mall' ở 32 câu.,,,,chưa duyệt
+L55,Mall,địa danh thương mại,32,giữ nguyên,mô,mô,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",Trong bộ có 'mall' ở 32 câu.,,,,chưa duyệt
 L56,Eco / Sport / Normal,chế độ lái,23,giữ nguyên,ít-cô / xpót / nọc-mồ,,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",Chế độ lái VinFast; cách đọc thật chưa rõ.,,,,chưa duyệt
 L57,Cruise Control,chế độ lái,10,giữ nguyên,cờ-ruyz con-trôn,,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",,,,,chưa duyệt
 L58,camera / video / radio,từ vay Việt hóa,120,giữ nguyên,ca-me-ra / vi-đê-ô / ra-đi-ô,,,"K1: suy luận của người khảo sát, chưa có nguồn; cần người bản ngữ duyệt",Rủi ro thấp: đã quen với tiếng Việt.,,,,chưa duyệt
